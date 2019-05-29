@@ -1,0 +1,6 @@
+[2017-01-10 09:15:10] /shop/index.php?act=videos&op=index&keyword=sa ( act=videos&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and (title like '%sa%')  ORDER BY id desc LIMIT 1000' at line 1
+SELECT * FROM `az_videos` WHERE  and (title like '%sa%')  ORDER BY id desc LIMIT 1000  
+[2017-01-10 09:16:25] /shop/index.php?act=videos&op=index&keyword=sa ( act=videos&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and (title like '%sa%')  ORDER BY id desc LIMIT 1000' at line 1
+SELECT * FROM `az_videos` WHERE  and (title like '%sa%')  ORDER BY id desc LIMIT 1000  

@@ -1,0 +1,279 @@
+.contactlist {
+    width: 100%;
+    background-color: #fff;
+    padding-bottom: 5rem;
+    padding-top: 2.4rem;
+}
+
+.inform, .customer, .recent-contacts {
+    width: 100%;
+    height: 2.25rem;
+    line-height: 2.25rem;
+    padding: 0 0.65rem 0 1.1rem;
+    border-bottom: 1px solid #e1e1e1;
+    position: relative;
+}
+
+.icon {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.inform .inform-left, .customer .inform-left, .recent-contacts .inform-left {
+    width: 10rem;
+    height: 2.25rem;
+    padding-left: 2rem;
+    color: #333;
+    font-size: 0.75rem;
+    background: url(../../img/messgelist/inform.png) 0 0rem no-repeat;
+    background-size: 1.5rem 2.25rem;
+    float: left;
+    position: relative;
+}
+
+.customer .inform-left {
+    background: url(../../img/messgelist/people.png) 0 0rem no-repeat;
+    background-size: 1.5rem 2.25rem;
+    position: relative;
+}
+
+.recent-contacts .inform-left {
+    background: url(../../img/messgelist/kefu.png) 0 0rem no-repeat;
+    background-size: 1.5rem 2.25rem;
+}
+
+.inform-right {
+    width: 1.5rem;
+    height: 2.25rem;
+    float: right;
+    background: url(../../img/messgelist/arrow.png) 0 0rem no-repeat;
+    background-size: 100%;
+}
+
+.active {
+    width: 1.5rem;
+    height: 2.25rem;
+    float: right;
+    background: url(../../img/messgelist/arrowdown.png) 0 0rem no-repeat;
+    background-size: 100%;
+}
+
+.informlist {
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+    /*display: none;*/
+}
+
+.information {
+    width: 18.75rem;
+    overflow: hidden;
+}
+
+.informlist .informlist-inform {
+    height: 3.0rem;
+    line-height: 3rem;
+    padding: 0 0.65rem 0 1.1rem;
+    border-bottom: 1px solid #e1e1e1;
+    position: relative;
+}
+
+.informlist .informlist-li {
+    height: 3.0rem;
+    line-height: 3rem;
+    padding: 0 0.65rem 0 1.1rem;
+    border-bottom: 1px solid #e1e1e1;
+    position: relative;
+}
+
+.informlist-left {
+    width: 12rem;
+    height: 3rem;
+    padding-left: 2rem;
+    color: #333;
+    background: url(../../img/messgelist/circle.png) 0 0rem no-repeat;
+    background-size: 1.5rem 3rem;
+    float: left;
+    font-size: 0.7rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.informlist-right {
+    width: 5rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    float: left;
+}
+
+.customerlist {
+    height: 0;
+    visibility: hidden;
+    /*display: none;*/
+}
+
+.contacts {
+    height: 0;
+    visibility: hidden;
+    display: none;
+}
+
+.customerlist ul li, .contacts ul li {
+    width: 18.75rem;
+    height: 3.5rem;
+    border-bottom: 1px solid #e1e1e1;
+    overflow: hidden;
+    position: relative;
+}
+
+.customerlist .informlist-li, .contacts .informlist-li {
+    padding: 0.8rem 1.1rem 0.45rem 0.7rem;
+    position: relative;
+}
+
+.customerinfor {}
+
+.customerlist .customer_touxiang, .contacts .customer_touxiang {
+    width: 2.35rem;
+    height: 2.35rem;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+}
+
+.customerinforlist {
+    padding-left: 3rem;
+    height: 2.35rem;
+}
+
+.customerinforlist p:nth-child(1) {
+    /*width: 9rem;*/
+    color: #000;
+    line-height: 1.5rem;
+    font-size: 0.75rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.inforlistdate {
+    float: right;
+    color: #999;
+    font-size: 0.7rem;
+}
+
+.inforlistname {
+    width: 9rem;
+    color: #000;
+    line-height: 1.5rem;
+    font-size: 0.75rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+}
+
+.customerinforlist p:nth-child(2) {
+    color: #999999;
+    font-size: 0.7rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.informessge {
+    color: #fff;
+    float: right;
+    background-color: #fa4619;
+    min-width: 0.2rem;
+    height: 0.95rem;
+    line-height: 0.95rem;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-align: center;
+}
+
+.customermessge {
+    color: #fff;
+    position: absolute;
+    top: 0.6rem;
+    right: 3.5rem;
+    background-color: #fa4619;
+    min-width: 0.2rem;
+    height: 0.95rem;
+    line-height: 0.95rem;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-align: center;
+}
+
+.inforleftmessge {
+    position: absolute;
+    top: 0.7rem;
+    right: 4.5rem;
+}
+
+.block {
+    visibility: visible;
+    height: auto;
+    display: block;
+}
+
+.btn {
+    position: absolute;
+    top: 0;
+    right: -3.25rem;
+    text-align: center;
+    background: #3b84ed;
+    color: #fff;
+    font-size: 0.75rem;
+    width: 3.25rem;
+    height: 3.5rem;
+    line-height: 3rem;
+    border-bottom: 1px solid #e1e1e1;
+    z-index: 9;
+}
+
+.btn_sm {
+    position: absolute;
+    top: 0;
+    right: -3.25rem;
+    text-align: center;
+    background: #3b84ed;
+    color: #fff;
+    font-size: 0.75rem;
+    width: 3.25rem;
+    height: 3.5rem;
+    line-height: 3rem;
+    border-bottom: 1px solid #e1e1e1;
+    z-index: 9;
+}
+
+.informlist-li {
+    -webkit-transition: transform 87ms;
+    -moz-transition: transform 87ms;
+    -ms-transition: transform 87ms;
+    -o-transition: transform 87ms;
+    transition: transform 87ms;
+}
+
+.translate {
+    -webkit-transform: translateX(-3.25rem);
+    -moz-transform: translateX(-3.25rem);
+    -ms-transform: translateX(-3.25rem);
+    -o-transform: translateX(-3.25rem);
+    transform: translateX(-3.25rem);
+}
+
+.init_translate {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+}

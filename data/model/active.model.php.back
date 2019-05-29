@@ -1,0 +1,15 @@
+<?php
+/**
+ * 活动
+ *
+ * 
+ *
+ *
+ 
+ */
+defined('InShopNC') or exit('Access Invalid!');
+class activeModel extends Model {
+    public function __construct(){
+        parent::__construct('active');
+    }
+}

@@ -1,0 +1,15 @@
+[2016-01-18 10:32:17] /wap_shop/index.php?act=search&op=product_list&type=appaly&wx=0&cate_id=1106 ( act=search&op=product_list ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1000' at line 1
+SELECT active.goods_id,active.member_id,active.az_active_state FROM `az_active` AS `active`,`az_goods` AS `goods` WHERE active.type=0 and active.goods_id=goods.goods_id and active.member_id= LIMIT 1000  
+[2016-01-18 10:32:22] /wap_shop/index.php?act=search&op=product_list&type=appaly&wx=0&cate_id=1106 ( act=search&op=product_list ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1000' at line 1
+SELECT active.goods_id,active.member_id,active.az_active_state FROM `az_active` AS `active`,`az_goods` AS `goods` WHERE active.type=0 and active.goods_id=goods.goods_id and active.member_id= LIMIT 1000  
+[2016-01-18 10:32:22] /wap_shop/index.php?act=search&op=product_list&type=appaly&wx=0&cate_id=1106 ( act=search&op=product_list ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1000' at line 1
+SELECT active.goods_id,active.member_id,active.az_active_state FROM `az_active` AS `active`,`az_goods` AS `goods` WHERE active.type=0 and active.goods_id=goods.goods_id and active.member_id= LIMIT 1000  
+[2016-01-18 10:32:24] /wap_shop/index.php?act=search&op=product_list&type=appaly&wx=0&cate_id=1106 ( act=search&op=product_list ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1000' at line 1
+SELECT active.goods_id,active.member_id,active.az_active_state FROM `az_active` AS `active`,`az_goods` AS `goods` WHERE active.type=0 and active.goods_id=goods.goods_id and active.member_id= LIMIT 1000  
+[2016-01-18 10:32:46] /wap_shop/index.php?act=search&op=product_list&type=appaly&wx=0&cate_id=1106 ( act=search&op=product_list ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1000' at line 1
+SELECT active.goods_id,active.member_id,active.az_active_state FROM `az_active` AS `active`,`az_goods` AS `goods` WHERE active.type=0 and active.goods_id=goods.goods_id and active.member_id= LIMIT 1000  

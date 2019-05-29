@@ -1,0 +1,12 @@
+[2016-12-26 13:54:45] /shop/ ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_groupbuy' doesn't exist
+SELECT * FROM `az_groupbuy` WHERE ( state = '20' ) AND ( start_time < '1482731685' ) AND ( end_time > '1482731685' ) ORDER BY recommended desc LIMIT 4  
+[2016-12-26 13:54:45] /shop/ ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_link' doesn't exist
+SELECT * FROM `az_link` as `link`   order by link_id
+[2016-12-26 13:54:45] /shop/ ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_p_xianshi_goods' doesn't exist
+SELECT * FROM `az_p_xianshi_goods` WHERE ( state = '1' ) AND ( start_time < '1482731685' ) AND ( end_time > '1482731685' ) ORDER BY xianshi_recommend desc LIMIT 4  
+[2016-12-26 13:54:45] /shop/ ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web' doesn't exist
+SELECT * FROM `az_web` WHERE ( web_show = '1' ) AND ( web_page LIKE 'index%' ) ORDER BY web_sort LIMIT 1000  

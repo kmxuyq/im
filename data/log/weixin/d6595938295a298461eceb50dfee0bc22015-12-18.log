@@ -1,0 +1,1812 @@
+2015-12-18 00:19:41
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: MkfhaA0181ns65 ]"}
+2015-12-18 00:33:36
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: o_4LnA0016ns64 ]"}
+2015-12-18 00:43:14
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: jLTUIA0594ns24 ]"}
+2015-12-18 00:45:34
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: LgF8Sa0734ns44 ]"}
+2015-12-18 00:47:09
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: ev6Wwa0829ns50 ]"}
+2015-12-18 08:46:09
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: NhEiUa0569ns14 ]"}
+2015-12-18 08:51:03
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: TB3KBA0863ns25 ]"}
+2015-12-18 09:04:04
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: ILRCPa0644ns50 ]"}
+2015-12-18 09:16:34
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: adZvxa0394ns53 ]"}
+2015-12-18 09:17:17
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: mjDAVa0437ns34 ]"}
+2015-12-18 09:18:39
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: MlYgPA0519ns15 ]"}
+2015-12-18 09:21:24
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: s1Urfa0684ns56 ]"}
+2015-12-18 09:21:41
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 8lDTfa0701ns42 ]"}
+2015-12-18 01:23:52
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450401831</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 09:23:52
+userinfo:{"nickname":"\u9057\u5fd8s","id":"6"}
+2015-12-18 09:23:52
+media_id_res:{"media_id":"z7WM3mD1pRLBvssU1THV5ATQ8Ztfqzo-Uc03ZnPN56cL2uIQojBWEEmZVCbjsJtg"}
+2015-12-18 09:23:52
+专属二维码发送状态:{"errcode":0,"errmsg":"ok"}
+2015-12-18 09:23:58
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: I3Xa1a0838ns33 ]"}
+2015-12-18 01:25:20
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxLIikzlno6KqzCDoClKKWq8]]></FromUserName>
+<CreateTime>1450401920</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 09:25:50
+login:ocuxlxLIikzlno6KqzCDoClKKWq8--code:0110c9908a8acc5685853f477da0fecn--info:{"access_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6ks8XzPUGnUlIsw2kut5JbEQHLbiAvtQMaWDa4vyGWeVvfUEwn3fmjq18bNXiM1Almq5tJ7doEhssdWpXEyJ9ypICsjGb7Dlkgdfp_O29wk8g","expires_in":7200,"refresh_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6ks8XzPUGnUlIsw2kut5JbEWVCGis9wDlRR2yP-2pd9W3SPOgK6fmCUDoRfNeO68ankLPDP8ZxF7XU5tIIjRBZ39yqbXz8EkV9xrkS1zF7BYA","openid":"ocuxlxLIikzlno6KqzCDoClKKWq8","scope":"snsapi_base"}
+2015-12-18 09:27:20
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: fI.Dra0040ns67 ]"}
+2015-12-18 09:28:02
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: cWhfiA0082ns56 ]"}
+2015-12-18 09:28:45
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: knTVka0125ns47 ]"}
+2015-12-18 09:33:48
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: _lMUIa0428ns60 ]"}
+2015-12-18 09:39:57
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: pbllVa0797ns37 ]"}
+2015-12-18 09:40:10
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: MJEIqA0810ns55 ]"}
+2015-12-18 09:40:43
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: tCGuCA0843ns46 ]"}
+2015-12-18 09:41:06
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: FCGXjA0866ns46 ]"}
+2015-12-18 09:48:50
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=6--/yimay/apps/shopnc/data/weixin/head/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw_thum.jpg--susu苏
+2015-12-18 09:48:50
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=6--/yimay/apps/shopnc/data/weixin/head/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw_thum.jpg--susu苏
+2015-12-18 09:56:27
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: .v5W.A0787ns23 ]"}
+2015-12-18 10:03:52
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=6--/yimay/apps/shopnc/data/weixin/head/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw_thum.jpg--susu苏
+2015-12-18 10:04:13
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=6--/yimay/apps/shopnc/data/weixin/head/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw_thum.jpg--susu苏
+2015-12-18 10:06:18
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: vVMCsA0378ns25 ]"}
+2015-12-18 10:06:19
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: yWeNKa0379ns43 ]"}
+2015-12-18 10:07:43
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=6--/yimay/apps/shopnc/data/weixin/head/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw_thum.jpg--susu苏
+2015-12-18 10:09:04
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: zHuOpA0544ns37 ]"}
+2015-12-18 10:10:53
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: urpmda0653ns27 ]"}
+2015-12-18 10:11:32
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=6--/yimay/apps/shopnc/data/weixin/head/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw_thum.jpg--susu苏
+2015-12-18 02:13:06
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450404786</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 10:13:06
+userinfo:{"nickname":"\u9057\u5fd8s","id":"6"}
+2015-12-18 10:13:06
+media_id_res:{"media_id":"z7WM3mD1pRLBvssU1THV5ATQ8Ztfqzo-Uc03ZnPN56cL2uIQojBWEEmZVCbjsJtg"}
+2015-12-18 10:13:07
+专属二维码发送状态:{"errcode":0,"errmsg":"ok"}
+2015-12-18 10:13:58
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: DKYhuA0838ns34 ]"}
+2015-12-18 10:14:30
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: id7Zya0870ns26 ]"}
+2015-12-18 10:16:06
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 0966ns66 ]"}
+2015-12-18 10:16:33
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: KfIFna0993ns35 ]"}
+2015-12-18 02:16:38
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxMhsiKGgAlrEc86aDKvixTs]]></FromUserName>
+<CreateTime>1450404998</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 10:16:39
+login:ocuxlxMhsiKGgAlrEc86aDKvixTs--code:041c2dda1b7f4c2bdcfa7ee62a9b3cec--info:{"access_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6kiRTJCAXV_DQS5IcsC8-yRiL4BwpI8lo2GuDJFwMyeH9NEkSGjn9ne0tKNmMdiLVnitJFZ9q01D_y11pthEZgAcABoWXjkCgoMo27hJfXjlw","expires_in":7200,"refresh_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6kiRTJCAXV_DQS5IcsC8-yRo2ZvkdKvEYTiSZdXlQjJVWGSeSMPTo44sH4g27FhAuzhKWVu6RwfROgNHU2Az_saB83ya8km9qniJdX20w6oqQ","openid":"ocuxlxMhsiKGgAlrEc86aDKvixTs","scope":"snsapi_base"}
+2015-12-18 02:16:46
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxLIikzlno6KqzCDoClKKWq8]]></FromUserName>
+<CreateTime>1450405006</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 10:16:47
+login:ocuxlxLIikzlno6KqzCDoClKKWq8--code:0017b35e0ea51b71c859394745e7a2bR--info:{"access_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6ks8XzPUGnUlIsw2kut5JbEoSn_6GSGM8HjiC7G8nMZBPcaJrTfbni0X_zNQbsH2Vk1QDY4CnigBF3gVlVvXMpBKC_tO0361MzvEK8ANu3xMA","expires_in":7200,"refresh_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6ks8XzPUGnUlIsw2kut5JbEuEZBtY3r8Z9XUhsYH54XX2KxqCpToFQSr5EvFzjyhzaxj4dL5cdEzXQFRs-s_d_PkFcgWjstWPolVFVS-H3zsQ","openid":"ocuxlxLIikzlno6KqzCDoClKKWq8","scope":"snsapi_base"}
+2015-12-18 10:16:53
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: Mm6.0a0013ns26 ]"}
+2015-12-18 10:17:00
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: fnBNUa0020ns19 ]"}
+2015-12-18 02:17:12
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEddOLPP_vWRHLDx4TDp5qw]]></FromUserName>
+<CreateTime>1450405032</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 10:17:51
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: kaqtVA0071ns15 ]"}
+2015-12-18 10:17:58
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: A2MMda0078ns68 ]"}
+2015-12-18 10:18:03
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: JEieaa0083ns23 ]"}
+2015-12-18 10:18:07
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: _yMBca0087ns19 ]"}
+2015-12-18 10:18:36
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: R90D7a0116ns28 ]"}
+2015-12-18 10:18:38
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: nnbUFa0117ns21 ]"}
+2015-12-18 10:18:54
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: wrRS.A0134ns45 ]"}
+2015-12-18 10:18:55
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: rH9tCa0135ns37 ]"}
+2015-12-18 10:18:55
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 98XDZa0135ns18 ]"}
+2015-12-18 10:18:56
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 9OyDGa0136ns41 ]"}
+2015-12-18 10:18:57
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 8tJABA0137ns61 ]"}
+2015-12-18 10:18:58
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: MM14CA0138ns69 ]"}
+2015-12-18 10:19:22
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: Aa4Fsa0162ns45 ]"}
+2015-12-18 02:19:41
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEddOLPP_vWRHLDx4TDp5qw]]></FromUserName>
+<CreateTime>1450405181</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 02:19:46
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEddOLPP_vWRHLDx4TDp5qw]]></FromUserName>
+<CreateTime>1450405186</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 10:20:55
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: om2VOA0255ns35 ]"}
+2015-12-18 02:22:07
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450405327</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 10:22:07
+userinfo:{"nickname":"\u9057\u5fd8s","id":"6"}
+2015-12-18 10:22:07
+media_id_res:{"media_id":"z7WM3mD1pRLBvssU1THV5ATQ8Ztfqzo-Uc03ZnPN56cL2uIQojBWEEmZVCbjsJtg"}
+2015-12-18 10:22:07
+
+ creater_wx_image:ocuxlxEkoyzYVxnVoj3Dc3AS5xgw--遗忘s--6
+2015-12-18 10:22:07
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=6--/yimay/apps/shopnc/data/weixin/head/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw_thum.jpg--遗忘s
+2015-12-18 10:22:09
+
+ image_file1:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg
+2015-12-18 10:22:09
+
+ up_wx_image1:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg
+2015-12-18 10:22:09
+
+ token:XWsXBQe-ZWZ9pvoRXgBIpWYZyKMgq2UFG6DUEGzIPTVP-0QlOZZtCA00GyrYDZFK8Adi2jKrv6gFQ7wgmCkBqYsLNTpnZnKPFaF84M9VrfAFSDhABAWJU
+2015-12-18 10:22:09
+
+ up_wx_image2:{"type":"image","media_id":"j19GkTWuM2DyfwIafvzd0ZmImINdzjN0SE9zV0anwh8sxNDb8TP4ZApjx0XoBXT9","created_at":1450405329}
+2015-12-18 10:22:09
+
+ media_id1:j19GkTWuM2DyfwIafvzd0ZmImINdzjN0SE9zV0anwh8sxNDb8TP4ZApjx0XoBXT9
+2015-12-18 10:22:09
+专属二维码发送状态:{"errcode":0,"errmsg":"ok"}
+2015-12-18 02:23:15
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxMhsiKGgAlrEc86aDKvixTs]]></FromUserName>
+<CreateTime>1450405394</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 02:23:17
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxMhsiKGgAlrEc86aDKvixTs]]></FromUserName>
+<CreateTime>1450405397</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 10:23:17
+userinfo:[]
+2015-12-18 10:23:17
+media_id_res:[]
+2015-12-18 10:23:17
+
+ creater_wx_image:ocuxlxMhsiKGgAlrEc86aDKvixTs----
+2015-12-18 10:23:17
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxMhsiKGgAlrEc86aDKvixTs.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=--/yimay/apps/shopnc/data/weixin/head/ocuxlxMhsiKGgAlrEc86aDKvixTs_thum.jpg--
+2015-12-18 10:23:18
+
+ image_file2:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxMhsiKGgAlrEc86aDKvixTs.jpg
+2015-12-18 10:23:18
+
+ up_wx_image1:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxMhsiKGgAlrEc86aDKvixTs.jpg
+2015-12-18 10:23:18
+
+ token:XWsXBQe-ZWZ9pvoRXgBIpWYZyKMgq2UFG6DUEGzIPTVP-0QlOZZtCA00GyrYDZFK8Adi2jKrv6gFQ7wgmCkBqYsLNTpnZnKPFaF84M9VrfAFSDhABAWJU
+2015-12-18 10:23:19
+
+ up_wx_image2:{"type":"image","media_id":"zpEUG8YYq4qGCGjQ3jPBYJJBxdWRmud1ac_FMJHmbqn5ETSFj4oVoVKKWJYV-d8J","created_at":1450405399}
+2015-12-18 10:23:19
+
+ media_id2:zpEUG8YYq4qGCGjQ3jPBYJJBxdWRmud1ac_FMJHmbqn5ETSFj4oVoVKKWJYV-d8J
+2015-12-18 10:23:19
+专属二维码发送状态:{"errcode":0,"errmsg":"ok"}
+2015-12-18 10:23:24
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: aNMQVA0404ns16 ]"}
+2015-12-18 02:23:33
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxMhsiKGgAlrEc86aDKvixTs]]></FromUserName>
+<CreateTime>1450405413</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-18 02:24:35
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxMhsiKGgAlrEc86aDKvixTs]]></FromUserName>
+<CreateTime>1450405475</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 10:24:35
+userinfo:[]
+2015-12-18 10:24:35
+media_id_res:[]
+2015-12-18 10:24:35
+
+ creater_wx_image:ocuxlxMhsiKGgAlrEc86aDKvixTs----
+2015-12-18 10:24:35
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxMhsiKGgAlrEc86aDKvixTs.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=--/yimay/apps/shopnc/data/weixin/head/ocuxlxMhsiKGgAlrEc86aDKvixTs_thum.jpg--
+2015-12-18 10:24:36
+
+ image_file2:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxMhsiKGgAlrEc86aDKvixTs.jpg
+2015-12-18 10:24:36
+
+ up_wx_image1:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxMhsiKGgAlrEc86aDKvixTs.jpg
+2015-12-18 10:24:36
+
+ token:XWsXBQe-ZWZ9pvoRXgBIpWYZyKMgq2UFG6DUEGzIPTVP-0QlOZZtCA00GyrYDZFK8Adi2jKrv6gFQ7wgmCkBqYsLNTpnZnKPFaF84M9VrfAFSDhABAWJU
+2015-12-18 10:24:37
+
+ up_wx_image2:{"type":"image","media_id":"9eUXEgvoCqyDFhRa0gGEAerBHGDq77TukNbUFOLMcwOdYbutI-qg-kA7LvqSV8S_","created_at":1450405477}
+2015-12-18 10:24:37
+
+ media_id2:9eUXEgvoCqyDFhRa0gGEAerBHGDq77TukNbUFOLMcwOdYbutI-qg-kA7LvqSV8S_
+2015-12-18 10:24:37
+专属二维码发送状态:{"errcode":0,"errmsg":"ok"}
+2015-12-18 10:25:15
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=6--/yimay/apps/shopnc/data/weixin/head/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw_thum.jpg--susu苏
+2015-12-18 10:26:22
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=6--/yimay/apps/shopnc/data/weixin/head/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw_thum.jpg--susu苏
+2015-12-18 02:27:21
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450405641</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 10:27:21
+userinfo:{"nickname":"\u9057\u5fd8s","id":"6"}
+2015-12-18 10:27:21
+media_id_res:{"media_id":"j19GkTWuM2DyfwIafvzd0ZmImINdzjN0SE9zV0anwh8sxNDb8TP4ZApjx0XoBXT9"}
+2015-12-18 10:27:21
+专属二维码发送状态:{"errcode":0,"errmsg":"ok"}
+2015-12-18 02:27:23
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxMhsiKGgAlrEc86aDKvixTs]]></FromUserName>
+<CreateTime>1450405643</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-18 02:27:30
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxMhsiKGgAlrEc86aDKvixTs]]></FromUserName>
+<CreateTime>1450405650</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 10:27:30
+userinfo:{"nickname":"\u57d8\u7ef1de\u732b\u732b","id":"7"}
+2015-12-18 10:27:30
+media_id_res:{"media_id":null}
+2015-12-18 10:27:30
+
+ creater_wx_image:ocuxlxMhsiKGgAlrEc86aDKvixTs--埘绱de猫猫--7
+2015-12-18 10:27:30
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxMhsiKGgAlrEc86aDKvixTs.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=7--/yimay/apps/shopnc/data/weixin/head/ocuxlxMhsiKGgAlrEc86aDKvixTs_thum.jpg--埘绱de猫猫
+2015-12-18 10:27:31
+
+ image_file2:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxMhsiKGgAlrEc86aDKvixTs.jpg
+2015-12-18 10:27:31
+
+ up_wx_image1:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxMhsiKGgAlrEc86aDKvixTs.jpg
+2015-12-18 10:27:31
+
+ token:XWsXBQe-ZWZ9pvoRXgBIpWYZyKMgq2UFG6DUEGzIPTVP-0QlOZZtCA00GyrYDZFK8Adi2jKrv6gFQ7wgmCkBqYsLNTpnZnKPFaF84M9VrfAFSDhABAWJU
+2015-12-18 10:27:32
+
+ up_wx_image2:{"type":"image","media_id":"46imMWft4cXO9V-_90Q-uCykRx_UtaYdqicfUFoHPOV4acl-s3jUGWO2swk83bim","created_at":1450405652}
+2015-12-18 10:27:32
+
+ media_id2:46imMWft4cXO9V-_90Q-uCykRx_UtaYdqicfUFoHPOV4acl-s3jUGWO2swk83bim
+2015-12-18 10:27:32
+专属二维码发送状态:{"errcode":0,"errmsg":"ok"}
+2015-12-18 02:27:38
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxMhsiKGgAlrEc86aDKvixTs]]></FromUserName>
+<CreateTime>1450405658</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 02:27:44
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450405664</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-18 14:28:19
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: DJs1KA0699ns65 ]"}
+2015-12-18 14:28:48
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: nTGPfA0728ns55 ]"}
+2015-12-18 14:29:05
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: d.hzFa0745ns56 ]"}
+2015-12-18 02:31:22
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450405882</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-18 02:31:27
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450405887</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 14:31:27
+userinfo:{"nickname":"\u9057\u5fd8s","id":"6"}
+2015-12-18 14:31:27
+media_id_res:{"media_id":"j19GkTWuM2DyfwIafvzd0ZmImINdzjN0SE9zV0anwh8sxNDb8TP4ZApjx0XoBXT9"}
+2015-12-18 14:31:27
+
+ creater_wx_image:ocuxlxEkoyzYVxnVoj3Dc3AS5xgw--遗忘s--6
+2015-12-18 14:31:27
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=6--/yimay/apps/shopnc/data/weixin/head/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw_thum.jpg--遗忘s
+2015-12-18 14:31:28
+
+ image_file1:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg
+2015-12-18 14:31:28
+
+ up_wx_image1:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg
+2015-12-18 14:31:28
+
+ token:XWsXBQe-ZWZ9pvoRXgBIpWYZyKMgq2UFG6DUEGzIPTVP-0QlOZZtCA00GyrYDZFK8Adi2jKrv6gFQ7wgmCkBqYsLNTpnZnKPFaF84M9VrfAFSDhABAWJU
+2015-12-18 14:31:29
+
+ up_wx_image2:{"type":"image","media_id":"OnEmX1IkiXZg7B5sHFYF-1CShe7cfK0aQ2_ghBBhV-n6vtH2slm5ykPxts9HulW-","created_at":1450405889}
+2015-12-18 14:31:29
+
+ media_id1:OnEmX1IkiXZg7B5sHFYF-1CShe7cfK0aQ2_ghBBhV-n6vtH2slm5ykPxts9HulW-
+2015-12-18 14:31:29
+专属二维码发送状态:{"errcode":0,"errmsg":"ok"}
+2015-12-18 02:31:34
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEddOLPP_vWRHLDx4TDp5qw]]></FromUserName>
+<CreateTime>1450405894</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 02:31:50
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450405909</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 14:31:54
+login:ocuxlxEkoyzYVxnVoj3Dc3AS5xgw--code:011094c3b085e16970820f167fc47caT--info:{"access_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6kc5t9jpBZw-Q3Ax5c5Zol4aPIgllBs84gUYJRfDwfyJ5Hre2ceLkTThpMzwXxty2Vqk3G8FNzXcqangu2s4Z5G32r3uuBgHmmeryMudp-Zgw","expires_in":7200,"refresh_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6kc5t9jpBZw-Q3Ax5c5Zol4fTvrDqko85iqrWhYqGOHflNPLOcOxMEowryK3DDhy6-gQ9pIDXl9QSUy-oCJJ2XrGP_iJKrka7xDEGYhyqSHEA","openid":"ocuxlxEkoyzYVxnVoj3Dc3AS5xgw","scope":"snsapi_base"}
+2015-12-18 02:34:14
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxMhsiKGgAlrEc86aDKvixTs]]></FromUserName>
+<CreateTime>1450406054</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 02:34:23
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxMhsiKGgAlrEc86aDKvixTs]]></FromUserName>
+<CreateTime>1450406063</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 14:37:47
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=6--/yimay/apps/shopnc/data/weixin/head/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw_thum.jpg--susu苏
+2015-12-18 14:37:50
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=6--/yimay/apps/shopnc/data/weixin/head/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw_thum.jpg--susu苏
+2015-12-18 02:40:38
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450406438</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 14:40:52
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: _bCLma0452ns43 ]"}
+2015-12-18 14:40:53
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: ee5ddA0453ns45 ]"}
+2015-12-18 14:40:54
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: gof1Sa0454ns41 ]"}
+2015-12-18 14:40:55
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: .E9jFa0455ns60 ]"}
+2015-12-18 14:40:56
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: MqeYba0456ns62 ]"}
+2015-12-18 14:40:58
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 8U12oA0458ns20 ]"}
+2015-12-18 14:40:59
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: gyTc0459ns33 ]"}
+2015-12-18 02:41:10
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450406470</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 14:41:15
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: jsdo30475ns26 ]"}
+2015-12-18 02:41:16
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450406476</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 14:41:16
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 6_4boa0476ns33 ]"}
+2015-12-18 14:41:18
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: HL1TPa0478ns56 ]"}
+2015-12-18 14:41:19
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: hXfr6a0479ns21 ]"}
+2015-12-18 14:41:21
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: jv6Aea0480ns23 ]"}
+2015-12-18 14:41:21
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 1usdmA0481ns66 ]"}
+2015-12-18 14:41:22
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: Ewk4Ma0482ns20 ]"}
+2015-12-18 14:41:23
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: vnix.A0483ns56 ]"}
+2015-12-18 02:41:25
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450406485</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 14:41:27
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 4M6toa0487ns39 ]"}
+2015-12-18 02:41:33
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450406493</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 14:41:42
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: XPUIKA0502ns67 ]"}
+2015-12-18 02:41:43
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450406503</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 14:41:44
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: Q16LNa0504ns50 ]"}
+2015-12-18 14:41:45
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: N0505ns42 ]"}
+2015-12-18 14:41:47
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: R0507ns43 ]"}
+2015-12-18 14:41:48
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: YV4STa0507ns12 ]"}
+2015-12-18 02:41:58
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450406518</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 14:41:59
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: emq4Ba0519ns36 ]"}
+2015-12-18 14:42:03
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: PYCtrA0523ns48 ]"}
+2015-12-18 14:42:09
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: mRhS60529ns58 ]"}
+2015-12-18 14:42:10
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: lTQaVA0530ns42 ]"}
+2015-12-18 14:42:11
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: HdCEOA0531ns28 ]"}
+2015-12-18 02:42:11
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450406531</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 14:42:13
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: AkuGBa0533ns28 ]"}
+2015-12-18 14:42:23
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: iMBDMa0543ns47 ]"}
+2015-12-18 14:42:24
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: vhW0544ns17 ]"}
+2015-12-18 14:42:25
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: Cldu9a0545ns31 ]"}
+2015-12-18 14:42:30
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: wzJIOA0550ns14 ]"}
+2015-12-18 14:42:31
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: lAhzha0551ns39 ]"}
+2015-12-18 14:42:31
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: voaWwa0551ns12 ]"}
+2015-12-18 14:42:32
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 60552sns4 ]"}
+2015-12-18 14:42:38
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: EclqAa0558ns51 ]"}
+2015-12-18 14:42:39
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: r.2YNA0559sns3 ]"}
+2015-12-18 14:42:57
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: WBvsVA0577ns55 ]"}
+2015-12-18 14:42:58
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: pQyIta0578ns48 ]"}
+2015-12-18 14:42:59
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: a6RNjA0579ns34 ]"}
+2015-12-18 14:43:00
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: Mo0580ns15 ]"}
+2015-12-18 14:43:01
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: zIEQ0581sns3 ]"}
+2015-12-18 14:43:02
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: xwnVxa0582ns47 ]"}
+2015-12-18 14:43:08
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 7sqAHA0588ns65 ]"}
+2015-12-18 14:44:04
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: BKId70644ns27 ]"}
+2015-12-18 14:44:05
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: N4tfoa0645ns35 ]"}
+2015-12-18 14:44:19
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 0659ns52 ]"}
+2015-12-18 02:44:38
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450406677</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 02:44:46
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450406686</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 02:44:53
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450406692</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 02:45:01
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450406701</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 14:45:46
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 0GYsKa0746ns57 ]"}
+2015-12-18 14:46:19
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: MaTlkA0779ns32 ]"}
+2015-12-18 14:46:20
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 5fP0780ns66 ]"}
+2015-12-18 14:46:33
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: sNRK90793ns46 ]"}
+2015-12-18 14:46:46
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: VQbeSA0806ns21 ]"}
+2015-12-18 14:46:49
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 0P0RmA0809ns23 ]"}
+2015-12-18 14:47:02
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: k2PoRA0822sns4 ]"}
+2015-12-18 14:47:48
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: ak6LdA0868ns36 ]"}
+2015-12-18 14:48:03
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: qtF0883ns55 ]"}
+2015-12-18 02:49:01
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450406941</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 02:49:21
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450406961</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[好啊]]></Content>
+<MsgId>6229450463786971426</MsgId>
+</xml>
+2015-12-18 14:50:54
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: nBmPkA0054ns31 ]"}
+2015-12-18 14:51:06
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: wYObHA0066ns42 ]"}
+2015-12-18 14:52:04
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 8oPTTA0124ns66 ]"}
+2015-12-18 02:55:45
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450407345</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[好]]></Content>
+<MsgId>6229452113054413214</MsgId>
+</xml>
+2015-12-18 02:55:57
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450407357</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 02:56:02
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450407362</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 02:57:07
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450407427</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[好]]></Content>
+<MsgId>6229452465241731535</MsgId>
+</xml>
+2015-12-18 02:57:15
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450407434</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 14:57:45
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: Q.BCza0465ns18 ]"}
+2015-12-18 02:58:08
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450407488</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 02:58:13
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450407493</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 02:58:20
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450407499</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 14:58:35
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: eW6TaA0515ns36 ]"}
+2015-12-18 15:00:24
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: UQgMAA0624ns34 ]"}
+2015-12-18 03:02:05
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxLIikzlno6KqzCDoClKKWq8]]></FromUserName>
+<CreateTime>1450407725</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 03:03:44
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450407824</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-18 03:03:56
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450407836</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-18 15:05:47
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: KHbNta0947ns25 ]"}
+2015-12-18 03:06:14
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450407973</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 15:06:14
+userinfo:{"nickname":"\u9057\u5fd8s","id":"6"}
+2015-12-18 15:06:14
+media_id_res:{"media_id":"OnEmX1IkiXZg7B5sHFYF-1CShe7cfK0aQ2_ghBBhV-n6vtH2slm5ykPxts9HulW-"}
+2015-12-18 15:06:14
+专属二维码发送状态:{"errcode":0,"errmsg":"ok"}
+2015-12-18 03:06:21
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450407981</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 15:06:21
+userinfo:{"nickname":"\u9057\u5fd8s","id":"6"}
+2015-12-18 15:06:21
+media_id_res:{"media_id":"OnEmX1IkiXZg7B5sHFYF-1CShe7cfK0aQ2_ghBBhV-n6vtH2slm5ykPxts9HulW-"}
+2015-12-18 15:06:21
+专属二维码发送状态:{"errcode":0,"errmsg":"ok"}
+2015-12-18 03:06:32
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450407992</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[好]]></Content>
+<MsgId>6229454891898254044</MsgId>
+</xml>
+2015-12-18 15:07:32
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=6--/yimay/apps/shopnc/data/weixin/head/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw_thum.jpg--susu苏
+2015-12-18 15:12:31
+login:ocuxlxMhsiKGgAlrEc86aDKvixTs--code:0218b59a5393631b0504b6e3a51003aC--info:{"access_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6kiRTJCAXV_DQS5IcsC8-yRp3dzl98NIT4q0EbPpHQqB3mRN92kGYR2I93FPSO-D4DpUHrGSanCuEzFCWKj5JZBih2iRgyspX_bLSFCGq6g3g","expires_in":7200,"refresh_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6kiRTJCAXV_DQS5IcsC8-yRP2rlfn-BZvKsqH7RCW9CDZ2f8MbMf_py5VsEVHCSeOXZm8dvrEW0Bp_FGWY7IJkw7BQbZhXAq8XdkW5A9nfIIg","openid":"ocuxlxMhsiKGgAlrEc86aDKvixTs","scope":"snsapi_base"}
+2015-12-18 03:12:48
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450408368</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[好]]></Content>
+<MsgId>6229456506805957486</MsgId>
+</xml>
+2015-12-18 03:14:43
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450408483</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 15:14:43
+userinfo:{"nickname":"\u9057\u5fd8s","id":"6"}
+2015-12-18 15:14:43
+media_id_res:{"media_id":"OnEmX1IkiXZg7B5sHFYF-1CShe7cfK0aQ2_ghBBhV-n6vtH2slm5ykPxts9HulW-"}
+2015-12-18 15:14:43
+
+ creater_wx_image:ocuxlxEkoyzYVxnVoj3Dc3AS5xgw--遗忘s--6
+2015-12-18 15:14:43
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=6--/yimay/apps/shopnc/data/weixin/head/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw_thum.jpg--遗忘s
+2015-12-18 15:14:44
+
+ image_file1:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg
+2015-12-18 15:14:44
+
+ up_wx_image1:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg
+2015-12-18 15:14:44
+
+ token:XWsXBQe-ZWZ9pvoRXgBIpWYZyKMgq2UFG6DUEGzIPTVP-0QlOZZtCA00GyrYDZFK8Adi2jKrv6gFQ7wgmCkBqYsLNTpnZnKPFaF84M9VrfAFSDhABAWJU
+2015-12-18 15:14:45
+
+ up_wx_image2:{"type":"image","media_id":"0PzqzsdoCiS7R1BTfGmM32d1ipsAlTILCCjwU1bMRpRB9g2c6SaDKtIYREnXnqGU","created_at":1450408485}
+2015-12-18 15:14:45
+
+ media_id1:0PzqzsdoCiS7R1BTfGmM32d1ipsAlTILCCjwU1bMRpRB9g2c6SaDKtIYREnXnqGU
+2015-12-18 15:14:45
+专属二维码发送状态:{"errcode":0,"errmsg":"ok"}
+2015-12-18 03:14:52
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450408491</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 15:14:52
+userinfo:{"nickname":"\u9057\u5fd8s","id":"6"}
+2015-12-18 15:14:52
+media_id_res:{"media_id":"0PzqzsdoCiS7R1BTfGmM32d1ipsAlTILCCjwU1bMRpRB9g2c6SaDKtIYREnXnqGU"}
+2015-12-18 15:14:52
+专属二维码发送状态:{"errcode":0,"errmsg":"ok"}
+2015-12-18 03:15:39
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxMhsiKGgAlrEc86aDKvixTs]]></FromUserName>
+<CreateTime>1450408539</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 15:15:40
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 0540ns35 ]"}
+2015-12-18 03:17:01
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450408620</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[好]]></Content>
+<MsgId>6229457589137716211</MsgId>
+</xml>
+2015-12-18 15:21:29
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: UqliMA0889ns41 ]"}
+2015-12-18 15:21:31
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: DQJHwA0891sns4 ]"}
+2015-12-18 15:21:32
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: mr8wcA0892ns62 ]"}
+2015-12-18 15:21:39
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: HfwzpA0899ns28 ]"}
+2015-12-18 15:22:01
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 7785hA0921ns12 ]"}
+2015-12-18 15:22:16
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: vzTzJA0936ns38 ]"}
+2015-12-18 15:22:24
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: CPNSlA0944ns43 ]"}
+2015-12-18 03:24:32
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450409072</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 15:24:32
+userinfo:{"nickname":"\u9057\u5fd8s","id":"6"}
+2015-12-18 15:24:32
+media_id_res:{"media_id":"0PzqzsdoCiS7R1BTfGmM32d1ipsAlTILCCjwU1bMRpRB9g2c6SaDKtIYREnXnqGU"}
+2015-12-18 15:24:32
+专属二维码发送状态:{"errcode":0,"errmsg":"ok"}
+2015-12-18 03:24:41
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450409081</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[好]]></Content>
+<MsgId>6229459569117639853</MsgId>
+</xml>
+2015-12-18 03:24:52
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450409092</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[好]]></Content>
+<MsgId>6229459616362280115</MsgId>
+</xml>
+2015-12-18 03:25:24
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450409124</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[好]]></Content>
+<MsgId>6229459753801233602</MsgId>
+</xml>
+2015-12-18 03:25:49
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450409149</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[？]]></Content>
+<MsgId>6229459861175416013</MsgId>
+</xml>
+2015-12-18 03:26:08
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450409167</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 15:26:10
+login:ocuxlxEkoyzYVxnVoj3Dc3AS5xgw--code:0317e2dd0a7a116ccf27a3286529e249--info:{"access_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6kc5t9jpBZw-Q3Ax5c5Zol49AGIgNwuVN_aEpUwfn-NW2U2nmUAnOalZKtZ-hT_TtERPtFyKqQpd4J_SzeoXqgS2NE8e8YymH4M0CPa97_pbw","expires_in":7200,"refresh_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6kc5t9jpBZw-Q3Ax5c5Zol420cqx_UwSLuj6IXH99hEc4WM4MoxpfhOHWS5ggDBuA2_CSXJXRFoEuroMNBdpqPlUbnlZXFVffN5K70fI77F2g","openid":"ocuxlxEkoyzYVxnVoj3Dc3AS5xgw","scope":"snsapi_base"}
+2015-12-18 03:26:18
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450409177</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[！]]></Content>
+<MsgId>6229459981434500325</MsgId>
+</xml>
+2015-12-18 03:27:41
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450409261</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[好]]></Content>
+<MsgId>6229460342211753211</MsgId>
+</xml>
+2015-12-18 03:30:22
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450409422</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[！]]></Content>
+<MsgId>6229461033701487935</MsgId>
+</xml>
+2015-12-18 03:30:33
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450409432</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz/3S4icic3L2VNNe6ohVeHJvrc4tiar7bIWHdvXoTGQBmOWKZ21PmynTJiab2EBib3yByf1bA1IYsjd8ZSzUgrZAaP81Q/0]]></PicUrl>
+<MsgId>6229461076651160899</MsgId>
+<MediaId><![CDATA[RdgOazdDIet-VIUuAOTtFwCHEypG-RHInd8z6kgY4c0zwq4FkzmgYl3rtErWBOrS]]></MediaId>
+</xml>
+2015-12-18 15:39:17
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: YLCs90957ns56 ]"}
+2015-12-18 16:02:33
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: avNsCA0353ns66 ]"}
+2015-12-18 16:02:49
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 1Qs5dA0369ns16 ]"}
+2015-12-18 16:04:46
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: puDH_0486ns26 ]"}
+2015-12-18 16:05:48
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: PtiYza0548ns23 ]"}
+2015-12-18 16:12:52
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: TgM7va0972ns46 ]"}
+2015-12-18 16:12:54
+
+2015-12-18 16:13:09
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: O0989ns47 ]"}
+2015-12-18 16:16:17
+
+2015-12-18 16:16:51
+
+2015-12-18 16:17:44
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450412264</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-18 16:18:00
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450412280</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-18 16:21:46
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450412506</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-18 16:22:00
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450412520</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-18 17:20:40
+userinfo:{"nickname":"\u9057\u5fd8s","id":"6"}
+2015-12-18 17:20:40
+media_id_res:{"media_id":"0PzqzsdoCiS7R1BTfGmM32d1ipsAlTILCCjwU1bMRpRB9g2c6SaDKtIYREnXnqGU"}
+2015-12-18 17:20:40
+
+ creater_wx_image:ocuxlxEkoyzYVxnVoj3Dc3AS5xgw--遗忘s--6
+2015-12-18 17:20:40
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=6--/yimay/apps/shopnc/data/weixin/head/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw_thum.jpg--遗忘s
+2015-12-18 17:20:41
+
+ image_file1:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg
+2015-12-18 17:20:41
+
+ up_wx_image1:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg
+2015-12-18 17:20:41
+
+ token:H9K10DIPKr9JC8nYHrl5jiOfR4pjAHBJvSXY45P520vt_K7ci3XOtJUnf0t_SWMpysdBCjgXLsA-SuDSO9mAnd7VkPb5WsC922PfkoC24Y4PHPjADAJBJ
+2015-12-18 17:20:42
+
+ up_wx_image2:{"type":"image","media_id":"Kyy8ODBgEHuJxFXmTGWk1KyxlsP6TIThvjhhYN6zihvMJjbc_cRkKxPiwg2JMMM1","created_at":1450416042}
+2015-12-18 17:20:42
+
+ media_id1:Kyy8ODBgEHuJxFXmTGWk1KyxlsP6TIThvjhhYN6zihvMJjbc_cRkKxPiwg2JMMM1
+2015-12-18 17:20:42
+专属二维码发送状态:{"errcode":0,"errmsg":"ok"}
+2015-12-18 17:21:50
+userinfo:{"nickname":"\u9057\u5fd8s","id":"6"}
+2015-12-18 17:21:50
+media_id_res:{"media_id":"Kyy8ODBgEHuJxFXmTGWk1KyxlsP6TIThvjhhYN6zihvMJjbc_cRkKxPiwg2JMMM1"}
+2015-12-18 17:21:50
+专属二维码发送状态:{"errcode":0,"errmsg":"ok"}
+2015-12-18 17:21:59
+userinfo:{"nickname":"\u9057\u5fd8s","id":"6"}
+2015-12-18 17:21:59
+media_id_res:{"media_id":"Kyy8ODBgEHuJxFXmTGWk1KyxlsP6TIThvjhhYN6zihvMJjbc_cRkKxPiwg2JMMM1"}
+2015-12-18 17:21:59
+专属二维码发送状态:{"errcode":0,"errmsg":"ok"}
+2015-12-18 17:24:23
+userinfo:{"nickname":"\u9057\u5fd8s","id":"6"}
+2015-12-18 17:24:23
+media_id_res:{"media_id":"Kyy8ODBgEHuJxFXmTGWk1KyxlsP6TIThvjhhYN6zihvMJjbc_cRkKxPiwg2JMMM1"}
+2015-12-18 17:24:23
+专属二维码发送状态:{"errcode":0,"errmsg":"ok"}
+2015-12-18 17:35:59
+login:ocuxlxEkoyzYVxnVoj3Dc3AS5xgw--code:021104a8404127d71b52c92f23187cfi--info:{"access_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6kc5t9jpBZw-Q3Ax5c5Zol4uk84qhIOc0q1iTgPrSk6tYnVxoLwN95KkolcS5up7QZ7bQtRfsgUcQuL3PhUAma7asgOGaT6snTnqWhxQ0uu0w","expires_in":7200,"refresh_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6kc5t9jpBZw-Q3Ax5c5Zol40FR2e9zD7Jo8FjfpxrbgB0OpACdrrp_19VmYw5pDBkxGsXX-4SCAgfvT6mso5Y6NjFt2Vjrpl0Ons66csoTS4g","openid":"ocuxlxEkoyzYVxnVoj3Dc3AS5xgw","scope":"snsapi_base"}
+2015-12-18 17:44:33
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: M.sw50473ns21 ]"}
+2015-12-18 17:48:04
+login:ocuxlxEddOLPP_vWRHLDx4TDp5qw--code:0412dc164961774f7fd88bae3521316r--info:{"access_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6noaoaui-qhwR4Rjn8_3fkKvyx9Yr8Gl_91ZdHKqW3jorDFzSEdgJo5R07wjNh96b1YyvmsWQGwaP48ue4OgwbjPImbKyks9AoAXLqqbVhdyw","expires_in":7200,"refresh_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6noaoaui-qhwR4Rjn8_3fkKk_a4Wda13896Ode-MylUX8NZsyFDqIwzA2AEaG040vLXAMhuvbITdbk1YcIOPnpKwAp1JRbnngVXd2_TZUURrw","openid":"ocuxlxEddOLPP_vWRHLDx4TDp5qw","scope":"snsapi_base"}
+2015-12-18 17:50:26
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 5JgDwa0826ns27 ]"}
+2015-12-18 17:51:17
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: NlNgRa0877ns65 ]"}
+2015-12-18 17:53:23
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: YqfdBA0003ns58 ]"}
+2015-12-18 17:55:05
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: KqH5ea0105ns19 ]"}
+2015-12-18 17:56:42
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: xqTg.a0202ns54 ]"}
+2015-12-18 17:57:23
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: HMO5Za0243ns68 ]"}
+2015-12-18 18:03:26
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450418606</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 18:03:41
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450418621</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-18 18:03:53
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450418632</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-18 18:03:58
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450418638</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 18:04:37
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450418677</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-18 18:05:22
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxBJkuCfH6ewSMkLp2_atZV0]]></FromUserName>
+<CreateTime>1450418722</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 18:05:45
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450418745</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[qrscene_0]]></EventKey>
+<Ticket><![CDATA[gQH67zoAAAAAAAAAASxodHRwOi8vd2VpeGluLnFxLmNvbS9xL0d6OW40bWpsbmVMa2NqbHZvQkcyAAIEI6JzVgMEgDoJAA==]]></Ticket>
+</xml>
+2015-12-18 18:05:45
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxBJkuCfH6ewSMkLp2_atZV0]]></FromUserName>
+<CreateTime>1450418745</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 18:05:50
+login:ocuxlxBJkuCfH6ewSMkLp2_atZV0--code:021de9e0ec4ddfb252d541cf2057a61B--info:{"access_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6kAdx_L4xiUFpoD2Jtm_CXDrUfPabC2WxNDJ-pgUyeMCcNx5l1411gFY4rXi-tLeHULBTAR4so2OsBQbSUvfhM9gDhHqy7-ODcawwxvkJvRnQ","expires_in":7200,"refresh_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6kAdx_L4xiUFpoD2Jtm_CXDGSLXwL-DNQ2y8eIbVDqkLJw6SrVkvMVSyvUrJg4YzRnZloyYNIexWeiP4OcSABmOneSAODidFlwrnVIse20s8g","openid":"ocuxlxBJkuCfH6ewSMkLp2_atZV0","scope":"snsapi_base"}
+2015-12-18 18:06:01
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxBJkuCfH6ewSMkLp2_atZV0]]></FromUserName>
+<CreateTime>1450418761</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 18:06:23
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxBJkuCfH6ewSMkLp2_atZV0]]></FromUserName>
+<CreateTime>1450418783</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 18:06:40
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxBJkuCfH6ewSMkLp2_atZV0]]></FromUserName>
+<CreateTime>1450418800</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-18 18:06:43
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450418803</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 18:07:04
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxBJkuCfH6ewSMkLp2_atZV0]]></FromUserName>
+<CreateTime>1450418824</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-18 18:07:06
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxBJkuCfH6ewSMkLp2_atZV0]]></FromUserName>
+<CreateTime>1450418826</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 18:07:36
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450418856</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 18:07:47
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450418867</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 18:09:21
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxLIikzlno6KqzCDoClKKWq8]]></FromUserName>
+<CreateTime>1450418961</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 18:09:28
+login:ocuxlxLIikzlno6KqzCDoClKKWq8--code:031021c34beec7aa4d679b087c90b1ah--info:{"access_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6ks8XzPUGnUlIsw2kut5JbE-Iew8-_YTN7dAhAgC6q1NshgdqZHI5FsDyBLi6kvXePiUOCeuD4x-ctKuh8Ex89v6XOQsl0GpRuCVY9cE52sCQ","expires_in":7200,"refresh_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6ks8XzPUGnUlIsw2kut5JbERqVWiNDQkf6AhmV_8mNfirWRUkp0QlFfSFtHslNlIoIl0BqT6ysNgpEfb-uekvcEJ65iC5HupVv3BlRwXEGq4Q","openid":"ocuxlxLIikzlno6KqzCDoClKKWq8","scope":"snsapi_base"}
+2015-12-18 18:09:36
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: sopmxa0976ns62 ]"}
+2015-12-18 18:10:35
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450419034</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 18:10:45
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450419045</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-18 18:10:56
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450419056</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-18 18:11:01
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450419061</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 18:11:36
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450419096</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 18:12:42
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxLIikzlno6KqzCDoClKKWq8]]></FromUserName>
+<CreateTime>1450419162</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 18:13:20
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450419200</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-18 18:13:35
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450419215</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-18 18:13:40
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450419220</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 18:13:49
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450419229</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 18:13:53
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEkoyzYVxnVoj3Dc3AS5xgw]]></FromUserName>
+<CreateTime>1450419233</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 18:16:51
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=6--/yimay/apps/shopnc/data/weixin/head/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw_thum.jpg--susu苏
+2015-12-18 18:16:59
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=6--/yimay/apps/shopnc/data/weixin/head/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw_thum.jpg--susu苏
+2015-12-18 18:22:03
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: eLaOoA0723ns27 ]"}
+2015-12-18 18:22:22
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: vAX9Ta0742ns32 ]"}
+2015-12-18 18:24:04
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 3CuZDa0844ns23 ]"}
+2015-12-18 18:24:05
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: z1ZRza0845ns26 ]"}
+2015-12-18 18:24:12
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: OQkwJa0852ns21 ]"}
+2015-12-18 18:29:20
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: PC8__a0160ns32 ]"}
+2015-12-18 18:30:11
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: tizQba0211ns50 ]"}
+2015-12-18 18:31:38
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEddOLPP_vWRHLDx4TDp5qw]]></FromUserName>
+<CreateTime>1450420298</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 18:31:38
+login:ocuxlxEddOLPP_vWRHLDx4TDp5qw--code:001e6cd30cd65a0b932bcadde87c3bcK--info:{"access_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6noaoaui-qhwR4Rjn8_3fkK-6pzg__nuT-3jUN8Jd6w3xS8KXFze66X_a94WuVZ76uAJcFW-hkv6ToDNQatNf9VhFABYBYiKQae6zDQImkPwQ","expires_in":7200,"refresh_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6noaoaui-qhwR4Rjn8_3fkKBB3CHp_1jDGH5F_EB2aBQiu0KWg0fTpQcDhc23lMHDa4aTtmBwsWMjxpyJzsH8uoW5r3KKLP7d_E0VTn18_MBw","openid":"ocuxlxEddOLPP_vWRHLDx4TDp5qw","scope":"snsapi_base"}
+2015-12-18 18:33:08
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEddOLPP_vWRHLDx4TDp5qw]]></FromUserName>
+<CreateTime>1450420388</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 18:33:15
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: O0395ns46 ]"}
+2015-12-18 18:36:22
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: Ngsvza0582sns4 ]"}
+2015-12-18 18:37:03
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxNzsf8pjuLoFxuWvUVmN9lA]]></FromUserName>
+<CreateTime>1450420623</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-18 18:37:29
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: PI1eXa0649ns60 ]"}
+2015-12-18 18:45:42
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: xmWqlA0142ns22 ]"}
+2015-12-18 18:47:22
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=6--/yimay/apps/shopnc/data/weixin/head/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw_thum.jpg--susu苏
+2015-12-18 18:55:34
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: yOmp50733ns42 ]"}
+2015-12-18 18:55:43
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: u_UINa0743ns34 ]"}
+2015-12-18 18:58:57
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: .AxnJA0937ns30 ]"}
+2015-12-18 18:59:07
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: Ha449a0947ns65 ]"}
+2015-12-18 19:16:24
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: vIYdCA0984ns55 ]"}
+2015-12-18 19:19:41
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=6--/yimay/apps/shopnc/data/weixin/head/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw_thum.jpg--susu苏
+2015-12-18 19:21:21
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: vLJtmA0281ns18 ]"}
+2015-12-18 19:30:31
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 45lfGA0831ns38 ]"}
+2015-12-18 19:39:56
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: Gbw_ga0396ns43 ]"}
+2015-12-18 19:40:35
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 78pC.A0435ns16 ]"}
+2015-12-18 19:40:40
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: Pp7nSa0440ns27 ]"}
+2015-12-18 19:41:38
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: moi_8a0498ns55 ]"}
+2015-12-18 19:44:20
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxMhsiKGgAlrEc86aDKvixTs]]></FromUserName>
+<CreateTime>1450424660</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 19:44:22
+login:ocuxlxMhsiKGgAlrEc86aDKvixTs--code:031fb6920be4685fb6bb06828bf98b0n--info:{"access_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6kiRTJCAXV_DQS5IcsC8-yR14jJ5nBL4as-ISuw2iBgTdF4MczajSQ8-qyfs_qoJiyL8OskWbtxzMHzSbHTzylFvVDVCwkfPIKpoOZHdJNcfQ","expires_in":7200,"refresh_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6kiRTJCAXV_DQS5IcsC8-yRt4gkxrK1XxOgUGXoEJTkZN52YYfo0ER59tjci2Nu5FEkhP15zfPgJsV2EWOv74GvW65ISLYE-vFC_A8GLdnftw","openid":"ocuxlxMhsiKGgAlrEc86aDKvixTs","scope":"snsapi_base"}
+2015-12-18 19:44:27
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEddOLPP_vWRHLDx4TDp5qw]]></FromUserName>
+<CreateTime>1450424667</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 19:44:39
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxLZK5_zi_YO_xOxcgLAFm8I]]></FromUserName>
+<CreateTime>1450424679</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[qrscene_0]]></EventKey>
+<Ticket><![CDATA[gQF38DoAAAAAAAAAASxodHRwOi8vd2VpeGluLnFxLmNvbS9xLzNUOGxhTlRsM2VLa2d2LW40aEcyAAIEXLlzVgMEgDoJAA==]]></Ticket>
+</xml>
+2015-12-18 19:44:49
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxLZK5_zi_YO_xOxcgLAFm8I]]></FromUserName>
+<CreateTime>1450424689</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 19:44:49
+login:ocuxlxLZK5_zi_YO_xOxcgLAFm8I--code:04165afa77e6128c71eefc1f86a4477X--info:{"access_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6mCw8Vy1WaejnATxbFUknGJlGOW7YZmR1nNcOvdW9jaYzY4vV2Wq2GN4x6bDbsAkZFiQ6N3HTBYkD-QGCyIWRqfxoaQxgK9VfGBEIloKNIifQ","expires_in":7200,"refresh_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6mCw8Vy1WaejnATxbFUknGJb9o91hMUpcisOHXWpYpTUVKypechy6YM-HLH74oiT0wcetgM2H8ZEPdeiFlSrLJOA7jvPXJwA3YAywjUrzjHaw","openid":"ocuxlxLZK5_zi_YO_xOxcgLAFm8I","scope":"snsapi_base"}
+2015-12-18 19:47:19
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxPBBNtkDorcqtAv2fqvE6CI]]></FromUserName>
+<CreateTime>1450424839</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 19:47:25
+login:ocuxlxPBBNtkDorcqtAv2fqvE6CI--code:0311eeee9c4df0190dfd5845dcedc24K--info:{"access_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6llw2jS_Lc0Ct9rNpY1cGfZXLx57w0ZAbL0OTICu15j7DZmMzlsmXCpu8bM1HyradV_Sj43T66Oaf-lDw33MhUtdF7F3-tFbDQ3vEADAWT3tA","expires_in":7200,"refresh_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6llw2jS_Lc0Ct9rNpY1cGfZMC-jBc2N-nfbfZV_JSVqQBZjroLzCbpyXoCtAB_LnaCp_rXHBw8OVYkdz_0_PGqSiN_FRAprjliWb90CtFCqJA","openid":"ocuxlxPBBNtkDorcqtAv2fqvE6CI","scope":"snsapi_base"}
+2015-12-18 19:47:39
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxLZK5_zi_YO_xOxcgLAFm8I]]></FromUserName>
+<CreateTime>1450424859</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 19:47:50
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxPBBNtkDorcqtAv2fqvE6CI]]></FromUserName>
+<CreateTime>1450424870</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 19:47:56
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxPBBNtkDorcqtAv2fqvE6CI]]></FromUserName>
+<CreateTime>1450424876</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 19:48:06
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxPBBNtkDorcqtAv2fqvE6CI]]></FromUserName>
+<CreateTime>1450424886</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[0]]></EventKey>
+<Ticket><![CDATA[gQEh8DoAAAAAAAAAASxodHRwOi8vd2VpeGluLnFxLmNvbS9xL0l6OVlLNWpsb09MWmN3R2tueEcyAAIELLpzVgMEgDoJAA==]]></Ticket>
+</xml>
+2015-12-18 19:48:16
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxPBBNtkDorcqtAv2fqvE6CI]]></FromUserName>
+<CreateTime>1450424896</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 19:50:13
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxLZK5_zi_YO_xOxcgLAFm8I]]></FromUserName>
+<CreateTime>1450425013</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 19:51:19
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxLZK5_zi_YO_xOxcgLAFm8I]]></FromUserName>
+<CreateTime>1450425079</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 19:52:48
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxLZK5_zi_YO_xOxcgLAFm8I]]></FromUserName>
+<CreateTime>1450425168</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 19:54:36
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxLZK5_zi_YO_xOxcgLAFm8I]]></FromUserName>
+<CreateTime>1450425276</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 20:01:20
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxLZK5_zi_YO_xOxcgLAFm8I]]></FromUserName>
+<CreateTime>1450425680</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 20:01:40
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxLZK5_zi_YO_xOxcgLAFm8I]]></FromUserName>
+<CreateTime>1450425700</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 20:02:04
+login:ocuxlxLZK5_zi_YO_xOxcgLAFm8I--code:04123f15a04b093c8ca93a914704350d--info:{"access_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6mCw8Vy1WaejnATxbFUknGJSiWDp6SiXE4H4L6Dfa7fS1QxKPQSSFGVHNiesWXxlM-B1u4AaHlnBe70w_LDoP_LZ8_PwE0NyDhUxnv9UrFp7A","expires_in":7200,"refresh_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6mCw8Vy1WaejnATxbFUknGJVYVyD7eLKN8QmR-RHIa879fq1rt5lVLNYghkkdEwfGapXRxa_JEvS1vx2oPte5A4YYGJVj0d92QqGsUvING1pg","openid":"ocuxlxLZK5_zi_YO_xOxcgLAFm8I","scope":"snsapi_base"}
+2015-12-18 20:18:59
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxPBBNtkDorcqtAv2fqvE6CI]]></FromUserName>
+<CreateTime>1450426739</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 20:25:28
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: xmcKuA0128ns62 ]"}
+2015-12-18 20:33:26
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: vBwS30606ns52 ]"}
+2015-12-18 20:34:00
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: olKH3a0640ns27 ]"}
+2015-12-18 20:34:58
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 1.kwCa0698ns17 ]"}
+2015-12-18 20:34:59
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxLIikzlno6KqzCDoClKKWq8]]></FromUserName>
+<CreateTime>1450427699</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 20:34:59
+login:ocuxlxLIikzlno6KqzCDoClKKWq8--code:0116b560847ffd5ccaacba539e296147--info:{"access_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6ks8XzPUGnUlIsw2kut5JbECi47_sk41f7B05DL9eNRzBp_xGj1qLO___CkBuXfH0OFgxe9wkvraYD1vjq57vEFesa79zqSUtZ8xHXPs1WuCA","expires_in":7200,"refresh_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6ks8XzPUGnUlIsw2kut5JbEFfactrFenB8393m6BNBY4vFztgD0VRAjVFLf74-zf5c3YGaNGpnX1mZsdHNd5mN_dWnL6XiRhzrrV6vevvDhfQ","openid":"ocuxlxLIikzlno6KqzCDoClKKWq8","scope":"snsapi_base"}
+2015-12-18 20:36:10
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: NcnpGA0770ns54 ]"}
+2015-12-18 20:36:19
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: Yk0779ns31 ]"}
+2015-12-18 20:39:47
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=6--/yimay/apps/shopnc/data/weixin/head/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw_thum.jpg--susu苏
+2015-12-18 20:40:00
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=6--/yimay/apps/shopnc/data/weixin/head/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw_thum.jpg--susu苏
+2015-12-18 20:40:03
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=6--/yimay/apps/shopnc/data/weixin/head/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw_thum.jpg--susu苏
+2015-12-18 20:40:09
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: A7gB30009ns50 ]"}
+2015-12-18 20:40:41
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=6--/yimay/apps/shopnc/data/weixin/head/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw_thum.jpg--susu苏
+2015-12-18 20:40:47
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=6--/yimay/apps/shopnc/data/weixin/head/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw_thum.jpg--susu苏
+2015-12-18 20:42:28
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEddOLPP_vWRHLDx4TDp5qw]]></FromUserName>
+<CreateTime>1450428148</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 20:42:29
+login:ocuxlxEddOLPP_vWRHLDx4TDp5qw--code:001fd52e1187e47c3cb6bd725b8e819E--info:{"access_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6noaoaui-qhwR4Rjn8_3fkKt2mNexhmCvwtLKRFIgEdFkEEZet3UXDWm2IOXiya7802mj4xGKrADK2Bfa0cPWritL9GXGfa7H5sFqyib4tqdw","expires_in":7200,"refresh_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6noaoaui-qhwR4Rjn8_3fkKvB5TeSy9nieAKHx0gUHWLLjXd8iUuar4DrnTvkAZsF7pon8lkdI65yQ9ow3_B70uMMQpmUJIk1eeLw-_E-fLtA","openid":"ocuxlxEddOLPP_vWRHLDx4TDp5qw","scope":"snsapi_base"}
+2015-12-18 20:48:35
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: lBobRA0515ns24 ]"}
+2015-12-18 20:50:04
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: I0604ns51 ]"}
+2015-12-18 20:56:10
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxEddOLPP_vWRHLDx4TDp5qw]]></FromUserName>
+<CreateTime>1450428970</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 20:59:44
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: Cg2vFA0184ns46 ]"}
+2015-12-18 21:36:05
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: sPmHBa0365ns38 ]"}
+2015-12-18 21:39:33
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: cAKpva0573ns41 ]"}
+2015-12-18 21:39:38
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: xRquAA0578ns57 ]"}
+2015-12-18 21:39:45
+
+ wx_img_filename:/yimay/apps/shopnc/data/weixin/2015-12/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw.jpg--http://m.gellefreres.com/wap_shop/index.php?act=weixin&op=creater_wx_code&scene_id=6--/yimay/apps/shopnc/data/weixin/head/ocuxlxEkoyzYVxnVoj3Dc3AS5xgw_thum.jpg--susu苏
+2015-12-18 21:46:30
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: xOroBA0990ns18 ]"}
+2015-12-18 21:47:35
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: HgIWSa0055ns36 ]"}
+2015-12-18 22:05:29
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxMhsiKGgAlrEc86aDKvixTs]]></FromUserName>
+<CreateTime>1450433128</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 22:05:30
+login:ocuxlxMhsiKGgAlrEc86aDKvixTs--code:021173bc8b13af6c04ad6a4cdb1d9b4a--info:{"access_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6kiRTJCAXV_DQS5IcsC8-yRWlgVXgdm2hUudsioWXTKe0BKvncy2jz34js3NXviNgHmRIKIEE-9NfpHZpMfcnmX1WgfHWUMCESS4IoJucJaLw","expires_in":7200,"refresh_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6kiRTJCAXV_DQS5IcsC8-yRAEUW_sBJTcTNk8C-uJLrxPUZPRcunhrLU7VBHxMyRO5deLoz3qeEk-ueCMYWwK4Y5rCt0N4-_jz98-l3MvJHnQ","openid":"ocuxlxMhsiKGgAlrEc86aDKvixTs","scope":"snsapi_base"}
+2015-12-18 22:13:28
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxMhsiKGgAlrEc86aDKvixTs]]></FromUserName>
+<CreateTime>1450433608</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 22:13:45
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxMhsiKGgAlrEc86aDKvixTs]]></FromUserName>
+<CreateTime>1450433624</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 22:23:08
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: d0188ns60 ]"}
+2015-12-18 22:23:35
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: kMMkFa0215ns34 ]"}
+2015-12-18 22:23:35
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: tNTbsa0215ns34 ]"}
+2015-12-18 22:23:53
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: z8lo0233ns25 ]"}
+2015-12-18 22:24:05
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: pA9wga0245ns54 ]"}
+2015-12-18 22:24:14
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: K0253ns27 ]"}
+2015-12-18 22:34:34
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: DebOfA0874ns39 ]"}
+2015-12-18 22:38:02
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: t0r7Qa0081ns69 ]"}
+2015-12-18 22:49:56
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: ADJnUa0796ns32 ]"}
+2015-12-18 23:01:45
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: mSj_nA0505ns35 ]"}
+2015-12-18 23:15:20
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxPBBNtkDorcqtAv2fqvE6CI]]></FromUserName>
+<CreateTime>1450437320</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 23:15:25
+login:ocuxlxPBBNtkDorcqtAv2fqvE6CI--code:00121a2169c8c8546b39aa6f9deca85t--info:{"access_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6llw2jS_Lc0Ct9rNpY1cGfZTsUSScXpaNf_01a6ArGSrKWkxbp50Tz2MqbzKAdhBW1DTu6RVSOM3G2E83vPza8hm0gWhxKK-N-43mR6AYnPXA","expires_in":7200,"refresh_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6llw2jS_Lc0Ct9rNpY1cGfZ1-wsWwhqOrN_QOb7G-W_ClB_AySKp6fvsRSeJJVFutuuRNepp4XL6n4-TVI_zQwmX6fNrbw2iz7a88YXGbh8fQ","openid":"ocuxlxPBBNtkDorcqtAv2fqvE6CI","scope":"snsapi_base"}
+2015-12-18 23:16:40
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxPBBNtkDorcqtAv2fqvE6CI]]></FromUserName>
+<CreateTime>1450437400</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 23:17:32
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxPBBNtkDorcqtAv2fqvE6CI]]></FromUserName>
+<CreateTime>1450437452</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 23:18:35
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxPBBNtkDorcqtAv2fqvE6CI]]></FromUserName>
+<CreateTime>1450437514</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[send_user_code_img]]></EventKey>
+</xml>
+2015-12-18 23:18:52
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxMhsiKGgAlrEc86aDKvixTs]]></FromUserName>
+<CreateTime>1450437531</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 23:18:53
+login:ocuxlxMhsiKGgAlrEc86aDKvixTs--code:0410c8fb07a6794c265509f7c08adaaM--info:{"access_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6kiRTJCAXV_DQS5IcsC8-yRhqGMWkpEOgq7G5zZiAsw7_6ASxf-EpiTtizo1UTIB-AxBPrpDppTDXhfPTsIVIIDQ1wt9QZ4MUGHUE90EoZYKg","expires_in":7200,"refresh_token":"OezXcEiiBSKSxW0eoylIeP89ky9Ntlds2bRzG4TNi6kiRTJCAXV_DQS5IcsC8-yR2OfFB6vqXmo24gePHFMmy9ZNPe7tCzCCoIG2iGR7rtI6GRuu7pyzF1teBIq_9JeaVLIhogR2ThUNR3WnIglnvw","openid":"ocuxlxMhsiKGgAlrEc86aDKvixTs","scope":"snsapi_base"}
+2015-12-18 23:26:06
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxPBBNtkDorcqtAv2fqvE6CI]]></FromUserName>
+<CreateTime>1450437966</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 23:26:54
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxPBBNtkDorcqtAv2fqvE6CI]]></FromUserName>
+<CreateTime>1450438014</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 23:26:59
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxPBBNtkDorcqtAv2fqvE6CI]]></FromUserName>
+<CreateTime>1450438019</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 23:47:27
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxMhsiKGgAlrEc86aDKvixTs]]></FromUserName>
+<CreateTime>1450439246</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 23:47:40
+<xml><ToUserName><![CDATA[gh_3bb47c7e2f9d]]></ToUserName>
+<FromUserName><![CDATA[ocuxlxMhsiKGgAlrEc86aDKvixTs]]></FromUserName>
+<CreateTime>1450439260</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx237f54616784474f&redirect_uri=http://m.gellefreres.com/wap&response_type=code&scope=snsapi_base&state=1#wechat_redirect]]></EventKey>
+</xml>
+2015-12-18 23:56:35
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: fp0xPA0795ns31 ]"}
+2015-12-18 23:57:09
+login:--code:null--info:{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: ipAUJa0829ns21 ]"}

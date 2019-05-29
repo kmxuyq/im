@@ -1,0 +1,91 @@
+.chat-model{
+	margin-top: 2.4rem ;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	margin-bottom: 0.8rem;
+	float: left;
+}
+.chat-model .chat-time{
+	text-align: center;
+	font-size: 0.6rem;
+	color: #999999;
+	margin-top: 0.8rem;
+}
+/*左边样式*/
+.chat-left-item{
+	float: left;
+	width: 100%;
+}
+.chat-model .chat-left-item .chat-info .head-pic{
+	height: 1.75rem;
+	width: 1.75rem;
+	float: left;
+}
+.chat-model .chat-left-item .chat-info .content-info{
+	margin-left: 2.25rem;
+}
+
+.chat-model .chat-left-item .chat-info .content-info .nick-name{
+	margin-left: 0.5rem;
+	font-size: 0.6rem;
+	color: #999999;
+	height: 1rem;
+	line-height: 1rem;
+}
+.chat-model .chat-left-item .chat-info .content-info .content{
+	font-size: 0.75rem;
+	max-width: 12rem;
+	float: left;
+}
+.chat-model .chat-left-item .chat-info .content-info .content .jiantou{
+	margin-top: 0.5rem;
+	height: 0.35rem;
+	width: 0.275rem;
+	background: url(../../img/messgelist/jiantou.png) no-repeat center center;
+    background-size: cover;
+    float: left;
+}
+.chat-model .content-info .content p{
+	font-size: 0.75rem;
+	padding:0.6rem ;
+	background: #fff;
+	border-radius: 0.2rem;
+	line-height:1.1rem;
+	color: #333333;
+}
+
+/*右边样式*/
+.chat-right-item{
+	float: right;
+	width: 100%;
+}
+.chat-model .chat-right-item .chat-info .head-pic{
+	height: 1.75rem;
+	width: 1.75rem;
+	float: right;
+}
+.chat-model .chat-right-item .chat-info .content-info{
+	margin-right: 2.25rem;
+}
+
+.chat-model .chat-right-item .chat-info .content-info .nick-name{
+	margin-right: 0.5rem;
+	font-size: 0.6rem;
+	color: #999999;
+	height: 1rem;
+	line-height: 1rem;
+	text-align: right;
+}
+.chat-model .chat-right-item .chat-info .content-info .content{
+	font-size: 0.75rem;
+	max-width: 12rem;
+	float: right;
+}
+.chat-model .chat-right-item .chat-info .content-info .content .jiantou{
+	margin-top: 0.5rem;
+	height: 0.35rem;
+	width: 0.275rem;
+	background: url(../../img/messgelist/jiantou2.png) no-repeat center center;
+    background-size: cover;
+    float: right;
+}

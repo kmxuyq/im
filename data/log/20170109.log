@@ -1,0 +1,33 @@
+[2017-01-09 17:56:47] /shop/index.php?act=videos&op=upload ( act=videos&op=upload ) 
+ERR: Db Error: Unknown column 'title' in 'field list'
+INSERT  INTO `az_member` (title,length,contents) VALUES ('xxx','11','&lt;p&gt;&lt;video class=&quot;edui-upload-video  vjs-default-skin video-js&quot; controls=&quot;&quot; preload=&quot;none&quot; width=&quot;420&quot; height=&quot;280&quot; src=&quot;/ueditor/php/upload/video/20170109/1483955803776207.ogg&quot; data-setup=&quot;{}&quot;&gt;&lt;/video&gt;&lt;/p&gt;')
+[2017-01-09 17:58:54] /shop/index.php?act=videos&op=upload ( act=videos&op=upload ) 
+ERR: Db Error: Unknown column 'title' in 'field list'
+INSERT  INTO `az_member` (title,length,contents) VALUES ('Title 5','11','&lt;p&gt;sadg&lt;/p&gt;')
+[2017-01-09 18:02:15] /shop/index.php?act=videos&op=upload ( act=videos&op=upload ) 
+ERR: Db Error: Unknown column 'store_id' in 'field list'
+INSERT  INTO `az_member` (store_id,title,length,contents) VALUES ('7','sdagsdg','11','&lt;p&gt;sdg&lt;/p&gt;')
+[2017-01-09 18:08:12] /shop/index.php?act=videos&op=upload ( act=videos&op=upload ) 
+ERR: Db Error: Unknown column 'store_id' in 'field list'
+INSERT  INTO `az_member` (store_id,title,length,contents) VALUES ('7','111','111','&lt;p&gt;sadg&lt;/p&gt;')
+[2017-01-09 18:09:54] /shop/index.php?act=videos&op=upload ( act=videos&op=upload ) 
+ERR: Db Error: Unknown column 'title' in 'field list'
+INSERT  INTO `az_member` (title,contents,length) VALUES ('ShopNC','http://www.shopnc.net','32')
+[2017-01-09 18:10:53] /shop/index.php?act=videos&op=upload ( act=videos&op=upload ) 
+ERR: Db Error: Unknown column 'title' in 'field list'
+INSERT  INTO `az_member` (title,contents,length) VALUES ('ShopNC','http://www.shopnc.net','32')
+[2017-01-09 18:11:15] /shop/index.php?act=videos&op=upload ( act=videos&op=upload ) 
+ERR: Db Error: Unknown column 'title' in 'field list'
+INSERT  INTO `az_member` (title,contents,length) VALUES ('ShopNC','http://www.shopnc.net','32')
+[2017-01-09 18:11:16] /shop/index.php?act=videos&op=upload ( act=videos&op=upload ) 
+ERR: Db Error: Unknown column 'title' in 'field list'
+INSERT  INTO `az_member` (title,contents,length) VALUES ('ShopNC','http://www.shopnc.net','32')
+[2017-01-09 18:11:16] /shop/index.php?act=videos&op=upload ( act=videos&op=upload ) 
+ERR: Db Error: Unknown column 'title' in 'field list'
+INSERT  INTO `az_member` (title,contents,length) VALUES ('ShopNC','http://www.shopnc.net','32')
+[2017-01-09 18:11:17] /shop/index.php?act=videos&op=upload ( act=videos&op=upload ) 
+ERR: Db Error: Unknown column 'title' in 'field list'
+INSERT  INTO `az_member` (title,contents,length) VALUES ('ShopNC','http://www.shopnc.net','32')
+[2017-01-09 18:11:17] /shop/index.php?act=videos&op=upload ( act=videos&op=upload ) 
+ERR: Db Error: Unknown column 'title' in 'field list'
+INSERT  INTO `az_member` (title,contents,length) VALUES ('ShopNC','http://www.shopnc.net','32')

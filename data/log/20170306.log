@@ -1,0 +1,12 @@
+[2017-03-06 09:44:08] /wap_shop/index.php?act=payment_handle&op=getStoreOrderInfo ( act=payment_handle&op=getstoreorderinfo ) 
+ERR: Db Error: Table 'gt.az_store_wxinfo' doesn't exist
+SELECT * FROM `az_store_wxinfo` WHERE ( store_id = '7' ) LIMIT 1  
+[2017-03-06 09:44:14] /wap_shop/index.php?act=payment_handle&op=getStoreOrderInfo ( act=payment_handle&op=getstoreorderinfo ) 
+ERR: Db Error: Table 'gt.az_store_wxinfo' doesn't exist
+SELECT * FROM `az_store_wxinfo` WHERE ( store_id = '7' ) LIMIT 1  
+[2017-03-06 09:44:15] /wap_shop/index.php?act=payment_handle&op=getStoreOrderInfo ( act=payment_handle&op=getstoreorderinfo ) 
+ERR: Db Error: Table 'gt.az_store_wxinfo' doesn't exist
+SELECT * FROM `az_store_wxinfo` WHERE ( store_id = '7' ) LIMIT 1  
+[2017-03-06 17:52:17] /wap_shop/index.php?act=payment_handle&op=getStoreOrderInfo ( act=payment_handle&op=getstoreorderinfo ) 
+ERR: Db Error: Table 'gt.az_store_wxinfo' doesn't exist
+SELECT * FROM `az_store_wxinfo` WHERE ( store_id = '7' ) LIMIT 1  

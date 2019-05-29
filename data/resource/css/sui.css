@@ -1,0 +1,30 @@
+.ui-btn, .ui-btn-lg, .ui-btn-s{
+color:#666	
+}
+.ui-btn-primary {
+    background-color: #2d1a47;
+    border-color: #361f55;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0.5,#361f55),to(#2d1a47));
+    color: #fff;
+    background-clip: padding-box;
+}
+.ui-header h1{font-size:18px !important}
+header .ui-icon-return{color:#666666; font-size:28px}
+header .qz-color{color:#666666;}
+.qz-header-background {
+	 background: #fff;
+   /* background: #2d1a47 !important;color:#fff !important*/
+}
+.fa-ico{ display: inline-block}
+.fa-ico .fa{font-size:25px;color:#b1b1b1; line-height:1.5}
+.ui-list-text>li, .ui-list-pure>li {
+    position: relative;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 15px;
+}
+.ui-list-text.ui-list-link>li {
+    padding-right: 0px;
+}
+.menu_border{border-bottom: 1px solid #E0E0E0; line-height:2.2}
+.menu_border .ico{ float:right;display:inline-block}

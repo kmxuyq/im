@@ -1,0 +1,231 @@
+[2017-01-19 09:16:37] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.goods_image,a.like_num,b.goods_desc,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1119 ORDER BY distance ASC LIMIT 0,5
+[2017-01-19 09:16:37] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.goods_image,a.like_num,b.goods_desc,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1120 ORDER BY distance ASC LIMIT 0,5
+[2017-01-19 09:16:37] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.goods_image,a.like_num,b.goods_desc,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1121 ORDER BY distance ASC LIMIT 0,5
+[2017-01-19 09:16:37] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.goods_image,a.like_num,b.goods_desc,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1122 ORDER BY distance ASC LIMIT 0,5
+[2017-01-19 09:16:37] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.goods_image,a.like_num,b.goods_desc,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1123 ORDER BY distance ASC LIMIT 0,5
+[2017-01-19 09:16:38] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'is_recommend' in 'where clause'
+SELECT * FROM `az_videos` WHERE ( is_recommend = '1' ) ORDER BY videos_id asc LIMIT 2  
+[2017-01-19 09:18:38] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 09:20:49] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 09:44:27] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 09:52:50] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 09:52:55] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 09:53:02] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 11:36:49] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 11:37:33] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 11:38:46] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 11:40:27] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 11:40:31] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 11:42:55] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 11:44:42] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 11:44:58] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 11:45:48] /shop/index.php?act=goods&op=index&goods_id=104651 ( act=goods&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 11:46:53] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 11:48:24] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 11:48:31] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 11:50:41] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 11:51:02] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 11:52:30] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 11:52:34] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 11:54:12] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 13:41:57] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 13:41:58] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 13:44:44] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 13:44:53] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 13:46:19] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 13:47:03] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 13:47:07] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 13:47:07] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 13:47:47] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 13:48:22] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 14:02:05] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 14:02:39] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 14:03:22] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 14:08:14] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 14:09:50] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 14:09:57] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 14:16:49] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 14:18:47] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 14:20:30] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 14:21:44] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 14:23:13] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 14:26:05] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 14:26:08] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 14:26:13] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 14:28:10] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 14:30:52] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 14:31:42] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 14:38:48] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 14:52:09] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 14:53:04] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 14:53:36] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 14:54:19] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 14:54:26] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 14:54:35] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 14:59:51] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 15:01:57] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 15:02:04] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 15:02:04] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 15:02:42] /shop/index.php?act=goods&op=index&goods_id=104651 ( act=goods&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 15:02:44] /shop/index.php?act=show_store&op=ajax_flowstat_record&store_id=7&goods_id=104651&act_param=goods&op_param=index ( act=show_store&op=ajax_flowstat_record ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 15:02:45] /shop/index.php?act=goods&op=addbrowse&gid=104651 ( act=goods&op=addbrowse ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 15:02:45] /shop/index.php?act=compare&op=checkcompare ( act=compare&op=checkcompare ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 15:10:00] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 15:10:00] /shop/undefined ( act=index&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 15:11:40] /shop/index.php?act=goods&op=index&goods_id=104651 ( act=goods&op=index ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 15:11:41] /shop/index.php?act=show_store&op=ajax_flowstat_record&store_id=7&goods_id=104651&act_param=goods&op_param=index ( act=show_store&op=ajax_flowstat_record ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 15:11:42] /shop/index.php?act=goods&op=addbrowse&gid=104651 ( act=goods&op=addbrowse ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-19 15:11:42] /shop/index.php?act=compare&op=checkcompare ( act=compare&op=checkcompare ) 
+ERR: Db Error: Table 'gt.az_web_channel' doesn't exist
+SELECT * FROM `az_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  

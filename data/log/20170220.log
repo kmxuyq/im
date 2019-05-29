@@ -1,0 +1,12 @@
+[2017-02-20 10:14:22] /shop/index.php?act=store_msg&op=msg_info&sm_id=3849 ( act=store_msg&op=msg_info ) 
+ERR: Db Error: Duplicate entry '3849-7' for key 'PRIMARY'
+INSERT  INTO `az_store_msg_read` (seller_id,sm_id,read_time) VALUES ('7','3849','1487556862')
+[2017-02-20 10:15:30] /shop/index.php?act=store_msg&op=msg_info&sm_id=3849 ( act=store_msg&op=msg_info ) 
+ERR: Db Error: Duplicate entry '3849-7' for key 'PRIMARY'
+INSERT  INTO `az_store_msg_read` (seller_id,sm_id,read_time) VALUES ('7','3849','1487556929')
+[2017-02-20 10:21:08] /chat/index.php?act=web_chat&op=msg_info&sm_id=3849 ( act=web_chat&op=msg_info ) 
+ERR: Db Error: Duplicate entry '3849-7' for key 'PRIMARY'
+INSERT  INTO `az_store_msg_read` (seller_id,sm_id,read_time) VALUES ('7','3849','1487557268')
+[2017-02-20 10:44:46] /chat/index.php?act=web_chat&op=msg_info&sm_id=3849 ( act=web_chat&op=msg_info ) 
+ERR: Db Error: Duplicate entry '3849-7' for key 'PRIMARY'
+INSERT  INTO `az_store_msg_read` (seller_id,sm_id,read_time) VALUES ('7','3849','1487558686')

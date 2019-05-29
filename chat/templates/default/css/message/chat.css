@@ -1,0 +1,276 @@
+.header .header-btn__right {
+    float: right;
+    color: #FFF;
+    margin-right: 0.75rem;
+}
+
+
+/*产品链接*/
+
+.product {
+    position: fixed;
+    top: 2.4rem;
+    z-index: 10;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #fff;
+}
+
+.product-img {
+    float: left;
+    width: 6rem;
+    height: 4.5rem;
+}
+
+.product-info {
+    margin-left: 6.75rem;
+}
+
+.product-info dt {
+    font-size: 0.8rem;
+    color: #333;
+}
+
+.product-price {
+    margin-top: 0.5rem;
+}
+
+.product-price em {
+    font-size: 0.85rem;
+    color: #f74828;
+}
+
+.product-price .price__new {
+    font-size: 1.25rem;
+    color: #f74828;
+}
+
+.product-price .price__old {
+    margin-left: .5rem;
+    font-size: 0.87rem;
+    color: #999;
+    text-decoration: line-through;
+}
+
+.product-btn a {
+    float: right;
+    padding: .25rem;
+    color: #3b84ed;
+    border: 1px solid #3b84ed;
+    border-radius: .25rem;
+}
+
+.product+.chat-model {
+    margin-top: 8rem;
+    margin-bottom: 3.5rem;
+}
+
+.chat-model {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.chat-model .chat-time {
+    text-align: center;
+    font-size: 0.6rem;
+    color: #999999;
+    height: 1.4rem;
+    line-height: 1.4rem;
+}
+
+
+/*左边样式*/
+
+.chat-left-item {
+    float: left;
+    width: 100%;
+}
+
+.chat-model .chat-left-item .chat-info .head-pic {
+    height: 1.75rem;
+    width: 1.75rem;
+    float: left;
+}
+
+.chat-model .chat-left-item .chat-info .content-info {
+    margin-left: 2.25rem;
+}
+
+.chat-model .chat-left-item .chat-info .content-info .nick-name {
+    margin-left: 0.5rem;
+    font-size: 0.6rem;
+    color: #999999;
+    height: 1rem;
+    line-height: 1rem;
+}
+
+.chat-model .chat-left-item .chat-info .content-info .content {
+    font-size: 0.75rem;
+    max-width: 12rem;
+    float: left;
+}
+
+.chat-model .chat-left-item .chat-info .content-info .content .jiantou {
+    margin-top: 0.5rem;
+    height: 0.35rem;
+    width: 0.275rem;
+    background: url(../../img/messgelist/jiantou.png) no-repeat center center;
+    background-size: cover;
+    float: left;
+}
+
+.chat-model .content-info .content p {
+    font-size: 0.75rem;
+    padding: 0.6rem;
+    background: #fff;
+    border-radius: 0.2rem;
+    line-height: 1.1rem;
+    color: #333333;
+}
+
+
+/*右边样式*/
+
+.chat-right-item {
+    float: right;
+    width: 100%;
+}
+
+.chat-model .chat-right-item .chat-info .head-pic {
+    height: 1.75rem;
+    width: 1.75rem;
+    float: right;
+}
+
+.chat-model .chat-right-item .chat-info .content-info {
+    margin-right: 2.25rem;
+}
+
+.chat-model .chat-right-item .chat-info .content-info .nick-name {
+    margin-right: 0.5rem;
+    font-size: 0.6rem;
+    color: #999999;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: right;
+}
+
+.chat-model .chat-right-item .chat-info .content-info .content {
+    font-size: 0.75rem;
+    max-width: 12rem;
+    float: right;
+}
+
+.chat-model .chat-right-item .chat-info .content-info .content .jiantou {
+    margin-top: 0.5rem;
+    height: 0.35rem;
+    width: 0.275rem;
+    background: url(../../img/messgelist/jiantou2.png) no-repeat center center;
+    background-size: cover;
+    float: right;
+}
+
+.chat-left-item .content-product {
+    margin-left: 0.275rem;
+}
+
+.chat-right-item .content-product {
+    margin-right: 0.275rem;
+}
+
+.content-product {
+    padding: .6rem;
+    background-color: #FFF;
+    border-radius: 0.2rem;
+}
+
+.content-product .product-info {
+    margin-left: 3.25rem;
+}
+
+.content-product .product-info dt {
+    font-size: 0.75rem;
+}
+
+.content-product .product-info em, .content-product .product-info .price__new, .content-product .product-info .price__old {
+    font-size: 0.75rem;
+}
+
+.content-product .product-img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.content-product .product-info .product-price {
+    margin-top: .25rem;
+}
+
+.chat-cansole {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f9f9f9;
+}
+
+.chat-form {
+    /*定义为flexbox的“父元素”*/
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    /*子元素沿主轴对齐方式居中*/
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    /*子元素沿侧轴对齐方式垂直居中*/
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+    padding-top: 0.475rem;
+    padding-bottom: 0.475rem;
+    border-style: solid none none;
+    border-color: #dddddd;
+    border-top-width: 0.05rem;
+}
+
+.chat-form .chat-face {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+.chat-form .chat-input {
+    width: 12.55rem;
+    height: 1.85rem;
+    border: 1px solid #999;
+    border-radius: .25rem;
+}
+
+.chat-form .chat-input [type="text"] {
+    width: 100%;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+.chat-form .chat-btn {
+    border: 1px solid #999;
+    border-radius: .25rem;
+    line-height: 1.8rem;
+    padding: 0 .5rem
+}
+
+.chat-faces {
+    display: none;
+    border-top: 1px solid #ddd;
+}
+
+.chat-faces ul, .chat-faces li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.chat-faces li {
+    float: left;
+    width: 12.28%;
+    padding: .75rem;
+}

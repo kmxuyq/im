@@ -1,0 +1,192 @@
+[2017-02-24 09:19:45] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'status' in 'where clause'
+SELECT special_id FROM `az_mb_special` WHERE ( status = '1' ) AND ( store_id = '7' ) LIMIT 1  
+[2017-02-24 09:19:45] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1119 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 09:19:45] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1120 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 09:19:45] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1121 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 09:19:45] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1122 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 09:19:45] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1123 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 09:19:45] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'is_recommend' in 'where clause'
+SELECT * FROM `az_videos` WHERE ( is_recommend = '1' ) ORDER BY videos_id asc LIMIT 2  
+[2017-02-24 09:19:45] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Table 'gt.az_index_menu' doesn't exist
+SELECT * FROM `az_index_menu` WHERE ( store_id = '7' ) AND ( status = '1' ) ORDER BY sort DESC LIMIT 1000  
+[2017-02-24 09:19:46] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'status' in 'where clause'
+SELECT special_id FROM `az_mb_special` WHERE ( status = '1' ) AND ( store_id = '7' ) LIMIT 1  
+[2017-02-24 09:19:46] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1119 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 09:19:46] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1120 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 09:19:46] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1121 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 09:19:46] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1122 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 09:19:46] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1123 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 09:19:46] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'is_recommend' in 'where clause'
+SELECT * FROM `az_videos` WHERE ( is_recommend = '1' ) ORDER BY videos_id asc LIMIT 2  
+[2017-02-24 09:19:46] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Table 'gt.az_index_menu' doesn't exist
+SELECT * FROM `az_index_menu` WHERE ( store_id = '7' ) AND ( status = '1' ) ORDER BY sort DESC LIMIT 1000  
+[2017-02-24 10:21:14] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'status' in 'where clause'
+SELECT special_id FROM `az_mb_special` WHERE ( status = '1' ) AND ( store_id = '7' ) LIMIT 1  
+[2017-02-24 10:21:14] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1119 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 10:21:14] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1120 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 10:21:14] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1121 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 10:21:14] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1122 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 10:21:14] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1123 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 10:21:14] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'is_recommend' in 'where clause'
+SELECT * FROM `az_videos` WHERE ( is_recommend = '1' ) ORDER BY videos_id asc LIMIT 2  
+[2017-02-24 10:21:14] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Table 'gt.az_index_menu' doesn't exist
+SELECT * FROM `az_index_menu` WHERE ( store_id = '7' ) AND ( status = '1' ) ORDER BY sort DESC LIMIT 1000  
+[2017-02-24 10:21:14] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'status' in 'where clause'
+SELECT special_id FROM `az_mb_special` WHERE ( status = '1' ) AND ( store_id = '7' ) LIMIT 1  
+[2017-02-24 10:21:14] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1119 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 10:21:14] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1120 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 10:21:14] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1121 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 10:21:14] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1122 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 10:21:14] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1123 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 10:21:14] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'is_recommend' in 'where clause'
+SELECT * FROM `az_videos` WHERE ( is_recommend = '1' ) ORDER BY videos_id asc LIMIT 2  
+[2017-02-24 10:21:14] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Table 'gt.az_index_menu' doesn't exist
+SELECT * FROM `az_index_menu` WHERE ( store_id = '7' ) AND ( status = '1' ) ORDER BY sort DESC LIMIT 1000  
+[2017-02-24 11:14:52] /chat/index.php?act=web_chat&op=msg_info&sm_id=3849 ( act=web_chat&op=msg_info ) 
+ERR: Db Error: Duplicate entry '3849-7' for key 'PRIMARY'
+INSERT  INTO `az_store_msg_read` (seller_id,sm_id,read_time) VALUES ('7','3849','1487906092')
+[2017-02-24 11:20:40] /chat/index.php?act=web_chat&op=msg_info&sm_id=3849 ( act=web_chat&op=msg_info ) 
+ERR: Db Error: Duplicate entry '3849-7' for key 'PRIMARY'
+INSERT  INTO `az_store_msg_read` (seller_id,sm_id,read_time) VALUES ('7','3849','1487906440')
+[2017-02-24 11:20:51] /chat/index.php?act=web_chat&op=msg_info&sm_id=3849 ( act=web_chat&op=msg_info ) 
+ERR: Db Error: Duplicate entry '3849-7' for key 'PRIMARY'
+INSERT  INTO `az_store_msg_read` (seller_id,sm_id,read_time) VALUES ('7','3849','1487906451')
+[2017-02-24 11:31:48] /chat/index.php?act=web_chat&op=msg_info&sm_id=3849 ( act=web_chat&op=msg_info ) 
+ERR: Db Error: Duplicate entry '3849-7' for key 'PRIMARY'
+INSERT  INTO `az_store_msg_read` (seller_id,sm_id,read_time) VALUES ('7','3849','1487907108')
+[2017-02-24 11:36:21] /chat/index.php?act=web_chat&op=del_msg&msg_id=3849&callback=jQuery18207927184454522442_1487907377731&_=1487907381366 ( act=web_chat&op=del_msg ) 
+ERR: Db Error: Duplicate entry '3849-7' for key 'PRIMARY'
+INSERT  INTO `az_store_msg_read` (seller_id,sm_id,read_time) VALUES ('7','3849','1487907381')
+[2017-02-24 11:36:42] /chat/index.php?act=web_chat&op=del_msg&msg_id=3849&callback=jQuery18205594036884626383_1487907398698&_=1487907402007 ( act=web_chat&op=del_msg ) 
+ERR: Db Error: Duplicate entry '3849-7' for key 'PRIMARY'
+INSERT  INTO `az_store_msg_read` (seller_id,sm_id,read_time) VALUES ('7','3849','1487907402')
+[2017-02-24 15:24:43] /wap_shop/index.php?act=payment_handle&op=getStoreOrderInfo ( act=payment_handle&op=getstoreorderinfo ) 
+ERR: Db Error: Table 'gt.az_store_wxinfo' doesn't exist
+SELECT * FROM `az_store_wxinfo` WHERE ( store_id = '7' ) LIMIT 1  
+[2017-02-24 15:24:48] /wap_shop/index.php?act=payment_handle&op=getStoreOrderInfo ( act=payment_handle&op=getstoreorderinfo ) 
+ERR: Db Error: Table 'gt.az_store_wxinfo' doesn't exist
+SELECT * FROM `az_store_wxinfo` WHERE ( store_id = '7' ) LIMIT 1  
+[2017-02-24 15:26:17] /wap_shop/index.php?act=payment_handle&op=getStoreOrderInfo ( act=payment_handle&op=getstoreorderinfo ) 
+ERR: Db Error: Table 'gt.az_store_wxinfo' doesn't exist
+SELECT * FROM `az_store_wxinfo` WHERE ( store_id = '7' ) LIMIT 1  
+[2017-02-24 15:26:20] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'status' in 'where clause'
+SELECT special_id FROM `az_mb_special` WHERE ( status = '1' ) AND ( store_id = '7' ) LIMIT 1  
+[2017-02-24 15:26:20] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1119 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 15:26:20] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1120 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 15:26:20] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1121 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 15:26:20] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1122 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 15:26:20] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1123 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 15:26:20] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'is_recommend' in 'where clause'
+SELECT * FROM `az_videos` WHERE ( is_recommend = '1' ) ORDER BY videos_id asc LIMIT 2  
+[2017-02-24 15:26:20] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Table 'gt.az_index_menu' doesn't exist
+SELECT * FROM `az_index_menu` WHERE ( store_id = '7' ) AND ( status = '1' ) ORDER BY sort DESC LIMIT 1000  
+[2017-02-24 15:26:20] /wap_shop/index.php?act=payment_handle&op=getStoreOrderInfo ( act=payment_handle&op=getstoreorderinfo ) 
+ERR: Db Error: Table 'gt.az_store_wxinfo' doesn't exist
+SELECT * FROM `az_store_wxinfo` WHERE ( store_id = '7' ) LIMIT 1  
+[2017-02-24 15:26:21] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'status' in 'where clause'
+SELECT special_id FROM `az_mb_special` WHERE ( status = '1' ) AND ( store_id = '7' ) LIMIT 1  
+[2017-02-24 15:26:21] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1119 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 15:26:21] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1120 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 15:26:21] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1121 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 15:26:21] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1122 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 15:26:21] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'b.goods_desc' in 'field list'
+SELECT a.goods_id,a.goods_price,a.goods_marketprice,a.goods_salenum,a.goods_name,a.goods_jingle,a.like_num,b.goods_desc,b.goods_image,(ACOS(SIN((25.04915310 * 3.1415926535898) / 180 ) *SIN((b.latitude * 3.1415926535898) / 180 ) +COS((25.04915310 * 3.1415926535898) / 180 ) * COS((b.latitude * 3.1415926535898) / 180 ) *COS((102.71460114 * 3.1415926535898) / 180 - (b.longitude * 3.1415926535898) / 180 ) ) * 6367000) as distance FROM az_goods AS a LEFT JOIN az_goods_common as b ON(a.goods_commonid = b.goods_commonid) WHERE  a.goods_commend = 1 AND a.goods_state = 1 AND a.goods_verify = 1 AND a.store_id = 7 AND a.gc_id = 1123 GROUP BY a.goods_commonid  ORDER BY distance ASC LIMIT 0,6
+[2017-02-24 15:26:21] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Unknown column 'is_recommend' in 'where clause'
+SELECT * FROM `az_videos` WHERE ( is_recommend = '1' ) ORDER BY videos_id asc LIMIT 2  
+[2017-02-24 15:26:21] /wap_shop/index.php?act=show_store&op=index&store_id=7 ( act=show_store&op=index ) 
+ERR: Db Error: Table 'gt.az_index_menu' doesn't exist
+SELECT * FROM `az_index_menu` WHERE ( store_id = '7' ) AND ( status = '1' ) ORDER BY sort DESC LIMIT 1000  
+[2017-02-24 15:26:21] /wap_shop/index.php?act=payment_handle&op=getStoreOrderInfo ( act=payment_handle&op=getstoreorderinfo ) 
+ERR: Db Error: Table 'gt.az_store_wxinfo' doesn't exist
+SELECT * FROM `az_store_wxinfo` WHERE ( store_id = '7' ) LIMIT 1  
+[2017-02-24 15:26:23] /wap_shop/index.php?act=payment_handle&op=getStoreOrderInfo ( act=payment_handle&op=getstoreorderinfo ) 
+ERR: Db Error: Table 'gt.az_store_wxinfo' doesn't exist
+SELECT * FROM `az_store_wxinfo` WHERE ( store_id = '7' ) LIMIT 1  
+[2017-02-24 15:26:30] /wap_shop/index.php?act=payment_handle&op=getStoreOrderInfo ( act=payment_handle&op=getstoreorderinfo ) 
+ERR: Db Error: Table 'gt.az_store_wxinfo' doesn't exist
+SELECT * FROM `az_store_wxinfo` WHERE ( store_id = '7' ) LIMIT 1  
+[2017-02-24 15:26:39] /wap_shop/index.php?act=payment_handle&op=getStoreOrderInfo ( act=payment_handle&op=getstoreorderinfo ) 
+ERR: Db Error: Table 'gt.az_store_wxinfo' doesn't exist
+SELECT * FROM `az_store_wxinfo` WHERE ( store_id = '7' ) LIMIT 1  
+[2017-02-24 17:19:42] /wap_shop/index.php?act=payment_handle&op=getStoreOrderInfo ( act=payment_handle&op=getstoreorderinfo ) 
+ERR: Db Error: Table 'gt.az_store_wxinfo' doesn't exist
+SELECT * FROM `az_store_wxinfo` WHERE ( store_id = '7' ) LIMIT 1  
+[2017-02-24 17:19:50] /wap_shop/index.php?act=payment_handle&op=getStoreOrderInfo ( act=payment_handle&op=getstoreorderinfo ) 
+ERR: Db Error: Table 'gt.az_store_wxinfo' doesn't exist
+SELECT * FROM `az_store_wxinfo` WHERE ( store_id = '7' ) LIMIT 1  

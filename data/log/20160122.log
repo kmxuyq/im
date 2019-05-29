@@ -1,0 +1,42 @@
+[2016-01-22 17:48:14] /wap_shop/index.php?act=member_voucher ( act=member_voucher&op=index ) 
+ERR: Db Error: Unknown column 'voucher_t_id' in 'where clause'
+SELECT * FROM `az_wx_active_rule` WHERE (goods_id='0' OR goods_id is Null OR goods_id='') and voucher_t_id>0 LIMIT 1  
+[2016-01-22 17:48:14] /wap_shop/index.php?act=member_voucher ( act=member_voucher&op=index ) 
+ERR: Db Error: Unknown column 'voucher_id' in 'field list'
+INSERT  INTO `az_wx_present_member` (title,openid,member_id,lower_num,add_time,pre_openid,source_type,voucher_id,voucher_num,status) VALUES (NULL,NULL,'22',NULL,'1453456094','','2',NULL,NULL,'0')
+[2016-01-22 17:48:17] /wap_shop/index.php?act=member_voucher&op=voucher_list&select_detail_state=1 ( act=member_voucher&op=voucher_list ) 
+ERR: Db Error: Unknown column 'voucher_t_id' in 'where clause'
+SELECT * FROM `az_wx_active_rule` WHERE (goods_id='0' OR goods_id is Null OR goods_id='') and voucher_t_id>0 LIMIT 1  
+[2016-01-22 17:48:17] /wap_shop/index.php?act=member_voucher&op=voucher_list&select_detail_state=1 ( act=member_voucher&op=voucher_list ) 
+ERR: Db Error: Unknown column 'voucher_id' in 'field list'
+INSERT  INTO `az_wx_present_member` (title,openid,member_id,lower_num,add_time,pre_openid,source_type,voucher_id,voucher_num,status) VALUES (NULL,NULL,'22',NULL,'1453456097','','2',NULL,NULL,'0')
+[2016-01-22 17:48:19] /wap_shop/index.php?act=member_voucher&op=voucher_list&select_detail_state=2 ( act=member_voucher&op=voucher_list ) 
+ERR: Db Error: Unknown column 'voucher_t_id' in 'where clause'
+SELECT * FROM `az_wx_active_rule` WHERE (goods_id='0' OR goods_id is Null OR goods_id='') and voucher_t_id>0 LIMIT 1  
+[2016-01-22 17:48:19] /wap_shop/index.php?act=member_voucher&op=voucher_list&select_detail_state=2 ( act=member_voucher&op=voucher_list ) 
+ERR: Db Error: Unknown column 'voucher_id' in 'field list'
+INSERT  INTO `az_wx_present_member` (title,openid,member_id,lower_num,add_time,pre_openid,source_type,voucher_id,voucher_num,status) VALUES (NULL,NULL,'22',NULL,'1453456099','','2',NULL,NULL,'0')
+[2016-01-22 17:48:22] /wap_shop/index.php?act=member_voucher&op=voucher_list&select_detail_state=1 ( act=member_voucher&op=voucher_list ) 
+ERR: Db Error: Unknown column 'voucher_t_id' in 'where clause'
+SELECT * FROM `az_wx_active_rule` WHERE (goods_id='0' OR goods_id is Null OR goods_id='') and voucher_t_id>0 LIMIT 1  
+[2016-01-22 17:48:22] /wap_shop/index.php?act=member_voucher&op=voucher_list&select_detail_state=1 ( act=member_voucher&op=voucher_list ) 
+ERR: Db Error: Unknown column 'voucher_id' in 'field list'
+INSERT  INTO `az_wx_present_member` (title,openid,member_id,lower_num,add_time,pre_openid,source_type,voucher_id,voucher_num,status) VALUES (NULL,NULL,'22',NULL,'1453456102','','2',NULL,NULL,'0')
+[2016-01-22 17:51:22] /wap_shop/index.php?act=member_weixin&op=my_present ( act=member_weixin&op=my_present ) 
+ERR: Db Error: Unknown column 'voucher_t_id' in 'where clause'
+SELECT * FROM `az_wx_active_rule` WHERE (goods_id='0' OR goods_id is Null OR goods_id='') and voucher_t_id>0 LIMIT 1  
+[2016-01-22 17:51:22] /wap_shop/index.php?act=member_weixin&op=my_present ( act=member_weixin&op=my_present ) 
+ERR: Db Error: Unknown column 'voucher_id' in 'field list'
+INSERT  INTO `az_wx_present_member` (title,openid,member_id,lower_num,add_time,pre_openid,source_type,voucher_id,voucher_num,status) VALUES (NULL,NULL,'22',NULL,'1453456282','','2',NULL,NULL,'0')
+[2016-01-22 17:51:35] /wap_shop/index.php?act=member_weixin&op=my_present ( act=member_weixin&op=my_present ) 
+ERR: Db Error: Unknown column 'voucher_t_id' in 'where clause'
+SELECT * FROM `az_wx_active_rule` WHERE (goods_id='0' OR goods_id is Null OR goods_id='') and voucher_t_id>0 LIMIT 1  
+[2016-01-22 17:51:35] /wap_shop/index.php?act=member_weixin&op=my_present ( act=member_weixin&op=my_present ) 
+ERR: Db Error: Unknown column 'voucher_id' in 'field list'
+INSERT  INTO `az_wx_present_member` (title,openid,member_id,lower_num,add_time,pre_openid,source_type,voucher_id,voucher_num,status) VALUES (NULL,NULL,'22',NULL,'1453456295','','2',NULL,NULL,'0')
+[2016-01-22 18:19:00] /wap_shop/index.php?act=member_voucher ( act=member_voucher&op=index ) 
+ERR: Db Error: Unknown column 'voucher_t_id' in 'where clause'
+SELECT * FROM `az_wx_active_rule` WHERE (goods_id='0' OR goods_id is Null OR goods_id='') and voucher_t_id>0 LIMIT 1  
+[2016-01-22 18:19:00] /wap_shop/index.php?act=member_voucher ( act=member_voucher&op=index ) 
+ERR: Db Error: Unknown column 'voucher_id' in 'field list'
+INSERT  INTO `az_wx_present_member` (title,openid,member_id,lower_num,add_time,pre_openid,source_type,voucher_id,voucher_num,status) VALUES (NULL,NULL,'22',NULL,'1453457940','','2',NULL,NULL,'0')

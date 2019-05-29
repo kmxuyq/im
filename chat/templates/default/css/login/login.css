@@ -1,0 +1,85 @@
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../../img/login/background.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    padding-top: 9rem;
+}
+
+.item {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.input-item {
+    height: 2.2rem;
+    background: #fff;
+}
+
+.input-item input {
+    margin-top: 0.6rem;
+    height: 1rem;
+    line-height: 1rem;
+    width: 16rem;
+    margin-left: 1rem;
+    font-size: 0.8rem;
+}
+
+.input-item .checkcode-input {
+    /*width: 8.6rem;*/
+}
+
+.input-item .checkcode-img {
+    width: 5rem;
+    height: 2.2rem;
+}
+
+.input-item .checkcode-refresh {
+    width: 2.4rem;
+    height: 2.2rem;
+    float: right;
+    background: url(../../img/login/shuaxin.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.login-btn {
+    background: #3b84ed;
+    color: #fff;
+    text-align: center;
+    font-size: 0.9rem;
+    height: 2.2rem;
+    line-height: 2.2rem;
+}
+
+.login-other {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.login-other a {
+    color: #3b84ed;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+
+/* 登录验证码 */
+
+.fluid-input {
+    display: inline-block;
+    width: 100%;
+    _overflow: hidden;
+}
+
+.fluid-input-inner {
+    display: block;
+    #zoom: 1
+}
+
+.fluid-input .text {
+    width: 49.8%;
+}
