@@ -114,17 +114,6 @@ class loginControl extends BaseHomeControl {
       }
    }
    /**
-    * login操作
-    *
-    * @param int $id 记录ID
-    * @return array $rs_row 返回数组形式的查询结果
-    */
-   public function loginOp() {
-    if ($_SESSION['member_id']) {
-      redirect('/wap_shop/index.php?act=goods&op=index&goods_id=104642');
-    }
-   }
-   /**
     * 退出操作
     *
     * @param int $id 记录ID
