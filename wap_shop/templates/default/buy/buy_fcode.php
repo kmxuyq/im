@@ -1,0 +1,47 @@
+<?php defined('InShopNC') or exit('Access Invalid!');?>
+<script type="text/javascript" src="<?php echo RESOURCE_SITE_URL;?>/js/layer-v2.1/layer/layer.js" charset="utf-8" ></script>
+<!-- S fcode -->
+<?php if ($output['store_cart_list'][key($output['store_cart_list'])][0]['is_fcode'] == 1) { ?>
+<div class="ui-arrowlink qz-padding">使用F码购买商品</div>
+    <div class="qz-padding qz-background-white qz-top-b qz-bottom-b clearfix">
+		<h5>如果您有该商品的F码，请输入并验证您具有优先购买权。</h4>
+        <div class="qz-border-yellow clearfix">
+		<div class="qz-padding qz-light" style="text-align:right;">
+		F码：&nbsp;<input name="fcode" type="text" class="qz-light qz-border-gray qz-fr" id="fcode" placeholder="输入F码" autocomplete="off" maxlength="20" />
+		</div>
+		<div class="qz-padding qz-padding-t clearfix">
+                <p class="qz-fr">
+				<input type="button" value="使用F码" id="fcode_submit" class="ui-btn ui-btn-primary qz-padding-30 qz-background-yellow" />
+				<input value="" type="hidden" name="fcode_callback" id="fcode_callback">
+				<input type="hidden" id="goods_commonid" name="goods_commonid" value="<?php echo $output['store_cart_list'][key($output['store_cart_list'])][0]['goods_commonid'];?>">
+                </p>
+		 </div>
+		 <div id="fcode_showmsg"></div>
+	  </div>
+	  
+    </div>
+<!-- E fcode --> 
+<script>
+$(function(){
+    $('#fcode_submit').on('click',function(){
+        if ($('#fcode').val() == '') {
+            layer.msg('请输入F码');
+        }else{
+	        $('#fcode_callback').val('');
+	        var url="?act=buy&op=check_fcode&fcode="+$('#fcode').val()+"&goods_commonid="+$('#goods_commonid').val();
+				$.getJSON(url, function(data){
+		            if (data.state == true) {
+		            	$('#fcode_callback').val('1');
+		            	$('#fcode_submit').hide();
+		            	$('#fcode').hide();
+		            	$('#fcode_showmsg').append('<i class="icon-ok-circle"></i>'+$('#fcode').val()+'为有效的F码，您可以继续完成下单购买。');
+		            } else {
+		            	layer.msg(data.msg);
+		            }
+	        });
+        }
+    });
+
+});
+</script>
+<?php } ?>

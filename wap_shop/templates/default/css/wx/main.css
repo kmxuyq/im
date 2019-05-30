@@ -1,0 +1,154 @@
+/*
+ * @Author: Evua
+ * @Date:   2015-12-13 12:00:00
+ * @Last Modified by:   Evua
+ * @Last Modified time: 2015-12-20 12:00:00
+ */
+
+@charset "utf-8";
+
+*{ padding:0px; margin:0px; }
+body{ padding:0px; margin:0px; font-family:"Helvetica Neue", "Helvetica", "Arial", "sans-serif"; -webkit-user-select:none;-webkit-touch-callout:none; -webkit-text-size-adjust:none}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,figure,legend,input,button,textarea,p,blockquote,th,td,table,tbody,article,aside,dialog,footer,header,section,footer,nav,figure,menu{margin:0;padding:0;}
+article,aside,dialog,footer,header,section,footer,nav,figure,figcaption,menu{display:block;}
+address,caption,cite,code,dfn,em,strong,th,var,i{font-style:normal;font-weight:normal; }
+ul,ol,li{ list-style-type:none;}
+img{ border:none; display:block; max-width:100%; height:auto;}
+*:focus {outline: none;}  
+input{outline: none; vertical-align:middle;}
+.clearfix:before,.clearfix:after{content:"";display:table;} .clearfix:after{clear:both;} .clearfix{zoom:1;}
+i{ display:inline-block; overflow:hidden;}
+a{ text-decoration:none; cursor:pointer; }
+a:hover{ }
+html,body { overflow: hidden;}
+
+
+.loadingPage{z-index:999; width:100%; height:100%; overflow:hidden; position:absolute; left:0; top:0; right:0; background:#0d0719; text-align: center; color:#b2cefb; font-family:"Helvetica Neue";display: -webkit-box; -webkit-box-orient: horizontal;  -webkit-box-direction: normal; -webkit-box-pack: center; -webkit-box-align: center;}
+.loadingPage .center_box{width:100%;}
+.loadingPage .loadingBar{ display:none; background:rgba(77,59,115,0.8);border:2px solid #aad2fb; border-radius:5px; width:40%; height:13px; margin:0px auto 5px auto; padding:0 2px;}
+.loadingPage .progress{ display:none;}
+.loadingPage .energy{width:1%; height:100%; background:transparent url(http://m.gellefreres.com/wap_shop/templates/default/images/weixin/img/loading.png) repeat-x 0 center; background-size:auto 74%;}
+
+.videoBox{ z-index:11; position:absolute; top:50%; left:50%; width:320px; height:504px; margin:-252px 0 0 -160px; -webkit-perspective: 1000;perspective:1000;overflow:hidden; }
+.videoBox video{width:100%;height:100%;position:absolute;bottom:0;left:0;right:0;}
+
+.mArr{ opacity:0; width:66px; height:80px; position:absolute; left:50%; top:50%; margin:-40px 0 0 -33px; z-index:99;}
+.mArr .arr1{ position:absolute; right:-2px; top:-3px; width:66px; height:40px; background:url(http://m.gellefreres.com/wap_shop/templates/default/images/weixin/img/arr_1.png) no-repeat right top; background-size:cover; -webkit-animation:fd1 1.5s infinite linear;}
+.mArr .arr2{ position:absolute; left:-2px; bottom:-3px; width:67px;height:46px;background:url(http://m.gellefreres.com/wap_shop/templates/default/images/weixin/img/arr_1.png) no-repeat left bottom; background-size:cover; -webkit-animation:fd2 1.5s infinite linear;}
+@-webkit-keyframes fd1 {
+	0% {-webkit-transform:translate(0,0) scale(1)}
+	30% {-webkit-transform:translate(4px,-4px) scale(1.1)}
+	60% {-webkit-transform:translate(0,0) scale(1)}
+	100% {-webkit-transform:translate(0,0) scale(1)}
+	}
+@-webkit-keyframes fd2 {
+	0% {-webkit-transform:translate(0,0) scale(1)}
+	30% {-webkit-transform:translate(-4px,4px) scale(1.1)}
+	60% {-webkit-transform:translate(0,0) scale(1)}
+	100% {-webkit-transform:translate(0,0) scale(1)}
+	}
+	
+	
+.main{ z-index:9; position:absolute; top:50%; left:50%; width:320px; height:504px; overflow:hidden; margin:-252px 0 0 -160px; -webkit-perspective: 1000;perspective:1000; background:#000;}
+.main .wraper{ width:100%; height:100%; overflow:hidden; position:relative;}
+.main .box1{ width:100%; height:100%; position:absolute; left:0; top:0; z-index:2; }
+.main .box2{ width:100%; height:100%; position:absolute; left:0; top:0; z-index:1;}
+.main .title{ opacity:0; width:240px; height:69px; position:absolute; left:50%; top:46px; margin-left:-120px; z-index:9;}
+
+.Time{z-index:8; position:absolute; top:50%; left:50%; width:320px; height:504px; overflow:hidden; margin:-252px 0 0 -160px; background:#000;}
+.Time .wraper{ width:100%; height:100%; overflow:hidden; position:relative;}
+.Time .bg{}
+
+.timeBox{ width:140px; height:47px; background:url(http://m.gellefreres.com/wap_shop/templates/default/images/weixin/img/year11.png) no-repeat left top; background-size:cover; position:absolute; left:50%; top:208px; margin-left:-70px;}
+.timeBox .box{ width:72px; height:20px; overflow:hidden; position:absolute; left:34px; top:13px; }
+.timeBox .box .items{ float:left; width:18px; height:20px; background-image:url(http://m.gellefreres.com/wap_shop/templates/default/images/weixin/img/year0.png); background-repeat:no-repeat; background-position:left top; background-size:cover;}
+
+.timeFrame{ position:absolute; z-index:222; opacity:0; }
+.timeFrame_1{ right:56px; bottom:232px;}
+.timeFrame_2{ right:119px; bottom:140px;}
+.timeFrame_3{ left:118px; bottom:140px;}
+.timeFrame_4{ left:55px; bottom:232px;}
+.timeFrame .wrap{ position:relative;}
+.timeFrame time{color:#fff; font:normal 12px/20px "STHeiti-Light";  text-align:center; width:32px; height:20px; position:absolute; left:-16px; bottom:6px;}
+.timeFrame i{ width:32px; height:32px; position:absolute; right:0; bottom:0; margin:0 -16px -16px 0; background:url(http://m.gellefreres.com/wap_shop/templates/default/images/weixin/img/year12.png) no-repeat left top; background-size:cover;}
+
+.thruBtn{opacity:0; width:73px; height:82px; position:absolute; bottom:30px; left:50%; margin-left:-36px; z-index:88}
+.thruBtn .text{ width:73px; height:8px; margin-top:10px; background:url(http://m.gellefreres.com/wap_shop/templates/default/images/weixin/img/year_btn_4.png) no-repeat left top; background-size:cover;}
+.thruBtn .box{ width:73px; height:73px; position:relative;}
+.thruBtn .items{ width:100%; height:100%; position:absolute; left:0; top:0; }
+.thruBtn .item1{ z-index:9; background:url(http://m.gellefreres.com/wap_shop/templates/default/images/weixin/img/year_btn_1.png) no-repeat left top;  background-size:cover;}
+.thruBtn .item2{ z-index:8; background:url(http://m.gellefreres.com/wap_shop/templates/default/images/weixin/img/year_btn_2.png) no-repeat left top; background-size:cover;}
+.thruBtn .item3{ z-index:7; background:url(http://m.gellefreres.com/wap_shop/templates/default/images/weixin/img/year_btn_3.png) no-repeat left top; background-size:cover; }
+
+.main6{background:url(http://m.gellefreres.com/wap_shop/templates/default/images/weixin/img/m6_1.jpg) no-repeat left top; background-size:cover;}
+.main6 .wraper{ /*background:url(http://m.gellefreres.com/wap_shop/templates/default/images/weixin/img/m6_1.jpg) no-repeat left top; background-size:cover;*/}
+.main6 .link{ display:block; width:63px; height:24px; background:url(http://m.gellefreres.com/wap_shop/templates/default/images/weixin/img/m6_2.png) no-repeat left top; background-size:cover; margin:325px 0 0 18px;}
+
+.music{ z-index:10; position:absolute; width:25px; height:25px; right:9px; top:9px;}
+.musicBtn{ display:block; width:25px; height:25px; background: url(http://m.gellefreres.com/wap_shop/templates/default/images/weixin/img/quan2.png) no-repeat 0 0; background-size:cover;}
+.music audio{ position:absolute; right:200%; top:200%;}
+
+.news{ z-index:12; position:absolute; left:0; top:0; width:100%; height:100%; bottom:0; overflow:hidden;}
+
+.LoadPage{z-index:999; background:#453241; position:absolute; left:0; top:0; bottom:0; width:100%; overflow:hidden; display: -webkit-box; -webkit-box-orient: horizontal;  -webkit-box-direction: normal;  -webkit-box-pack: center;  -webkit-box-align: center;}
+.LoadPage .box{ width:46px; height:95px; overflow:hidden; text-align:center; text-shadow:1px 1px 1px #fff, -1px -1px 1px #fff; color:#010101; font:normal 14px/120px "STHeiti-Light"; background:url(http://m.gellefreres.com/wap_shop/templates/default/images/weixin/img/load_1.png) no-repeat left top; background-size:cover;}
+
+.share{ position:absolute; left:0; top:0; height:100%; width:100%; background:rgba(0,0,0,.7); z-index:99; display:none;}
+.share img{ width:100%;}
+
+
+.fadeIn{ -webkit-animation:fadeIn .8s ease 1 both;}
+@-webkit-keyframes fadeIn {
+	0% { opacity:0;}
+	100% { opacity:1;}
+	}	
+.fadeOut{-webkit-animation:fadeOut .8s ease 1 both;}
+@-webkit-keyframes fadeOut {
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+	}
+.magnify{ -webkit-animation:magnify 0.8s ease 1 both;}
+@-webkit-keyframes magnify{
+	0%{-webkit-transform:scale(1);}
+	100%{-webkit-transform:scale(3); }
+	}
+.bounceInRight{ -webkit-animation:bounceInRight 1s ease 1 both;}	
+@-webkit-keyframes bounceInRight {
+	0% {opacity: 0;-webkit-transform: translate3d(1000px, 0, 0);}
+	60% {opacity: 1;-webkit-transform: translate3d(-20px, 0, 0);}
+	75% {opacity:1;-webkit-transform: translate3d(10px, 0, 0);}
+	90% {opacity:1;-webkit-transform: translate3d(-5px, 0, 0);}
+	100% {opacity:1;-webkit-transform: none;}
+	}
+.fadeOutUp{ -webkit-animation:fadeOutUp 1s ease 1 both;}	
+@-webkit-keyframes fadeOutUp {
+	0% { opacity: 1;}
+	100% { opacity: 0; -webkit-transform:translate3d(0, -20px, 0);}
+	}
+.bounceIn{ -webkit-animation:bounceIn 0.6s ease 1 both;}
+@-webkit-keyframes bounceIn {
+	0% {opacity: 0; -webkit-transform: scale3d(.3, .3, .3);}
+	20% {-webkit-transform: scale3d(1.1, 1.1, 1.1);}
+	40% {-webkit-transform: scale3d(.9, .9, .9);}
+	60% {opacity: 1;-webkit-transform: scale3d(1.03, 1.03, 1.03);}
+	80% {-webkit-transform: scale3d(.97, .97, .97);	}
+	100% {opacity: 1; -webkit-transform: scale3d(1, 1, 1);}
+	}
+.star{ -webkit-animation:flash 0.6s linear 1 both}
+@-webkit-keyframes flash {
+	0%,50%,100% { opacity: 1}
+	25%,75% { opacity: 0.3;}
+	}
+@-webkit-keyframes rotate{
+	0%{ -webkit-transform:rotate(0);}
+	100%{ -webkit-transform:rotate(720deg);}
+	}
+
+
+
+
+
+
+
+
+

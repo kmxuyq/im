@@ -1,0 +1,68 @@
+/*!
+Pure v0.6.0
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+https://github.com/yahoo/pure/blob/master/LICENSE.md
+*/
+/*!
+normalize.css v^3.0 | MIT License | git.io/normalize
+Copyright (c) Nicolas Gallagher and Jonathan Neal
+*/
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+html{font:20px/1.25'micrisoft yaihe',Arial,sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+body{font-size:0.8rem;background:#f2f2f0;margin:0 auto}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{padding:0;margin:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-weight:normal;font-style:normal;}
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:100%;}
+q:before,q:after{content:��;}
+abbr,acronym{border:0;}.clearfix{*zoom:1;}.clearfix:after{display:block;overflow:hidden;clear:both;height:0;visibility:hidden;content:".";}
+a{color:#666; text-decoration:none;}
+.content{max-width:800px}
+.fail_content img{ width:100%}
+.fail_content p{ text-align:center; color:#777; font-size:18px}
+/*.footer{width:100%;color:#e9dabd; background:#413156; line-height:1.8; font-size:20px;text-align:center}
+.footer_h{height:55px !important}*/
+.footer ul li a {line-height:1.5}
+.fail_content .message{height:0px; position:relative; top:200px;}
+
+.font12{font-size:0.6rem;}
+.font14{font-size:0.7rem;}
+.bba059{color:#bba059;}
+.bg-white{background:#fff;}
+.pub-mt5{margin-top:5%;}
+
+.pub-title{display:block;padding:1.2rem 0 1rem;margin:0 15%;text-align:center;color:#bba059;line-height:1.75;font-weight:500;font-size:0.7rem;}
+.pub-title span{color:#222;}
+.pub-title em{color:#bba059;}
+
+.pub-form{width:100%;color:#999;}
+.pub-form fieldset{display:block;background:#fff;padding:0 5%;border-top:1px solid #e2e2e2;border-bottom:1px solid #e2e2e2;margin-bottom:1rem;}
+.pub-form label{display:block;padding:0.7rem 0;position:relative;border-bottom:1px solid #e2e2e2;}
+.pub-form label:last-child{border-bottom:none;}
+.pub-form label em{display:inline-block;width:4rem;max-width:4rem;}
+.pub-form label input[type='text']{display:inline-block;width:70%;background:none;border:none;}
+.pub-form label input:focus{border:none;outline:none;}
+.pub-form label select{margin-right:0.5rem;height:1.2rem;}
+
+.pub-list{background:#fff;border-top:1px solid #e2e2e2;}
+.pub-list li{border-bottom:1px solid #e2e2e2;padding:0.7rem 5%;position:relative;}
+.pub-list li:after{display:block;overflow:hidden;clear:both;height:0;visibility:hidden;content:".";}
+.pub-list li a{display:block;}
+.pub-list li p{float:left;padding-left:1rem;width:67%;line-height:1.4;}
+.pub-list li p.lh2{line-height:2;}
+.pub-list li .h30{height:1.8rem;    margin-bottom: 0.5rem;overflow: hidden; margin: 0 0 0 0;height: 45px;}
+.pub-list li .name{font-size:0.7rem;color:#222;margin-bottom:0.3rem;}
+.pub-list li .time{display:block;color:#666;font-size:0.6rem;}
+.pub-list li .i45{float:left;width:75px;max-width:45px;}
+.pub-list li .i55{float:left;width:55px;max-width:55px;}
+.pub-list li .i75{float:left;width:75px;max-width:75px;}
+.pub-list li .num{width:1.2rem;height:1.2rem;line-height:1.2rem;color:#bba059;border:1px solid #bba059;border-radius:0.6rem;position:absolute;right:5%;top:1rem;text-align:center;}
+.pub-list li .jt{width:0.3rem;height:0.45rem;background:url('../../img/jt.jpg') no-repeat;background-size:100% 100%;position:absolute;right:5%;top:0.9rem;}
+
+.pub-submit{display:inline-block;width:90%;border:none;padding:0.8rem 0;text-align:center;color:#fff;background:#3b84ed;font-size:0.7rem;}
+.pub-receive{float:left;width:3.5rem;height:1.2rem;line-height:1.2rem;border:1px solid #3b84ed;color:#3b84ed;text-align:center;margin-left:1rem;}

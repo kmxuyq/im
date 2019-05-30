@@ -1,0 +1,371 @@
+<?php defined('InShopNC') or exit('Access Invalid!');?>
+
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>商品列表</title>
+<link rel="stylesheet" type="text/css" href="<?php echo SHOP_TEMPLATES_URL;?>/css/ui.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo SHOP_TEMPLATES_URL;?>/css/style.css" />
+<!--<link href="<?php echo SHOP_TEMPLATES_URL;?>/css/layout.css" rel="stylesheet" type="text/css">-->
+
+<style type="text/css" media="all">
+#wrapper {
+	position:absolute; z-index:1;
+	top:45px; bottom:48px; left:-9999px;
+	width:100%;
+	background:#aaa;
+	overflow:auto;
+}
+
+#scroller {
+	position:absolute; z-index:1;
+/*	-webkit-touch-callout:none;*/
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	width:100%;
+	padding:0;
+}
+
+#scroller ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	width:100%;
+	text-align:left;
+}
+
+#scroller li {
+	padding:0 10px;
+	height:40px;
+	line-height:40px;
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #fff;
+	background-color:#fafafa;
+	font-size:14px;
+}
+
+#myFrame {
+	position:absolute;
+	top:0; left:0;
+}
+
+
+
+/**
+ *
+ * Pull down styles
+ *
+ */
+#pullDown, #pullUp {
+	background:#fff;
+	height:40px;
+	line-height:40px;
+	padding:5px 10px;
+	border-bottom:1px solid #ccc;
+	font-weight:bold;
+	font-size:14px;
+	color:#888;
+}
+#pullDown .pullDownIcon, #pullUp .pullUpIcon  {
+	display:block; float:left;
+	width:40px; height:40px;
+	background:url(http://statics.webkfa.com/img/pull-icon@2x.png) 0 0 no-repeat;
+	-webkit-background-size:40px 80px; background-size:40px 80px;
+	-webkit-transition-property:-webkit-transform;
+	-webkit-transition-duration:250ms;	
+}
+#pullDown .pullDownIcon {
+	-webkit-transform:rotate(0deg) translateZ(0);
+}
+#pullUp .pullUpIcon  {
+	-webkit-transform:rotate(-180deg) translateZ(0);
+}
+
+#pullDown.flip .pullDownIcon {
+	-webkit-transform:rotate(-180deg) translateZ(0);
+}
+
+#pullUp.flip .pullUpIcon {
+	-webkit-transform:rotate(0deg) translateZ(0);
+}
+
+#pullDown.loading .pullDownIcon, #pullUp.loading .pullUpIcon {
+	background-position:0 100%;
+	-webkit-transform:rotate(0deg) translateZ(0);
+	-webkit-transition-duration:0ms;
+
+	-webkit-animation-name:loading;
+	-webkit-animation-duration:2s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:linear;
+}
+
+@-webkit-keyframes loading {
+	from { -webkit-transform:rotate(0deg) translateZ(0); }
+	to { -webkit-transform:rotate(360deg) translateZ(0); }
+</style>
+<body ontouchstart>
+<header class="ui-header ui-header-positive qz-header-background qz-header-bb">
+    <i class="ui-icon-return" onclick="history.back()" style="color:#10b0e6;"></i>
+    <h1 class="qz-color">商品列表</h1>
+</header>
+
+<section class="ui-container">
+    <!--<div class="ui-tab">
+        <ul class="ui-tab-nav ui-border-b">
+            <li <?php if(!$_GET['key']){?>class="qz-background-blue" <?php }?>><font class="qz-color7">默认</font></li>
+		    <!--<li class="qz-background-blue">-->
+			<!--<li>销量&nbsp;<span class="qz-sort"></span></li>
+            <li>人气</li>
+            <li>价格</li>
+        </ul>
+    </div>-->
+    <div id="main-nav-holder"  class="ui-tab">
+        <ul class="nch-sortbar-array">
+            <li <?php if(!$_GET['key']){?>class="selected"<?php }?>><center><a href="<?php echo dropParam(array('order', 'key'));?>"  title="<?php echo $lang['goods_class_index_default_sort'];?>">
+			<?php echo $lang['goods_class_index_default'];?></a></center></li>
+            <li <?php if($_GET['key'] == '1'){?>class="selected"<?php }?>><center><a href="<?php echo ($_GET['order'] == '2' && $_GET['key'] == '1') ? replaceParam(array('key' => '1', 'order' => '1')):replaceParam(array('key' => '1', 'order' => '2')); ?>" <?php if($_GET['key'] == '1'){?>class="<?php echo $_GET['order'] == 1 ? 'asc' : 'desc';?>"<?php }?> title="<?php echo ($_GET['order'] == '2' && $_GET['key'] == '1')?$lang['goods_class_index_sold_asc']:$lang['goods_class_index_sold_desc']; ?>"><?php echo $lang['goods_class_index_sold'];?><i></i></a></center></li>
+            <li <?php if($_GET['key'] == '2'){?>class="selected"<?php }?>><center><a href="<?php echo ($_GET['order'] == '2' && $_GET['key'] == '2') ? replaceParam(array('key' => '2', 'order' => '1')):replaceParam(array('key' => '2', 'order' => '2')); ?>" <?php if($_GET['key'] == '2'){?>class="<?php echo $_GET['order'] == 1 ? 'asc' : 'desc';?>"<?php }?> title="<?php  echo ($_GET['order'] == '2' && $_GET['key'] == '2')?$lang['goods_class_index_click_asc']:$lang['goods_class_index_click_desc']; ?>"><?php echo $lang['goods_class_index_click']?><i></i></a></center></li>
+            <li <?php if($_GET['key'] == '3'){?>class="selected"<?php }?> class="border-right: solid 1px #E6E6E6;"><center><a href="<?php echo ($_GET['order'] == '2' && $_GET['key'] == '3') ? replaceParam(array('key' => '3', 'order' => '1')):replaceParam(array('key' => '3', 'order' => '2')); ?>" <?php if($_GET['key'] == '3'){?>class="<?php echo $_GET['order'] == 1 ? 'asc' : 'desc';?>"<?php }?> title="<?php echo ($_GET['order'] == '2' && $_GET['key'] == '3')?$lang['goods_class_index_price_asc']:$lang['goods_class_index_price_desc']; ?>"><?php echo $lang['goods_class_index_price'];?><i></i></a></center></li>
+          </ul>
+       
+
+    <div class="qz-padding qz-padding-t"  id="wrapper">
+	<input type="hidden" id="lockcompare" value="unlock" />
+  <?php if(!empty($output['goods_list']) && is_array($output['goods_list'])){?>
+   <div id="pullDown">
+		<span class="pullDownIcon"></span><span class="pullDownLabel">下拉刷新...</span>
+	</div>
+        <ul id="ui-list" style="border-bottom:none;">
+		<?php foreach($output['goods_list'] as $value){?>
+            <li class="ui-border-b">
+                <div class="ui-list-thumb qz-list-thumb" style="width:90px;height:100px"  nctype_goods=" <?php echo $value['goods_id'];?>" nctype_store="<?php echo $value['store_id'];?>">
+				<a href="<?php echo urlShopWAP('goods','index',array('goods_id'=>$value['goods_id']));?>" target="_blank" title="<?php echo $value['goods_name'];?>"><img src="<?php echo thumb($value, 240);?>" title="<?php echo $value['goods_name'];?>" alt="<?php echo $value['goods_name'];?>"  class="qz-img-block" /></a>
+				 <?php if (C('groupbuy_allow') && $value['goods_promotion_type'] == 1) {?>
+                    <i class="qz-label2">抢</i>
+					<?php } elseif (C('promotion_allow') && $value['goods_promotion_type'] == 2)  {?>
+					<i class="qz-label3">折</i>
+					 <?php }?>
+                </div>
+				
+                <div class="ui-list-info qz-light3">
+                    <h4 class="ui-nowrap">
+					<a href="<?php echo urlShopWAP('goods','index',array('goods_id'=>$value['goods_id']));?>" target="_blank" title="<?php echo $value['goods_jingle'];?>" style="color:#50585C;"><?php echo $value['goods_name_highlight'];?></a></h4>
+                    <div class="qz-bk5"></div>
+                    <ul class="qz-star-list2">
+                        <li class="clearfix">
+						<span class="raty" data-score="<?php echo $value['evaluation_good_star'];?>"></span>
+                        </li>
+                    </ul>
+                        
+                    
+                    <div class="clearfix">
+                        <span class="qz-fl qz-color2"><font class="qz-f22">
+						<?php echo ncPriceFormatForList($value['goods_promotion_price']);?>
+						</font></span>
+						
+						
+						<?php if ($_SESSION['is_login'] == '1'){?>
+						<?php if ($value['is_virtual'] != 1) {?>
+						<!--<a href="javaScript:void(0)" id="buynow_submit" title="立即购买">-->
+						<a href="javascript:void(0);" nctype="buy_now" data-param="{goods_id:<?php echo $value['goods_id'];?>}"  title="立即购买"><span class="qz-fr qz-ico qz-ico-shopping"></span><a>
+						<?php } else{?> 
+						<a href="javascript:void(0);" nctype="add_cart" data-param="{goods_id:<?php echo $value['goods_id'];?>}" title="加入购物车"><span class="qz-fr qz-ico qz-ico-shopping"></span><a>
+					<?php } }else{?>
+						<a href="<?php echo urlShopWap('login', 'index');?>" title="登录">
+						<span class="qz-fr qz-ico qz-ico-shopping"></span></a>
+                   <?php }?>
+					</div>
+                </div>
+            </li>
+            <?php };?>
+        </ul>
+		<div id="pullUp">
+			<span class="pullUpIcon"></span><span class="pullUpLabel">下拉刷新...</span>
+	</div>
+		<?php };?>
+    </div>    
+	</div>
+</section>
+
+<form id="buynow_form" method="post" action="<?php echo SHOP_SITE_URL;?>/index.php" target="_blank">
+  <input id="act" name="act" type="hidden" value="buy" />
+  <input id="op" name="op" type="hidden" value="buy_step1" />
+  <input id="goods_id" name="cart_id[]" type="hidden"/>
+</form>
+
+
+<script type="text/javascript" src="<?php echo RESOURCE_SITE_URL;?>/iscroll.js"></script> 
+<script type="text/javascript" src="<?php echo RESOURCE_SITE_URL;?>/js/jquery.raty/jquery.raty.min.js"></script> 
+<script src="<?php echo RESOURCE_SITE_URL;?>/js/waypoints.js"></script>
+<script src="<?php echo SHOP_RESOURCE_SITE_URL;?>/js/search_category_menu.js"></script>
+<script src="<?php echo SHOP_RESOURCE_SITE_URL.'/js/search_goods.js';?>"></script>
+
+<script type="text/javascript">
+
+var defaultSmallGoodsImage = '<?php echo defaultGoodsImage(240);?>';
+var defaultTinyGoodsImage = '<?php echo defaultGoodsImage(60);?>';
+
+$(function(){
+    $('#files').tree({
+        expanded: 'li:lt(2)'
+    });
+
+    //浮动导航  waypoints.js
+    $('#main-nav-holder').waypoint(function(event, direction) {
+        $(this).parent().toggleClass('sticky', direction === "down");
+        event.stopPropagation();
+    });
+	// 单行显示更多
+	$('span[nc_type="show"]').click(function(){
+		s = $(this).parents('dd').prev().find('li[nc_type="none"]');
+		if(s.css('display') == 'none'){
+			s.show();
+			$(this).html('<i class="icon-angle-up"></i><?php echo $lang['goods_class_index_retract'];?>');
+		}else{
+			s.hide();
+			$(this).html('<i class="icon-angle-down"></i><?php echo $lang['goods_class_index_more'];?>');
+		}
+	});
+
+	<?php if(isset($_GET['area_id']) && intval($_GET['area_id']) > 0){?>
+  // 选择地区后的地区显示
+  $('[nc_type="area_name"]').html('<?php echo $output['province_array'][intval($_GET['area_id'])]; ?>');
+	<?php }?>
+
+	<?php if(isset($_GET['cate_id']) && intval($_GET['cate_id']) > 0){?>
+	// 推荐商品异步显示
+    $('div[nctype="booth_goods"]').load('<?php echo urlShopWAP('search', 'get_booth_goods', array('cate_id' => $_GET['cate_id']))?>', function(){
+        $(this).show();
+    });
+	<?php }?>
+	//浏览历史处滚条
+	$('#nchSidebarViewed').perfectScrollbar();
+
+	//猜你喜欢
+	$('#guesslike_div').load('<?php echo urlShopWAP('search', 'get_guesslike', array()); ?>', function(){
+        $(this).show();
+    });
+});
+
+ $(document).ready(function(){
+        $('.raty').raty({
+            path: "<?php echo RESOURCE_SITE_URL;?>/js/jquery.raty/img",
+            readOnly: true,
+            width: "auto",
+            score: function() {
+              return $(this).attr('data-score');
+            }
+        });
+      	//初始化对比按钮
+    	initCompare();
+    });
+
+/**********************************************************
+下拉、上拉加载刷新
+*****************************************************************/
+/**
+*定义局部变量
+**/
+	var myScroll,
+	pullDownEl, pullDownOffset,
+	pullUpEl, pullUpOffset,
+	generatedCount = 0;
+
+	/**
+	*下拉刷新
+	*/
+	function pullDownAction () {
+	setTimeout(function () {	// <-- Simulate network congestion, remove setTimeout from production!
+		var el, li, i;
+		el = document.getElementById('ui-list');
+
+		for (i=0; i<3; i++) {
+			li = document.createElement('li');
+			li.innerText = 'Generated row ' + (++generatedCount);
+			el.insertBefore(li, el.childNodes[0]);
+		}
+		
+		myScroll.refresh();		// Remember to refresh when contents are loaded (ie: on ajax completion)
+	}, 1000);	// <-- Simulate network congestion, remove setTimeout from production!
+}
+
+/**
+	*上拉刷新
+	*/
+function pullUpAction () {
+	setTimeout(function () {	// <-- Simulate network congestion, remove setTimeout from production!
+		var el, li, i;
+		el = document.getElementById('ui-list');
+
+		for (i=0; i<3; i++) {
+			li = document.createElement('li');
+			li.innerText = 'Generated row ' + (++generatedCount);
+			el.appendChild(li, el.childNodes[0]);
+		}
+		
+		myScroll.refresh();		// Remember to refresh when contents are loaded (ie: on ajax completion)
+	}, 1000);	// <-- Simulate network congestion, remove setTimeout from production!
+}
+
+/**
+*加载
+**/
+
+function loaded() {
+	pullDownEl = document.getElementById('pullDown');
+	pullDownOffset = pullDownEl.offsetHeight;
+	pullUpEl = document.getElementById('pullUp');	
+	pullUpOffset = pullUpEl.offsetHeight;
+alert(pullDownOffset+"==="+pullUpOffset)
+	myScroll = new iScroll('wrapper', {
+		useTransition: true,
+		topOffset: pullDownOffset,
+		onRefresh: function () {
+			if (pullDownEl.className.match('loading')) {
+				pullDownEl.className = '';
+				pullDownEl.querySelector('.pullDownLabel').innerHTML = '加载更多...';
+			} else if (pullUpEl.className.match('loading')) {
+				pullUpEl.className = '';
+				pullUpEl.querySelector('.pullUpLabel').innerHTML = '加载更多...';
+			}
+		},
+		onScrollMove: function () {
+			if (this.y > 5 && !pullDownEl.className.match('flip')) {
+				pullDownEl.className = 'flip';
+				pullDownEl.querySelector('.pullDownLabel').innerHTML = '重新加载...';
+				this.minScrollY = 0;
+			} else if (this.y < 5 && pullDownEl.className.match('flip')) {
+				pullDownEl.className = '';
+				pullDownEl.querySelector('.pullDownLabel').innerHTML = '下拉加载...';
+				this.minScrollY = -pullDownOffset;
+			} else if (this.y < (this.maxScrollY - 5) && !pullUpEl.className.match('flip')) {
+				pullUpEl.className = 'flip';
+				pullUpEl.querySelector('.pullUpLabel').innerHTML = '重新加载...';
+				this.maxScrollY = this.maxScrollY;
+			} else if (this.y > (this.maxScrollY + 5) && pullUpEl.className.match('flip')) {
+				pullUpEl.className = '';
+				pullUpEl.querySelector('.pullUpLabel').innerHTML = '上拉加载...';
+				this.maxScrollY = pullUpOffset;
+			}
+		},
+		onScrollEnd: function () {
+			if (pullDownEl.className.match('flip')) {
+				pullDownEl.className = 'loading';
+				pullDownEl.querySelector('.pullDownLabel').innerHTML = 'Loading...';				
+				pullDownAction();	// Execute custom function (ajax call?)
+			} else if (pullUpEl.className.match('flip')) {
+				pullUpEl.className = 'loading';
+				pullUpEl.querySelector('.pullUpLabel').innerHTML = 'Loading...';				
+				pullUpAction();	// Execute custom function (ajax call?)
+			}
+		}
+	});
+	
+	setTimeout(function () { document.getElementById('wrapper').style.left = '0'; }, 800);
+}
+
+document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+
+document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded, 200); }, false);
+
+
+</script>

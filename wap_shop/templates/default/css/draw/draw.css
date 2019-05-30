@@ -1,0 +1,419 @@
+/**/
+.draw_index {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: url("../../img/draw/draw_index.jpg") no-repeat center;
+    background-size: contain;
+}
+.draw_tt {
+    height: 45px;
+    line-height: 45px;
+    background: #343438;
+    position: relative;
+    text-align: center;
+}
+.draw_tt .arrow {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    width: 45px;
+    height: 45px;
+    background: url("../../img/draw/weixin_arrow.jpg") no-repeat left center;
+    background-size: 12px;
+    padding-left: 15px;
+    color: #fff;
+    font-family: "Microsoft Yahei";
+    font-size: 16px;
+}
+.draw_tt h1 {
+    color: #fff;
+    font-weight: bold;
+    height: 45px;
+    line-height: 47px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.draw_tt .rt_text {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    width: 60px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    font-family: "Microsoft Yahei";
+}
+.draw_sign {
+    overflow: hidden;
+    padding: 10px 0;
+}
+.draw_sign .user_hd_wrap {
+    width: 25%;
+    height: 100px;
+    float: left;
+    overflow: hidden;
+    margin: 5px 0;
+    transition: 0.6s all;
+}
+.draw_sign .user_hd_wrap .center {
+    width: 80px;
+    margin: 0 auto;
+}
+.draw_sign .user_hd_wrap .center img {
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+}
+.draw_sign .user_hd_wrap .center p {
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    font-family: "Microsoft Yahei";
+    color: #333;
+    overflow: hidden;
+}
+.draw_sign .user_hd_wrap .center span {
+    display: block;
+    font-size: 12px;
+    font-family: Arial;
+    color: #999;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+}
+.jion_draw_wrap {
+    width: 100%;
+    height: 60px;
+    background: #fd4644;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.jion_draw_wrap a {
+    display: block;
+    width: 200px;
+    height: 40px;
+    background: url("../../img/draw/join_draw.jpg") no-repeat center;
+    margin: 10px auto 0;
+    background-size: contain;
+}
+.draw_pop_win {
+    background: url("../../img/draw/draw_pop_sgin.png") no-repeat center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 330px;
+    height: 380px;
+    z-index: 999;
+    border-radius: 10px;
+    background-size: 300px;
+    margin-right: -50px;
+    margin-top: -50px;
+    display: none;
+    transition: 0.6s all;
+    transform: scale(0);
+}
+.draw_pop_win .draw_pop_userhd {
+    border-radius: 50px;
+    display: block;
+    width: 90px;
+    height: 90px;
+    background: #fff;
+    border: 2px #70cff9 solid;
+    margin: 145px auto 0;
+    position: relative;
+    left: -10px;
+}
+.draw_pop_win .draw_btns {
+    margin: 55px auto 0;
+    position: relative;
+    left: -10px;
+    width: 160px;
+    height: 40px;
+    background: url("../../img/draw/draw_sign_btn.jpg") no-repeat center;
+    background-size: 160px;
+    border: none;
+    display: block;
+    transition: 0.3s all;
+}
+.draw_pop_win .close-btn {
+    background: url("../../img/draw/sign_close_btn.png") no-repeat center;
+    width: 40px;
+    height: 40px;
+    background-size: 40px;
+    margin: 60px auto 0;
+    position: relative;
+    left: -10px;
+}
+.newyear_info .tt {
+    width: 100%;
+}
+.newyear_info .content {
+    padding: 0 20px;
+}
+.newyear_info .content p {
+    line-height: 25px;
+    color: #fff;
+    padding: 5px 0;
+}
+.newyear_info .content p span {
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 5px;
+}
+.newyear_draw_img {
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.newyear_draw_img img {
+    width: 100%;
+}
+.newyear_draw_img .link {
+    position: absolute;
+    right: 4%;
+    bottom: 8%;
+    width: 29%;
+}
+.newyear_draw_img .startTime {
+    position: absolute;
+    right: 4%;
+    bottom: 31%;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    text-align: center;
+    overflow: hidden;
+    color: #000;
+}
+
+.animate_wrap {
+    opacity: 0;
+    transition: 0.8s all;
+}
+.draw_time_null {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.slot_machines {
+    width: 330px;
+    height: 424px;
+    background: url("../../img/draw/draw_machine.jpg") no-repeat center;
+    margin: 0 auto;
+    overflow: hidden;
+    background-size: 100%;
+    position: relative;
+}
+.slot_machines .tt {
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff1b2;
+    font-size: 16px;
+    font-family: "Microsoft Yahei";
+    margin: 42px auto 0;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    left: -10px;
+}
+.slot_machines .win_name {
+    width: 200px;
+    height: 90px;
+    line-height: 90px;
+    margin: 50px auto 0;
+    font-size: 20px;
+    font-family: "Microsoft Yahei";
+    text-align: center;
+    color: #333;
+    position: relative;
+    left: -5px;
+    overflow: hidden;
+}
+.slot_machines .lucky_up {
+    width: 250px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    position: relative;
+    left: -5px;
+    background: url("../../img/draw/lucky_up.jpg") no-repeat center;
+    margin: 43px auto 0;
+    display: block;
+    border: none;
+    background-size: contain;
+    font-family: Arial, "黑体", "Microsoft Yahei";
+    color: #fd4745;
+    font-size: 20px;
+    transition: 0.3s all;
+}
+.slot_machines .lucky_up .btn_text {
+    margin-left: -6px;
+}
+.slot_machines .lucky_up .btn_animate {
+    display: inline-block;
+    position: relative;
+    height: 20px;
+    line-height: 20px;
+}
+.slot_machines .lucky_up .btn_animate em {
+    transition: 0.8s all;
+    display: inline-block;
+    position: absolute;
+    left: 1px;
+    top: 6px;
+    width: 20px;
+    height: 14px;
+    line-height: 14px;
+    font-weight: normal;
+}
+.slot_machines .lucky_up .btn_animate em.on {
+    transform: translateY(-150px) scale(2.5);
+    opacity: 0.1;
+}
+.win_list_div  ul {
+    margin: 0 auto;
+    text-align: center;
+}
+.win_list_div  ul li {
+    float: left;
+    text-align: center;
+    width: 33%;
+    line-height: 30px;
+    color: #fff;
+    overflow: hidden;
+}
+
+.bg-mark {
+    background: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 888;
+    display: none;
+}
+
+.slot_machines_amite{
+    animation:slot_amite 1s forwards;
+    -webkit-animation:slot_amite 3s forwards;
+}
+
+.machin_top_dot{
+    width: 260px;
+    height: 30px;
+    position: absolute;
+    left: 30px;
+    top: 78px;
+    line-height: 29px;
+}
+.machin_top_dot li{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    display: inline-block; background:#000;
+    margin: 0 5px;
+}
+.machin_top_dot2{
+    width: 260px;
+    height: 30px;
+    position: absolute;
+    left: 30px;
+    top: 225px;
+    line-height: 29px;
+}
+.machin_top_dot2 li{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.machin_top_dot2 li:nth-of-type(2n+1){
+    background:#fff;
+    box-shadow: 0px 0px 6px rgba(255,72,41,0.9);
+    -webkit-animation:liColorAnimate 0.4s ease-out infinite alternate;
+    animation:liColorAnimate 0.3s ease-out infinite alternate;
+}
+.machin_top_dot2 li:nth-of-type(2n){
+    background:#fffaa6;
+    box-shadow: 0px 0px 6px rgba(255,250 ,166,0.9);
+    -webkit-animation:liColorAnimate2 0.4s ease-in infinite alternate;
+    animation:liColorAnimate2 0.3s ease-out infinite alternate;;
+}
+.machin_top_dot li:nth-of-type(2n+1){
+    background:#fff;
+    box-shadow: 0px 0px 6px rgba(255,72,41,0.9);
+    -webkit-animation:liColorAnimate 0.4s ease-out infinite alternate;
+    animation:liColorAnimate 0.3s ease-out infinite alternate;
+}
+.machin_top_dot li:nth-of-type(2n){
+    background:#fffaa6;
+    box-shadow: 0px 0px 6px rgba(255,250 ,166,0.9);
+    -webkit-animation:liColorAnimate2 0.4s ease-out infinite alternate;
+    animation:liColorAnimate2 0.3s ease-out infinite alternate;
+}
+
+
+@keyframes liColorAnimate {
+    0%{
+        background:#fff;
+        box-shadow: 0px 0px 10px rgba(255,72,41,1)
+    }
+    100%{
+        background:#fffaa6;
+        box-shadow: 0px 0px 10px rgba(255,250 ,166,1);
+    }
+}
+@keyframes liColorAnimate2 {
+    0%{
+        background:#fffaa6;
+        box-shadow: 0px 0px 10px rgba(255,250 ,166,1);
+    }
+    100%{
+        background:#fff;
+        box-shadow: 0px 0px 10px rgba(255,72,41,1);
+    }
+}
+.product_pop{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    background: #fff;
+    z-index: 999;
+    overflow: hidden;
+    overflow-y: auto;;
+    box-sizing: border-box;
+    padding: 15px 10px;
+}
+.product_pop .content{
+    overflow: hidden;
+    line-height: 20px;
+}
+.top_product_detail{padding: 0 10px; color: #fff;}
+.top_product_detail .tt{font-size: 16px; height: 30px; line-height: 30px; }
+.top_product_detail .tt span{float: left;}
+.top_product_detail .tt .icon{float: left; width: 20px; height: 20px; background: url("../../img/draw/icon_bg.jpg") no-repeat center ; background-size: 14px; position: relative; left: 2px; top: 5px; transition:0.3s all}
+.top_product_detail .tt.on .icon{transform:rotateX(180deg); top: 7px}
+.top_product_detail .content{line-height: 30px; display: none; clear: both; overflow: hidden;}
+.top_product_detail .content li{height: 30px; line-height: 30px; overflow: hidden}
+.top_product_detail li span{float: left; height: 30px; line-height: 30px; overflow: hidden;width: 70%}
+.top_product_detail li em{float: right;font-weight: 300;float: right;width: 57px;}
+@-webkit-keyframes slot_amite{
+    0%{opacity: 0}
+    100%{opacity: 1}
+}
+.win_list_div ul li{height:40px;}

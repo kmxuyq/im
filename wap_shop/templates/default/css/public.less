@@ -1,0 +1,107 @@
+.w(@w:auto){
+  width: @w;
+}
+.h(@h:auto){
+  height: @h;
+}
+.lh(@lh:20px){
+  line-height: @lh;
+}
+.hh(@h:20px){
+  .h(@h);
+  .lh(@h);
+}
+.hh(@h,@lh){
+  .h(@h);
+  .lh(@lh);
+}
+.wh(@w:auto,@h:auto){
+  .w(@w);
+  .h(@h);
+}
+.whh(@w:auto,@h:auto){
+  .w(@w);
+  .h(@h);
+  .lh(@h);
+}
+.whh(@w:auto,@h:auto,@lh:1){
+  .w(@w);
+  .h(@h);
+  .lh(@lh);
+}
+
+.fl(){
+  float: left;
+}
+.fr() {
+  float: right;
+}
+.dfx(){
+  display: -moz-box;  /* Firefox */
+  display: -ms-flexbox;    /* IE10 */
+  display: -webkit-box;    /* Safari */
+  display: -webkit-flex;
+  display:flex;
+}
+.elfx(@numb:1){
+  flex:@numb;
+  -webkit-box-flex: @numb;	  /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-box-flex: @numb;		 /* OLD - Firefox 19- */
+  -ms-flex: @numb;			  /* IE 10 */
+  -webkit-flex: @numb;		  /* Chrome */
+  flex: @numb;
+}
+.fsz(@fz:20px){
+  font-size:@fz;
+}
+.pst(@mth){
+  position: @mth;
+}
+.ffy(@f:"宋体"){
+  font-family: @f;
+}
+.ftw(){
+  font-weight: bold;
+}
+/**/
+@yl:#efca00;    //黄色
+@wt:#fff;       //白色
+@org:#f67b29;   //橘黄色
+@Yh:"Microsoft Yahei";  //字体
+@abs:absolute;
+@fix:fixed;
+@ref:relative;
+
+/*动画*/
+.trans(@str:0.3s all){
+  -webkit-transition:@str;
+  -moz-transition:@str;
+  transition:@str;
+}
+
+.transf(@str){
+  -moz-transform:@str;
+  -webkit-transform:@str;
+  -ms-transform:@str;
+  transform:@str;
+}
+.yh(){
+  font-family: "Microsoft Yahei";
+}
+
+.tl(@t:0,@l:0){
+  top:@t;
+  left:@l;
+}
+
+.tr(@t:0,@r:0){
+  top:@t;
+  right:@r;
+}
+
+.blur(@px:1px){
+  -webkit-filter: blur(@px); /* Chrome, Opera */
+  -moz-filter: blur(@px);
+  -ms-filter: blur(@px);
+  filter: blur(@px);
+}

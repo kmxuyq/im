@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta content="text/html;charset=utf-8" http-equiv="content-type">
+            <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
+            <meta content="UTF-8" http-equiv="Content-Language"/>
+            <meta content="--------template_kewords----------" name="Keywords"/>
+            <meta content="--------template_author----------" name="author"/>
+            <meta content="版权所有,违者必究" name="Copyright"/>
+            <meta content="telephone=no" name="format-detection"/>
+            <link href="../../resource/css/reset.css" rel="stylesheet" type="text/css">
+                <link href="../../resource/css/public.less" rel="stylesheet/less" type="text/css">
+                    <link href="../../resource/css/gt_newpage.less" rel="stylesheet/less" type="text/css">
+                        <link href="../../resource/css/nctouch_chat.css" rel="stylesheet" type="text/css">
+                            <script src="../../resource/js/jquery-1.11.3.min.js">
+                            </script>
+                            <script src="../../resource/js/flexible.js">
+                            </script>
+                            <script src="../../resource/js/less.min.js">
+                            </script>
+                        </link>
+                    </link>
+                </link>
+            </link>
+        </meta>
+    </head>
+</html>
+<script src="../../resource/js/jquery.qqFace.js" type="text/javascript">
+</script>
+<body class="gt_newpage_body">
+    <div class="train_position_top" style="    z-index: 999999;">
+        <div class="arrow" onclick="history.go(-1)">
+        </div>
+        <div class="text">
+            在线咨询
+        </div>
+    </div>
+    <div id="goods_detail" style="    position: fixed; top: 1rem; width: 100%;">
+    </div>
+    <div class="nctouch-chat-con" style="position: relative; z-index: -1; max-height: 100%; left: 0px; right: 0px; overflow-x: hidden; overflow-y: auto; /*top: 4rem; margin-bottom: 1.5rem; bottom: 2rem;*/">
+        <div class="margin-heigh" id="product_height" style="display: none; width: 100%; height: 6.2rem;">
+        </div>
+        <div id="chat_msg_html">
+        </div>
+        <a href="javascript:void(0);" id="anchor-bottom">
+        </a>
+    </div>
+    <!--发送-->
+    <div class="nctouch-chat-bottom" style="    position: fixed;  left: 0; right: 0; bottom: 0;">
+        <div class="talk_send_box clearfix" style="position: relative;">
+            <div class="talk_send_mthod">
+                <div class="talk_face open-smile" id="open_smile">
+                    <a href="javascript:void(0)">
+                    </a>
+                </div>
+                <div class="talk_text">
+                    <input class="text_ipt" id="msg" placeholder="我想说 ..." type="text"/>
+                    <!-- <textarea class="text_ipt" cols="30" id="msg" name="" placeholder="我想说 ..." rows="10">
+                        </textarea> -->
+                </div>
+                <span class="send_img" onclick="uploadphoto.click()">
+                    <!-- <input accept="image/*" name="file" type="file"/> -->
+                    <input id="uploadphoto" name="uploadfile" style="display:none;" type="file" value="请点击上传图片"/>
+                </span>
+                <input class="talk_send_text" id="submit" type="button" value="发送"/>
+            </div>
+            <!--发送表情-->
+            <div class="talk_faces">
+            </div>
+        </div>
+        <div class="chat-smile-layout hide" id="chat_smile">
+            <ul>
+            </ul>
+        </div>
+    </div>
+    <!-- 表情 -->
+    <script>
+        $(function(){
+        $('input[type="text"],textarea').on('click', function () {
+          var target = this;
+          setTimeout(function(){
+              $('#anchor-bottom')[0].scrollIntoView();
+                target.scrollIntoViewIfNeeded();
+              },400);
+          // setTimeout(function(){
+          //       $('#anchor-bottom').scrollIntoViewIfNeeded();
+          //     },400);
+        });
+
+        //调用到滚动到底部
+        function goDown(){
+            var scrollH = $('#face_msgshow')[0].scrollHeight;
+            $('#face_msgshow').scrollTop(scrollH)
+        }
+
+        //获取光标关闭表情
+        $('.talk_text #saytext').focus(function(){
+            $('.emotion').removeClass('on');
+            $('.talk_send_box').animate({height:50},function(){
+                faceMsgshowAutoHight();
+            });
+        });
+
+        /*动态计算高度*/
+        $('#face_msgshow').css({
+            height:$(window).height()-$('.train_position_top').height()-$('.talk_product').height()-$('.talk_send_box').height()
+        })
+
+        /**/
+        $('.talk_choose_date .date_cell').click(function(){
+            $('.talk_choose_date .date_cell').removeClass('on');
+            $(this).addClass('on');
+        });
+    });
+    //查看结果
+    function replace_em(str){
+        str = str.replace(/\</g,'&lt;');
+        str = str.replace(/\>/g,'&gt;');
+        str = str.replace(/\n/g,'<br/>');
+        str = str.replace(/\[em_([0-9]*)\]/g,'<img src="arclist/$1.gif" border="0" />');
+        return str;
+    }
+//返回日期
+function CurentTime(){
+    var now = new Date();
+
+    var year = now.getFullYear();       //年
+    var month = now.getMonth() + 1;     //月
+    var day = now.getDate();            //日
+
+    var hh = now.getHours();            //时
+    var mm = now.getMinutes();          //分
+
+    var clock = year + "-";
+
+    if(month < 10)
+        clock += "0";
+
+    clock += month + "-";
+
+    if(day < 10)
+        clock += "0";
+
+    clock += day + " ";
+
+    if(hh < 10)
+        clock += "0";
+
+    clock += hh + ":";
+    if (mm < 10) clock += '0';
+    clock += mm;
+    return(clock);
+}
+    </script>
+</body>
+<script src="/data/resource/js/fileupload/jquery.ui.widget.js" type="text/javascript">
+</script>
+<script src="/data/resource/js/fileupload/jquery.iframe-transport.js" type="text/javascript">
+</script>
+<script src="/data/resource/js/fileupload/jquery.fileupload.js" type="text/javascript">
+</script>
+<link href="/data/resource/js/fileupload/jquery.fileupload-ui.css" rel="stylesheet">
+</link>
+<script src="/shop/resource/layer/layer.js" type="text/javascript">
+</script>
+<script src="../../resource/js/zepto.min.js" type="text/javascript">
+</script>
+<script src="../../resource/js/config.js" type="text/javascript">
+</script>
+<script src="../../resource/js/common.js" type="text/javascript">
+</script>
+<script src="../../resource/js/simple-plugin.js" type="text/javascript">
+</script>
+<script src="../../resource/js/tmpl/chat_info.js" type="text/javascript">
+</script>

@@ -1,0 +1,525 @@
+<?php defined('InShopNC') or exit('Access Invalid!');?>
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>我的商城</title>
+<link rel="stylesheet" type="text/css" href="<?php echo SHOP_TEMPLATES_URL;?>/css/ui.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo SHOP_TEMPLATES_URL;?>/css/style.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo SHOP_TEMPLATES_URL;?>/css/lzf.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo SHOP_TEMPLATES_URL;?>/css/lightSlider.css" />
+<link rel="stylesheet" href="<?php echo SHOP_TEMPLATES_URL;?>/style/css/main.css">
+<script type="text/javascript">
+$(function(){
+	$(".recharge_em").click(function(){
+
+$("#azheng").hide();
+})
+})
+</script>
+
+<body ontouchstart>
+<div class="header_top" style=" position: absolute; left: 0; top: 0; width: 100%; z-index: 999; background: none">
+	<a href="#" class="lt_icon_arrow"></a>
+	<a href="index.php?act=member_message&op=systemmsg" class="rt_icon2"></a>
+</div>
+
+<div class="member_info_top">
+	<div class="user_header">
+		<img src="" alt="">
+		<p>编辑资料</p>
+	</div>
+	<div class="user_name">bola年小强</div>
+	<button class="safe">账户安全</button>
+</div>
+
+<ul class="member_method_cell">
+	<li>
+		<span class="icon1"></span>
+		<p>我的收藏</p>
+	</li>
+	<li>
+		<span class="icon2"></span>
+		<p>浏览历史</p>
+	</li>
+	<li>
+		<span class="icon3"></span>
+		<p>我的礼券</p>
+	</li>
+</ul>
+<div class="member_order_info">
+	<div class="order_top">
+		<div class="my_order_btn">
+			<span class="icon"></span>
+			<div class="text">
+				<h1>我的订单</h1>
+				<p>查看所有订单可以点击全部</p>
+			</div>
+		</div>
+		<button class="rt_button">全部</button>
+	</div>
+	<ul class="order_list_icon">
+		<li>
+			<a href="">
+				<span class="icon1"></span>
+				<p>待收货</p>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<span class="icon2"></span>
+				<p>已发货</p>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<span class="icon3"></span>
+				<p>评价</p>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<span class="icon4"></span>
+				<p>完成</p>
+			</a>
+		</li>
+	</ul>
+</div>
+
+<ul class="member_action_link">
+	<li>
+		<a href="">
+			<span class="icon1"></span>
+			<span class="text">收货地址</span>
+		</a>
+	</li>
+	<li>
+		<a href="">
+			<span class="icon2"></span>
+			<span class="text">我的评价</span>
+		</a>
+	</li>
+	<li>
+		<a href="">
+			<span class="icon3"></span>
+			<span class="text">交易投诉</span>
+		</a>
+	</li>
+	<li>
+		<a href="">
+			<span class="icon4"></span>
+			<span class="text">平台服务</span>
+		</a>
+	</li>
+	<li>
+		<a href="">
+			<span class="icon5"></span>
+			<span class="text">帮助中心</span>
+		</a>
+	</li>
+	<li>
+		<a href="">
+			<span class="icon6"></span>
+			<span class="text">售后服务</span>
+		</a>
+	</li>
+</ul>
+
+<style>
+	body{background: #f4f4f4;}
+</style>
+<section class="ui-container">
+	<!--顶部 个人信息 start-->
+	<div class="memberBanner">
+		<img src="<?php echo SHOP_TEMPLATES_URL;?>/images/new/mebg_02.jpg" />
+		<div class="memberBanner_Pic img_0" id="hide_no_0">
+			<div class="memberBanner_PicL">
+				<a class="memberBanner_PicL_a1" style="width:126px;" href="index.php?act=member_information&op=index" title="修改资料">
+					<img style="border: 3px rgba(255,255,255,0.6) solid;"  src="<?php echo getMemberAvatar($output['member_info']['member_avatar']);?>"/>
+					<span style="margin-top:8px;"><?php echo $output['member_info']['member_name'];?></span>
+				</a>
+			</div>
+		</div>
+		<div class="memberBanner_Pic1" style="display: none;" id="hide_no_1">
+			<div class="memberBanner_PicL">
+				<a class="memberBanner_PicL_a1" style="width:126px;" href="index.php?act=member_information&op=index" title="修改资料">
+					<img style="border: 3px rgba(255,255,255,0.6) solid;"  src="<?php echo getMemberAvatar($output['member_info']['member_avatar']);?>"/>
+					<span style="margin-top:8px;"><?php echo $output['member_info']['member_name'];?></span>
+				</a>
+			</div>
+		</div>
+		<script type="text/javascript">
+		var w=window.innerWidth|| document.documentElement.clientWidth|| document.body.clientWidth;
+		if(w>350){
+			$('#hide_no_0').show();
+			$('#hide_no_1').hide();
+		}else {
+			$('#hide_no_0').hide();
+			$('#hide_no_1').show();
+		}
+		</script>
+		<div class="memberBanner_B">
+			<a class="memberBanner_B_1" href="index.php?act=member_favorites&op=fglist&show=list">
+				<span>
+				<img src="<?php echo SHOP_TEMPLATES_URL;?>/images/new/memberBanner1.png"/>
+				</span>
+				<p>我的收藏</p>
+			</a>
+
+			<!-- <a class="memberBanner_B_1" href="index.php?act=member_favorites&op=fslist">
+				<span id="store_count">0</span>
+				<p>店铺收藏</p>
+			</a> -->
+
+			<a class="memberBanner_B_2" href="index.php?act=member_goodsbrowse&op=list">
+				<span>
+					<img src="<?php echo SHOP_TEMPLATES_URL;?>/images/new/memberBanner2.png"/>
+				</span>
+				<p>浏览历史</p>
+			</a>
+
+			<a class="memberBanner_B_3" href="index.php?act=member_voucher">
+				<span>
+					<img src="<?php echo SHOP_TEMPLATES_URL;?>/images/new/memberBanner3.png"/>
+				</span>
+				<p>我的礼券</p>
+			</a>
+		</div>
+	</div>
+	<!--顶部 个人信息 end-->
+	<script type="text/javascript">
+	$(function(){
+		//加载商品收藏和店铺收藏统计
+		$.ajax({
+                 type: "POST",
+                 url: 'index.php?act=member&op=ajax_load_goods_info',
+                 success: function(data){
+					   var datas = eval("("+data+")")
+					   $('#goods_count').empty()
+					   $('#store_count').empty();
+                      $('#goods_count').append(datas.goods_count)
+					  $('#store_count').append(datas.store_count)
+                 }
+        });
+	})
+	</script>
+	<!--实物订单  start-->
+	<div class="member_Box1">
+		<div class="member_Box1_tt">
+			我的订单&nbsp;&nbsp;(实物商品)
+		</div>
+        <ul class="member_BList" id="member_BList">
+            <li>
+                <a href="index.php?act=member_order">
+                    <img src="<?php echo SHOP_TEMPLATES_URL;?>/images/new/all.png" />
+                    <span>全部</span>
+                </a>
+            </li>
+			<li>
+                <a href="index.php?act=member_order&state_type=state_new">
+                    <img src="<?php echo SHOP_TEMPLATES_URL;?>/images/new/dfk.png" />
+                    <span>待付款</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.php?act=member_order&state_type=state_pay">
+                    <img src="<?php echo SHOP_TEMPLATES_URL;?>/images/new/dfh.png" />
+                    <span>待发货</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.php?act=member_order&state_type=state_send">
+                    <img src="<?php echo SHOP_TEMPLATES_URL;?>/images/new/dsh.png" />
+                    <span>待收货</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.php?act=member_order&state_type=state_noeval">
+                    <img src="<?php echo SHOP_TEMPLATES_URL;?>/images/new/dpj.png" />
+                    <span>待评价</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.php?act=member_order&state_type=state_success">
+                    <img src="<?php echo SHOP_TEMPLATES_URL;?>/images/new/ywc.png" />
+                    <span>已完成</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.php?act=member_order&state_type=state_cancel">
+                    <img src="<?php echo SHOP_TEMPLATES_URL;?>/images/new/yqx.png" />
+                    <span>已取消</span>
+                </a>
+            </li>
+         </ul>
+        </div>
+
+   <div class="member_Box1">
+		<div class="member_Box1_tt">
+			我的订单&nbsp;&nbsp;(虚拟商品)
+		</div>
+        <ul class="member_BList" id="member_BList">
+            <li>
+                <a href="index.php?act=member_vr_order">
+                    <img src="<?php echo SHOP_TEMPLATES_URL;?>/images/new/all.png" />
+                    <span>全部</span>
+                </a>
+            </li>
+			<li>
+                <a href="index.php?act=member_vr_order&state_type=state_new">
+                    <img src="<?php echo SHOP_TEMPLATES_URL;?>/images/new/dfk.png" />
+                    <span>待付款</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.php?act=member_vr_order&state_type=state_pay">
+                    <img src="<?php echo SHOP_TEMPLATES_URL;?>/images/new/yfk_icon.png" />
+                    <span>已付款</span>
+                </a>
+            </li>
+			<li>
+				<a href="index.php?act=member_vr_order&state_type=state_noeval">
+					<img src="<?php echo SHOP_TEMPLATES_URL;?>/images/new/dpj.png" />
+					<span>待评价</span>
+				</a>
+			</li>
+			<li>
+                <a href="index.php?act=member_vr_order&state_type=state_success">
+                    <img src="<?php echo SHOP_TEMPLATES_URL;?>/images/new/ywc.png" />
+                    <span>已完成</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.php?act=member_vr_order&state_type=state_cancel">
+                    <img src="<?php echo SHOP_TEMPLATES_URL;?>/images/new/yqx.png" />
+                    <span>已取消</span>
+                </a>
+            </li>
+         </ul>
+        </div>
+
+	<!--我的资产  start-->
+	<!--<div class="member_Box1">
+		<div class="member_Box1_tt">
+			我的资产
+		</div>
+		<ul class="member_BList">
+			<li>
+				<a href="index.php?act=predeposit&op=pd_log_list">
+					<img src="<?php /*echo SHOP_TEMPLATES_URL;*/?>/images/new/zhye.png" />
+					<span>账户余额</span>
+				</a>
+			</li>
+			<li>
+				<a href="index.php?act=predeposit&op=pd_cash_list">
+					<img src="<?php /*echo SHOP_TEMPLATES_URL;*/?>/images/new/yetx.png" />
+					<span>余额提现</span>
+				</a>
+			</li>
+			<li>
+				<a href="index.php?act=member_points">
+					<img src="<?php /*echo SHOP_TEMPLATES_URL;*/?>/images/new/grey_pig.png" />
+					<span>我的积分</span>
+				</a>
+			</li>
+         <?php /*if(!empty($output['member_info']) and $output['member_info']['isshare'] ==1 and $output['member_info']['status'] == 1):*/?>
+         <li>
+				<a href="index.php?act=member&amp;op=cmms">
+					<img src="<?php /*echo SHOP_TEMPLATES_URL;*/?>/images/new/yetx.png" />
+					<span>佣金提现</span>
+				</a>
+			</li>
+         <?php /*endif;*/?>
+		</ul>
+	</div>-->
+	<!--我的资产  end-->
+   <div class="member_Box1" >
+      <div class="member_Box1_tt">
+         积分商城
+      </div>
+      <ul class="member_BList">
+         <li>
+            <a href="/wap_shop/index.php?act=pointprod">
+               <img src="<?php echo SHOP_TEMPLATES_URL;?>/images/icon/discount.png" />
+               <span>积分商城</span>
+            </a>
+         </li>
+      </ul>
+   </div>
+	<!--客户服务  start-->
+	<div class="member_Box1">
+		<div class="member_Box1_tt">
+			客户服务
+		</div>
+		<ul class="member_BList">
+			<!--<li>
+				<a href="index.php?act=member_return&op=index">
+					<img src="<?php /*echo SHOP_TEMPLATES_URL;*/?>/images/new/tkth.png" />
+					<span>退款/退货</span>
+				</a>
+			</li>-->
+			<li>
+				<a href="index.php?act=member_complain&op=index">
+					<img src="<?php echo SHOP_TEMPLATES_URL;?>/images/new/jyts.png" />
+					<span>交易投诉</span>
+				</a>
+			</li>
+			<li>
+				<a href="index.php?act=member_evaluation">
+					<img src="<?php echo SHOP_TEMPLATES_URL;?>/images/new/spzx.png" />
+					<span>我的评价</span>
+				</a>
+			</li>
+			<li>
+				<a href="index.php?act=member_mallconsult&op=index">
+					<img src="<?php echo SHOP_TEMPLATES_URL;?>/images/new/ptzx.png" />
+					<span>平台服务</span>
+				</a>
+			</li>
+
+		</ul>
+	</div>
+	<!--客户服务  end-->
+
+	<!--应用管理  start-->
+	<!-- <div class="member_Box1">
+		<div class="member_Box1_tt">
+			应用管理
+		</div>
+		<ul class="member_BList">
+			<li>
+				<a href="index.php?act=member_snshome&op=index">
+					<img src="<?php echo SHOP_TEMPLATES_URL;?>/images/new/grzy.png" />
+					<span>个人主页</span>
+				</a>
+			</li>
+			<li>
+				<a href="index.php?act=p_center&op=index">
+					<img src="<?php echo SHOP_TEMPLATES_URL;?>/images/new/wdqz_icon.png" />
+					<span>我的圈子</span>
+				</a>
+			</li>
+		</ul>
+	</div> -->
+	<!--应用管理  end-->
+		<!--微信活动  start-->
+     <!-- <div class="member_Box1" >
+   		<div class="member_Box1_tt">
+   			微信活动
+   		</div>
+   		<ul class="member_BList">
+   			<li>
+   				<a href="index.php?act=duobao">
+   					<img src="<?php /*echo SHOP_TEMPLATES_URL;*/?>/images/icon/discover.png" />
+   					<span>夺宝</span>
+   				</a>
+   			</li>
+            <!-- <li>
+   				<a href="index.php?act=duobao&amp;op=viewdbRec">
+   					<img src="<?php /*echo SHOP_TEMPLATES_URL;*/?>/images/icon/coupon.png" />
+   					<span>优惠券</span>
+   				</a>
+   			</li>
+            <li>
+   				<a href="index.php?act=duobao">
+   					<img src="<?php /*echo SHOP_TEMPLATES_URL;*/?>/images/icon/voucher.png" />
+   					<span>代金券</span>
+   				</a>
+   			</li>
+            <li>
+   				<a href="index.php?act=duobao">
+   					<img src="<?php /*echo SHOP_TEMPLATES_URL;*/?>/images/icon/discount.png" />
+   					<span>折扣券</span>
+   				</a>
+   			</li>
+             -->
+   		</ul>
+   	</div>
+	<!--微信活动  end-->
+   <!--分销-->
+<!--   <div class="member_Box1" >
+		<div class="member_Box1_tt">
+			我的推客
+		</div>
+		<ul class="member_BList">
+         <?php /*if($output['share_member_info']['isshare'] == 1): */?>
+            <li>
+               <a href="index.php?act=member_share&amp;op=index">
+                  <img src="<?php /*echo SHOP_TEMPLATES_URL;*/?>/images/new/tk_center.png" />
+                  <span>推客中心</span>
+               </a>
+            </li>
+            <li>
+               <a href="index.php?act=show_store&amp;op=share&amp;store_id=<?php /*echo $_SESSION['share_store_id']; */?>&amp;share_uid=<?php /*echo $_SESSION['member_id'];*/?>">
+                  <img src="<?php /*echo SHOP_TEMPLATES_URL;*/?>/images/new/tkxd.png" />
+                  <span>我的小店</span>
+               </a>
+            </li>
+      <?php /*else:
+         if($output['settings']['share_cnd'] == 1):
+          */?>
+         <li>
+				<a href="index.php?act=member_share&amp;op=apply">
+					<img src="<?php /*echo SHOP_TEMPLATES_URL;*/?>/images/new/sqtk.png" />
+					<span>申请成为推客</span>
+				</a>
+			</li>
+      <?php /*endif; endif;*/?>
+
+		</ul>
+	</div>
+   <!--分销-->
+
+	<!--资料管理-->
+	<div class="member_Box1" >
+		<div class="member_Box1_tt">
+			资料管理
+		</div>
+		<ul class="member_BList">
+			<li>
+				<a href="index.php?act=member_information&op=member">
+					<img src="<?php echo SHOP_TEMPLATES_URL;?>/images/new/userinfo_icon.png" />
+					<span>账户信息</span>
+				</a>
+			</li>
+			<li>
+				<a href="index.php?act=member_security&op=index">
+					<img src="<?php echo SHOP_TEMPLATES_URL;?>/images/new/usedatasafe.png" />
+					<span>账户安全</span>
+				</a>
+			</li>
+			<li>
+				<a href="index.php?act=member_address&op=address">
+					<img src="<?php echo SHOP_TEMPLATES_URL;?>/images/new/address_icon.png" />
+					<span>收货地址</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<!--帮助中心  start-->
+	<a href="index.php?act=article&op=article&ac_id=2">
+	<div class="member_Box1_tt btn" style="">
+			帮助中心
+			<em></em>
+	</div>
+	</a>
+	<!--帮助中心  end-->
+
+	<!--售后服务  start-->
+	<a href="index.php?act=article&op=article&ac_id=5">
+	<div class="member_Box1_tt btn" style="">
+			售后服务
+			<em></em>
+	</div>
+	</a>
+	<!--售后服务  end-->
+
+	<!--<a class="exit_login" href="index.php?act=login&op=logout">退出登录</a>-->
+
+    <!--公共底部导航-->
+</section>
+</body>
+</html>

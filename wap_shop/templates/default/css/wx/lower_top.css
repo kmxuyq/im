@@ -1,0 +1,94 @@
+* {
+            margin: 0;
+            padding: 0;
+            border: none;
+            font-family:微软雅黑,Arial;
+            list-style:none;
+            text-decoration:none;
+            font-weight:normal;
+            color: #666;
+        }
+        body{
+            background-color: #3b84ed;
+
+        }
+        img{
+            width:100%;
+            vertical-align:bottom;
+        }
+        img.head-img{
+            display: block;
+            width: 50%;
+            margin: 1rem auto;
+        }
+        div.main-box{
+            width:80%;
+            margin: 0 auto;
+            background-color: #FFF;
+            border-radius:0.6rem;
+            padding: 1rem;
+        }
+        div.main-box table{
+            width: 100%;
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+        div.main-box th{
+            font-size: 1.4rem;
+        }
+        div.main-box td{
+            font-size: 1.2rem;
+            padding: 0.6rem 0;
+            text-align: center;
+            border-bottom: 1px solid #dddddd;
+
+        }
+        div.main-box td b{
+            display: block;
+            width: 10rem;
+            margin: 0 auto;
+            overflow: hidden;
+            text-overflow:ellipsis;
+            white-space: nowrap;
+        }
+        div.main-box tr td:last-child{
+            color: #bba059;
+        }
+        div.main-box td span{
+            display: block;
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius:10rem;
+            background-position:top left;
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        .no_1{
+            background: url("../../images/weixin/1.gif") center center no-repeat;
+            background-size:1.8rem;
+        }
+        .no_2{
+            background: url("../../images/weixin/2.gif") center center no-repeat;
+            background-size:1.8rem;
+        }
+        .no_3{
+            background: url("../../images/weixin/3.gif") center center no-repeat;
+            background-size:1.8rem;
+        }
+        div.main-box tr:last-child td{
+            border-bottom:none;
+        }
+        /*-------------------------------*/
+        @media screen and (min-width: 320px) {html{font-size:62.5%;}}
+        @media screen and (min-width: 360px) {html{font-size:70.3125%;}}
+        @media screen and (min-width: 400px) {html{font-size:78.125%;}}
+        @media screen and (min-width: 440px) {html{font-size:85.9375%;}}
+        @media screen and (min-width: 480px) {html{font-size:93.75%;}}
+        @media screen and (min-width: 520px) {html{font-size:101.5625%;}}
+        @media screen and (min-width: 560px) {html{font-size:109.375%;}}
+        @media screen and (min-width: 600px) {html{font-size:117.1875%;}}
+        @media screen and (min-width: 640px) {html{font-size:125%;}}
+        @media screen and (min-width: 680px) {html{font-size:132.8125%;}}
+        @media screen and (min-width: 720px) {html{font-size:140.625%;}}
+        @media screen and (min-width: 760px) {html{font-size:148.4375%;}}
+        @media screen and (min-width: 800px) {html{font-size:156.25%;}}

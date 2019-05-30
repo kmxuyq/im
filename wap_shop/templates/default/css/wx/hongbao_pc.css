@@ -1,0 +1,58 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,header,hgroup,nav,section,article,aside,footer,figure,figcaption,menu,button {  margin: 0;  padding: 0; }
+body {
+  font-family: "Arial","微软雅黑","Microsoft YaHei";
+  line-height: 1.5;
+  font-size: 16px;
+  color: #000;
+ background: url(../../images/weixin/pc/bg.jpg) no-repeat center 0;
+ background-size: 100%;
+  background-color: #8d572e;
+  outline: 0; }
+  input,button{font-family: "Arial","微软雅黑","Microsoft YaHei";}
+@font-face{
+	font-family: "ITCEDSCR";
+	src:url(../../font/ITCEDSCR.TTF);
+}
+.banxin{width: 1090px;margin: 0 auto;background: #f1ecde;}
+.top{width: 1090px;height: 135px;margin: 588px auto 0 auto;background: #faf9f6;border: 15px solid #f1ecde;box-shadow: 0px 3px 3px rgba(105,63,31,.5);position: relative;}
+.topLeft{width: 350px;float: left;margin: 45px 0 0 100px;}
+.telephone{width: 320px;height: 40px;border-bottom: 1px solid #000;}
+.telephone span{background: url(../../images/weixin/pc/phone.jpg) no-repeat;width: 11px;height: 21px;display: block;float: left;margin: 11px 10px 0 10px;}
+.telephone input{margin: 8px 0 0 0;width: 260px;height: 25px;font-size: 16px;border: transparent;background: transparent;outline: none;float: left;}
+.yanzheng{padding: 25px 0 0 0;}
+.yanzheng input{width: 150px;height: 32px;background: #fff;font-size: 16px;text-align: center;border: 1px solid #161000;float: left;outline: none;}
+.yanzheng button{width: 120px;height: 34px;font-size: 16px;text-align: center;outline: none;color: #dfdad7;float: right;margin-right: 30px;background: transparent;border: transparent;background: #b0a39a; cursor: pointer;}
+.yanzheng button:active{opacity: .8;}
+.topRight{float: right;margin:40px 100px 0 0;}
+.topRight button{width: 250px;height: 50px;background: transparent;border: transparent;background: #2f1a45;color: #fff;font-size: 16px;cursor: pointer;outline: none;}
+.topRight button:active{opacity: .8;}
+.main{width: 1090px;height: auto;margin: 0 auto 20px auto;background: #f1ecde;box-shadow: 1px 1px 3px rgba(105,63,31,1);}
+.quan{height: 190px;}
+.quan div{float: left;width: 545px;text-align: center;margin-top: 13px;}
+.shoufajingyou{background: #f1ecde;height: 406px;}
+.leftjingyou{float: left;}
+.rightdicre{float: right;}
+.card{height: 300px;}
+.titleTxt{width: 1090px;height: 40px;clear: both;margin-top: 35px;}
+.titleTxt span:nth-of-type(1){background: -webkit-linear-gradient(right,#b09b86,#9b8e7e,#f2ecde);background: -moz-linear-gradient(right,#b09b86,#9b8e7e,#f2ecde);background: -ms-linear-gradient(right,#b09b86,#9b8e7e,#f2ecde);background: -o-linear-gradient(right,#b09b86,#9b8e7e,#f2ecde);background: linear-gradient(right,#b09b86,#9b8e7e,#f2ecde);float: left;display: block;width: 370px;height: 2px;margin-top: 15px;}
+.titleFont{background: url(../../images/weixin/pc/title.jpg) no-repeat;width: 315px;height: 32px;float: left;margin-left: 20px;}
+.titleTxt span:nth-of-type(2){background: -webkit-linear-gradient(left,#b09b86,#9b8e7e,#f2ecde);background: -moz-linear-gradient(left,#b09b86,#9b8e7e,#f2ecde);background: -ms-linear-gradient(left,#b09b86,#9b8e7e,#f2ecde);background: -o-linear-gradient(left,#b09b86,#9b8e7e,#f2ecde);background: linear-gradient(left,#b09b86,#9b8e7e,#f2ecde);float: right;display: block;width: 370px;height: 2px;margin-top: 15px;}
+.cardPic{width: 1090px;height: 250px;}
+.cardImg{background: url(../../images/weixin/pc/card.jpg) no-repeat;width: 364px;height: 188px;float: left;margin: 35px 0 0 60px;}
+.cardCont{background: url(../../images/weixin/pc/cardfont.jpg) no-repeat;width: 364px;height: 188px;float: left;margin: 35px 0 0 60px;}
+.centerLine{display: block;width: 900px;height: 1px;background: -webkit-linear-gradient(right,#f0edde,#9e9b92,#9e9b92,#918e87,#9e9b92,#9e9b92,#f0edde);background: linear-gradient(right,#f0edde,#9e9b92,#9e9b92,#918e87,#9e9b92,#9e9b92,#f0edde);background: -moz-linear-gradient(right,#f0edde,#9e9b92,#9e9b92,#918e87,#9e9b92,#9e9b92,#f0edde);background: -ms-linear-gradient(right,#f0edde,#9e9b92,#9e9b92,#918e87,#9e9b92,#9e9b92,#f0edde);background: -webkit-o-gradient(right,#f0edde,#9e9b92,#9e9b92,#918e87,#9e9b92,#9e9b92,#f0edde);clear: both;margin: 0px 0 0 80px;overflow: hidden;}
+.jiangpin{height: 470px;padding-top: 20px;}
+.no1{width: 544px;float: left;text-align: center;}
+.shuline{width: 1px;height: 450px;background: -webkit-linear-gradient(bottom,#f0edde,#9e9b92,#9e9b92,#918e87,#9e9b92,#9e9b92,#f0edde);background: -moz-linear-gradient(bottom,#f0edde,#9e9b92,#9e9b92,#918e87,#9e9b92,#9e9b92,#f0edde);background: -ms-linear-gradient(bottom,#f0edde,#9e9b92,#9e9b92,#918e87,#9e9b92,#9e9b92,#f0edde);background: -o-linear-gradient(bottom,#f0edde,#9e9b92,#9e9b92,#918e87,#9e9b92,#9e9b92,#f0edde);background: linear-gradient(bottom,#f0edde,#9e9b92,#9e9b92,#918e87,#9e9b92,#9e9b92,#f0edde);display: block;float: left;}
+.no2{width: 544px;float: right;text-align: center;}
+.hengLine{width: 545px;height: 1px;display: block;background: -webkit-linear-gradient(right,#f0edde,#9e9b92,#9e9b92,#918e87,#9e9b92,#9e9b92,#f0edde);background: linear-gradient(right,#f0edde,#9e9b92,#9e9b92,#918e87,#9e9b92,#9e9b92,#f0edde);background: -moz-linear-gradient(right,#f0edde,#9e9b92,#9e9b92,#918e87,#9e9b92,#9e9b92,#f0edde);background: -ms-linear-gradient(right,#f0edde,#9e9b92,#9e9b92,#918e87,#9e9b92,#9e9b92,#f0edde);background: -webkit-o-gradient(right,#f0edde,#9e9b92,#9e9b92,#918e87,#9e9b92,#9e9b92,#f0edde);float: left;}
+.para{height: 195px;background: #e6dfcc;text-align: center;line-height: 36px;color: #71481c;}
+.para h2{padding: 25px 0 0 0;font-size: 30px;}
+.para span{background: url(../../images/weixin/pc/bangBg.jpg) no-repeat;width: 237px;height: 27px;display: block;margin: 0 auto;}
+.para p{font-size: 20px;}
+.actiRules{padding: 25px 40px;color: #86420f;}
+.actiRules h2{font-size: 18px;}
+.actiRules i{font-family: "ITCEDSCR";font-size: 32px;padding: 0 20px;font-style: normal;float: left;line-height: 38px;}
+.actiRules p{line-height: 38px;font-size: 14px;text-align: justify;}
+.actiRules p:after{content: "";clear: both;display: table;}
+.actiRules span{background: -webkit-linear-gradient(left,#b09b86,#9b8e7e,#f2ecde);background: -moz-linear-gradient(left,#b09b86,#9b8e7e,#f2ecde);background: -ms-linear-gradient(left,#b09b86,#9b8e7e,#f2ecde);background: -o-linear-gradient(left,#b09b86,#9b8e7e,#f2ecde);background: linear-gradient(left,#b09b86,#9b8e7e,#f2ecde);display: block;width: 370px;width: 900px;height: 1px;margin: 10px 0;}

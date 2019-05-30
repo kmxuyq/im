@@ -1,0 +1,116 @@
+@charset "UTF-8";
+.center{/*background: url(../images/active/womens_voucher/bg.jpg) no-repeat center;*/ height: auto; background-size: 100%; max-width:800px}
+.voucher_sel{ max-width:800px}
+/*CSS Reset*/
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,header,hgroup,nav,section,article,aside,footer,figcaption,menu,button {margin: 0;padding: 0; }
+
+body {
+	margin:0 auto;
+  font-family:  "Bodoni MT Condensed","Microsoft YaHei","微软雅黑";
+  line-height: 1.5;
+  font-size: 16px;
+  color: #000;
+  -webkit-user-select: none;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  outline: 0; }
+
+h1, h2, h3, h4, h5, h6 {  font-size: 100%;  font-weight: normal; }
+table {  border-collapse: collapse;  border-spacing: 0; }
+caption, th {  text-align: left; }
+fieldset,
+img {  border: 0; }
+li {  list-style: none; }
+ins {  text-decoration: none; }
+del {  text-decoration: line-through; }
+input,button,textarea,select,optgroup,option {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  outline: 0; }
+button {
+  -webkit-appearance: none;
+  border: 0;
+  background: none; }
+a {
+  -webkit-touch-callout: none;
+  text-decoration: none; }
+:focus {
+  outline: 0;
+  -webkit-tap-highlight-color: transparent; }
+em, i {
+  font-style: normal; }
+.clearfix:before{content: "";clear: both;width: 0;height: 0;display: block;}
+.clearfix:after{content: "";clear: both;width: 0;height: 0;display: block;}
+.headerPic{width: 100%;}
+.headerPic .tyPic img{width: 100%;display: block;}
+.banner{width: 100%;}
+.paddingLR{padding: 0 10px;}
+.paddingLR .border{border: solid 8px #fbe9dd;width: 100%;box-sizing: border-box;background: #fff;text-align: center;padding: 10px 10px;box-shadow: 0 2px 3px rgba(69,30,0,.4);position: relative;}
+.paddingLR .border .no1{padding: 30px 5px;}
+.paddingLR .border img{width: 100%;}
+.main{width: 100%;}
+.main img{width: 100%;display: block;}
+.main .shadow{width: 100%;height: 6px;box-sizing: border-box;}
+.main .shadow .shadowL{float: left;background: url(../images/active/womens_voucher/shadow_01.png) no-repeat;width: 10px;height: 6px;background-size: cover;}
+.main .shadow .shadowR{float: right;background: url(../images/active/womens_voucher/shadow_02.png) repeat-x;width: 10px;height: 6px;background-size: cover;}
+.main .paddingLRbig{padding: 0 20px;}
+.main .paddingLRbig .borderMain{border: solid 2px #d9ca93;border-top: none;margin-top: -7px;box-shadow: 0 2px 5px rgba(69,30,0,.7);background: #fff;box-sizing: border-box;margin-bottom: 15px;}
+.borderMain .no2{padding: 30px 20px;}
+.borderMain .no3{padding: 30px 20px;}
+.borderMain .no4{padding: 30px 20px;}
+.borderMain .no5{padding: 30px 20px 30px 10px;}
+.borderMain .no6{padding: 30px 10px 30px 20px;}
+.borderMain .tit1{width: 100%;height: 40px;position: relative;margin: 15px 0;}
+.borderMain .tit1 .line{width: 100%;height: 1px;background: #d7ba80;position: absolute;top: 20px;}
+.borderMain .tit1 .titTxt{font-size: 34px;font-weight: bold;color: #be8e5e;position: absolute;top: -27px; background: #fff;left: 8%;text-align: center;width: 56%;}
+.borderMain ul{width: 100%;margin-top: 30px;}
+.borderMain ul li{float: left;width: 50%;box-sizing: border-box;font-size: 18px;margin-bottom: 30px;text-align: center;font-family: "Microsoft YaHei"}
+.borderMain ul li .picDiv{width: 100%;box-sizing: border-box;padding: 0 50px;}
+.borderMain ul li h2{font-size: 26px;box-sizing: border-box;padding: 10px 0 5px 0;}
+.borderMain ul li .iDiv{padding-left: 12px;box-sizing: border-box;}
+.borderMain ul li .iDiv p{display: inline-block;text-align: center;font-size: 18px;}
+.borderMain ul li .iDiv p i:nth-of-type(1){font-family: "Bodoni MT Condensed";font-size: 22px;font-weight: bold;}
+.borderMain ul li .iDiv p i:nth-of-type(2){font-family: "Bodoni MT Condensed";font-style: italic;}
+.borderMain ul li .iDiv p i span{font-style: italic;}
+/*.borderMain ul li button{background: #fff;padding: 8px 30px;margin: 15px 0;color: #5c4d6e;text-align: center;font-size: 22px;border: solid 1px #5c4d6e;}*/
+.borderMain ul li button{background: #2c1c42;padding: 6px 25px;margin: 15px 0;color: #fff;text-align: center;font-size: 18px}
+.borderMain ul li button:active{opacity: .6;}
+.borderMain ul li img{display: block;width: 100%;}
+
+.voucher_sel{padding:0px 5% 0px 5%}
+.voucher_sel img{width:100%}
+.voucher_sel p{ line-height:1.8;font-size:18px; text-align:left;padding:0 0 0 0}
+.voucher_sel p span{color:#2e1a46; font-size:22px}
+/****************************/
+/*公共底部*/
+.bottomHeight{width:100%;}
+.footer{ display:block;background:#f4f0e7; height:90px;position:fixed; bottom:0px; overflow:hidden; width:100%; max-width:800px}
+.footer ul{height:55px; width:100%;}
+.footer ul li{ float:left; width:25%; position:relative;}
+.footer ul li a{ display:block; text-align:center; color:#615569; font-size:22px; height:90px; line-height:1.4}
+.footer ul li a span{ width:65px; height:32px; display:inline-block; margin:12px auto -3px;  margin-bottom: 0px;}
+.footer ul li a .sy{ background:url(../images/footericon_40.png) no-repeat center 0;background-size:auto 65px;}
+.footer ul li a .wd{ background:url(../images/footericon_42.png) no-repeat center 0;background-size:auto 65px;}
+.footer ul li a .kf{ background:url(../images/footericon_34.png) no-repeat center 0;background-size:auto 65px;}
+.footer ul li a .hd{ background:url(../images/footericon_37.png) no-repeat center 0;background-size:auto 65px;}
+.footer ul li .selected{ color:#bba059;}
+.footer ul li .selected .sy{ background-position:center -20px;}
+.footer ul li .selected .wd{ background-position:center -20px;}
+.footer ul li .selected .kf{ background-position:center -20px;}
+.footer ul li .selected .hd{ background-position:center -20px;}
+/*****************券码激活*****************/
+#msg{color:Red;font-size:1.6rem}
+.content *{font-size:16px}
+.content a:link{font-size:1.6rem;color: #996c33}
+.content div,img{width:100%;max-width:750px}
+.content .activation_bg{width:100%;height:714px; background:url(../images/active/womens_voucher/voucher_code2.jpg) no-repeat center; background-size:100%}
+.content .activation_bg .input{width:80%;border:solid 2px #ddd}
+.content .activation_bg .input input{padding:15px 2% 15px 2%; display:inline-block;width:76%; border:none; line-height:1.5; font-size:1.5rem; background:url(../images/code_ico.gif) no-repeat 0 20px; background-size:35px ;padding-left:35px;}
+.content .activation_bg .input span{ display:inline-block;width:20%;border-radius:5px 5px 5px 5px; background:#2e1845; font-size:1.4rem;color:#fff; text-align:center; line-height:2.2}
+.content .activation_bg #activation{width:214px;border:solid 2px #d2a27b; background:#2e1845;color:#fff; font-size:1.5rem; line-height:2.3; display:block;}
+.content .activation_bg p{padding:60px 15% 0 15%;text-align:left; font-size:1.6rem; line-height:2}
+.content .activation_bg p .title{ font-size:1.8rem;font-weight:bold;}
+
+

@@ -1,0 +1,69 @@
+html{font:14px/1.25'microsoft yahei',Arial,sans-serif}
+*{margin:0 0 0 0;padding:0 0 0 0}
+body{margin:0 auto}
+
+.hongbao_02{width:977px;}
+img{ display:block;}
+.hongbao_01 div,.hongbao_01 span{ display:inline-block}
+.hongbao_01 #form-button{width:80%;height:65px; margin-left:50px; background:#2e1a44; color:#fff;font-size:1.4em;border:none}
+.hongbao_01 #mobile{width:90%;border:none;margin-left:10px;line-height:1.5;font-size:22px; background:#faf9f6}
+.hongbao_01 .input_bg{padding:0 10% 0 10%;width:80%;height:153px; background:url(../../images/weixin/hongbao_1-2.jpg) no-repeat; text-align:left;}
+.hongbao_01 .input_bg i{font-size:20px}
+.hongbao_01 .input_bg .left{ border-bottom:solid 1px #555;width:50%;height:70px}
+.hongbao_01 .input_bg .right{width:50%;height:70px; float:right;}
+.hongbao_01 .content_t{background:url(../../images/weixin/hongbao_1-line.gif) repeat-y; background-size:100%;padding:15px 8% 15px 8%;width:84%; font-size:20px; line-height:1.8;color:#777; text-align:left;}
+.hongbao_01 .content_t .text p{ font-size:20px}
+
+.hongbao_02 .content_bg{ background:url(../../images/weixin/pc/bg3.gif) no-repeat;height:977px;padding:0 80px 0 80px;margin-top:588px}
+.hongbao_02 .content_bg .text{ font-size:20px; line-height:1.8;color:#777; text-align:left;}
+.hongbao_02 .content_bg .text p{ font-size:22px}
+.hongbao_02 .content_bg input{ font-size:20px}
+.msg_alt{ float:left;color:#999}
+.qz-txt3 {
+    display: block;
+    padding: 9px 0;
+    width: 95%;
+    text-indent: 10px}
+	.qz-border {
+    border: 2px solid #d0d0d0;
+}
+.remainingSum1SelectList,.remainingSum1SelectList dd {
+     margin-bottom: 0px; text-align:center;}
+	 .remainingSum1Sumbit a{
+	 	height:60px;width:50%;font-size:20px; line-height:3;border-radius:0; border:solid 2px #ca9062
+	 }
+	 .qz-button {width:100px;height:38px;
+		font-size:14px !important;
+	border-radius:5px;
+    display: inline-block;
+ 
+ line-height:1.2;
+    background: #2e1846;
+    color: #fff;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    border: 2px solid #666666;
+}
+.code{   position: absolute;
+    right: 5px;
+    top: 13px;}
+.qz-bk10{height:45px} 
+.qz-txt2 {
+    padding:0px 10px;height:40px}
+	.qz-ico {
+    margin: 5px;
+    width: 30px;
+    height: 30px;}
+	.qz-ico-write {
+    background: url(../../images/weixin/write.png) no-repeat;
+    background-size: 100% 100%;
+}
+	.qz-ico-pwd {
+    background: url(../../images/weixin/pwd.png) no-repeat;
+    background-size: 100% 100%;
+}
+.qz-light {
+    line-height: 1.8;
+}
+.msg{font-size:14px; float:left; color:Red}

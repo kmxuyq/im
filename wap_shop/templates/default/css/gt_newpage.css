@@ -1,0 +1,934 @@
+/**/
+/*动画*/
+.train_position_top {
+  height: 1rem;
+  line-height: 1rem;
+  background: #3b84ed;
+  position: relative;
+  text-align: center;
+}
+.train_position_top .text {
+  color: #fff;
+  font-size: 16px;
+}
+.train_position_top .arrow {
+  width: 1rem;
+  height: 1rem;
+  background: url("../images/trains_arrow.jpg") no-repeat center 3px;
+  background-size: 0.7rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.gt_newpage_body {
+  background: #f4f4f4;
+}
+.gt_list_order_title {
+  background: #fff;
+  height: 0.9rem;
+}
+.gt_list_order_title li {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  text-align: center;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  font-size: 14px;
+  font-family: "Microsoft Yahei";
+  background: url("../images/gt_listorder_down.jpg") no-repeat 75% 0.42rem;
+  background-size: 0.2rem;
+}
+.gt_list_order_title li.on {
+  background-image: url("../images/gt_listorder_up.jpg");
+}
+.gt_list_order {
+  overflow: hidden;
+  margin-top: 10px;
+}
+.gt_list_order .item {
+  height: 2.4rem;
+  background: #fff;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.gt_list_order .item .img_wrap {
+  float: left;
+  width: 3.3rem;
+  height: 1.56rem;
+  margin: 0.3rem 0 0 0.4rem;
+}
+.gt_list_order .item .img_wrap img {
+  width: 100%;
+  height: 100%;
+}
+.gt_list_order .item .text {
+  float: left;
+  width: 6rem;
+  height: 2.5rem;
+  margin: 0.2rem 0 0 0;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+.gt_list_order .item .text .tt {
+  height: 0.6rem;
+  line-height: 0.6rem;
+  font-size: 15px;
+  font-family: "Microsoft Yahei";
+  font-weight: 300;
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+.gt_list_order .item .text .price {
+  height: 0.6rem;
+  line-height: 0.6rem;
+}
+.gt_list_order .item .text .price span {
+  color: #f74828;
+  font-family: Arial, "Microsoft Yahei";
+  font-size: 16px;
+}
+.gt_list_order .item .text .price i {
+  font-size: 12px;
+}
+.gt_list_order .item .text .price em {
+  color: #f74828;
+  font-family: Arial, "Microsoft Yahei";
+  font-size: 16px;
+  color: #999;
+  text-decoration: line-through;
+  font-weight: 300;
+  margin-left: 20px;
+}
+.gt_list_order .item .text .desc {
+  height: 0.7rem;
+}
+.gt_list_order .item .text .desc .sales {
+  overflow: hidden;
+  height: 0.7rem;
+  line-height: 0.7rem;
+  color: #999;
+  width: 2rem;
+  display: block;
+  float: left;
+}
+.gt_list_order .item .text .desc .mark {
+  overflow: hidden;
+  height: 0.7rem;
+  float: right;
+  box-sizing: border-box;
+  padding-top: 0.15rem;
+  padding-right: 0;
+  width: 3.6rem;
+}
+.gt_list_order .item .text .desc .mark span {
+  background: #fff;
+  color: #f74828;
+  font-size: 12px;
+  display: inline-block;
+  float: left;
+  padding: 1px 10px;
+  height: 16px;
+  line-height: 14px;
+  margin-left: 3px;
+  font-weight: 300;
+  border-radius: 16px;
+  border: 1px #fdc8be solid;
+  margin-bottom:0.3rem;
+  overflow: hidden;
+}
+.gt_list_order .item2 {
+  height: 4.8rem;
+  background: #fff;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.gt_list_order .item2 .img_wrap {
+  float: left;
+  width: 2.5rem;
+  height: 2rem;
+  margin: 0.3rem 0 0 0.4rem;
+}
+.gt_list_order .item2 .img_wrap img {
+  width: 100%;
+  height: 100%;
+}
+.gt_list_order .item2 .text {
+  float: left;
+  width: 7rem;
+  height: 2.5rem;
+  margin: 0.3rem 0 0 0;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+.gt_list_order .item2 .text .tt {
+  height: 0.6rem;
+  line-height: 0.6rem;
+  font-size: 15px;
+  font-family: "Microsoft Yahei";
+  font-weight: 300;
+}
+.gt_list_order .item2 .text .time {
+  height: 0.5rem;
+  line-height: 0.5rem;
+  color: #999;
+  padding-top: 0.45rem;
+  box-sizing: content-box;
+}
+.gt_list_order .item2 .text .number {
+  height: 0.5rem;
+  line-height: 0.5rem;
+  color: #999;
+}
+.gt_list_order .item2 .order_detail {
+  clear: both;
+  border-top: 1px #ebebeb solid;
+}
+.gt_list_order .item2 .order_number {
+  height: 0.8rem;
+  line-height: 0.8rem;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+.gt_list_order .item2 .order_number .num {
+  float: left;
+  color: #999;
+  font-family: "宋体";
+  height: 0.8rem;
+  line-height: 1rem;
+}
+.gt_list_order .item2 .order_number .order_pice {
+  float: right;
+  color: #f74828;
+  font-size: 18px;
+  font-family: Arial, "Microsoft Yahei";
+}
+.gt_list_order .item2 .order_number .order_pice i {
+  font-size: 12px;
+}
+.gt_list_order .item2 .order_status {
+  padding: 0 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  clear: both;
+}
+.gt_list_order .item2 .order_status .lt {
+  float: left;
+  height: 1rem;
+  line-height: 1rem;
+}
+.gt_list_order .item2 .order_status .pay_btn {
+  float: right;
+}
+.gt_list_order .item2 .order_status .pay_btn .btn1 {
+  width: 1.5rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  border: 1px #ccc solid;
+  color: #999;
+  border-radius: 3px;
+  background: none;
+  float: left;
+  margin-right: 10px;
+}
+.gt_list_order .item2 .order_status .pay_btn .btn2 {
+  width: 1.5rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  border: 1px #3b84ed solid;
+  color: #3b84ed;
+  border-radius: 3px;
+  background: none;
+  float: left;
+}
+.train_sreach_btn,
+.gt_subbtns {
+  width: 8rem;
+  height: 0.9rem;
+  line-height: 0.8rem;
+  display: block;
+  margin: 0.3rem auto 0.7rem;
+  background: url("../images/linear-buttonbg.jpg") repeat-x top left;
+  border: none;
+  background-size: contain;
+  border-radius: 11px;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Microsoft Yahei";
+  box-shadow: 0px 2px 4px rgba(54, 149, 255, 0.7);
+}
+.home_choose_msg {
+  height: 4rem;
+  background: #fff;
+  overflow: hidden;
+}
+.home_choose_msg img {
+  width: 2rem;
+  height: 2rem;
+  margin: .5rem auto 0;
+  display: block;
+}
+.home_choose_msg p {
+  text-align: center;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  font-family: "Microsoft Yahei";
+  font-size: 18px;
+  color: #333;
+  font-weight: 300;
+}
+.hotal_user_data {
+  background: #fff;
+}
+.hotal_detail {
+  background: #fff;
+  margin-top: 15px;
+  padding: 0 10px 10px;
+}
+.hotal_detail .tt {
+  height: 0.6rem;
+  line-height: 0.6rem;
+  font-size: 16px;
+  font-family: "Microsoft Yahei";
+  padding-top: 0.3rem;
+  box-sizing: content-box;
+}
+.hotal_detail .room {
+  height: 0.6rem;
+  line-height: 0.6rem;
+  font-size: 16px;
+  font-family: "Microsoft Yahei";
+  font-size: 14px;
+  color: #999999;
+}
+.hotal_detail .check_in_time {
+  height: 0.5rem;
+  line-height: 0.5rem;
+}
+.hotal_detail .check_in_time .start {
+  float: left;
+  color: #333;
+  font-size: 14px;
+  font-family: "Microsoft Yahei";
+}
+.hotal_detail .check_in_time .start span {
+  margin-right: 5px;
+}
+.hotal_detail .check_in_time .start .t1 {
+  color: #999;
+}
+.hotal_detail .check_in_time .end {
+  float: left;
+  color: #333;
+  font-size: 14px;
+  font-family: "Microsoft Yahei";
+}
+.hotal_detail .check_in_time .end span {
+  margin-right: 5px;
+}
+.hotal_detail .check_in_time .end .t1 {
+  color: #999;
+}
+.hotal_detail .check_in_time .count {
+  float: left;
+  color: #333;
+  font-size: 14px;
+  font-family: "Microsoft Yahei";
+}
+.hotal_detail .check_in_time .edit_time {
+  float: right;
+  color: #3b84ed;
+  font-size: 14px;
+  font-family: "Microsoft Yahei";
+}
+.hotal_detail .hotal_price {
+  padding-top: 0.5rem;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 14px;
+  font-family: "Microsoft Yahei";
+  color: #999;
+}
+.hotal_detail .hotal_price em {
+  color: #3b84ed;
+  padding-left: 10px;
+  font-family: Arial, "Microsoft Yahei";
+  font-size: 20px;
+  font-weight: 300;
+}
+.hotal_user_data {
+  overflow: hidden;
+  margin-top: 15px;
+  padding: 0 10px;
+  height: 12rem;
+}
+.hotal_user_data .item {
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-top: 0.3rem;
+  border-bottom: 1px #ebebeb solid;
+}
+.hotal_user_data .item:last-of-type {
+  border: none;
+}
+.hotal_user_data .item .row {
+  height: 1rem;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: "Microsoft Yahei";
+  color: #333;
+}
+.hotal_user_data .item .row .t1 {
+  width: 2rem;
+  height: 1rem;
+  line-height: 0.9rem;
+  display: block;
+  float: left;
+}
+.hotal_user_data .item .row input {
+  width: 6rem;
+  display: block;
+  float: left;
+  position: relative;
+  top: 0.15rem;
+  border: none;
+  text-indent: 5px;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+}
+.hotal_user_data .item .row textarea {
+  width: 7rem;
+  height: 2rem;
+  line-height: 0.5rem;
+  display: block;
+  float: left;
+  position: relative;
+  top: 0.2rem;
+  border: none;
+  text-indent: 5px;
+  font-size: 14px;
+  border: 1px #ccc solid;
+  resize: none;
+  border-radius: 3px;
+  padding: 0 3px;
+}
+.hotal_user_data .item .row .require_fields {
+  float: right;
+  font-family: "Microsoft Yahei";
+  font-size: 14px;
+  color: #3b84ed;
+  height: 1rem;
+  line-height: 0.9rem;
+}
+.hotal_user_data .item .tips {
+  font-family: "宋体";
+  color: #999;
+  clear: both;
+  line-height: 0.5rem;
+  padding-bottom: 0.1rem;
+}
+.home_choose_msg.long .msg {
+  text-align: center;
+}
+.home_choose_msg.long .msg h1 {
+  font-size: 18px;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  margin-top: -0.1rem;
+}
+.home_choose_msg.long .msg .price_count {
+  font-size: 14px;
+  color: #999;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  font-family: "Microsoft Yahei";
+}
+.home_choose_msg.long .msg .price_count span {
+  color: #f74828;
+  font-size: 20px;
+  font-family: Arial;
+  padding-left: 10px;
+}
+.home_choose_msg.long .msg .price_count i {
+  font-size: 12px;
+}
+.hotal_detail_link {
+  overflow: hidden;
+  height: 1rem;
+  line-height: 1rem;
+  background: url("../images/holtal_link_icon.jpg") no-repeat 97% center #ffffff;
+  background-size: 10px;
+  margin: 12px auto 0;
+  padding: 0 10px;
+  font-size: 14px;
+  font-family: "Microsoft Yahei";
+}
+.hotal_detail_link a {
+  display: block;
+}
+.gtdetail_pay_method {
+  overflow: hidden;
+  background: #fff;
+  height: 3rem;
+  margin-top: 10px;
+}
+.gtdetail_pay_method h1 {
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 14px;
+  color: #999;
+  font-family: "Microsoft Yahei";
+  font-weight: 300;
+  border-bottom: 1px #ebebeb solid;
+  padding: 0 10px;
+}
+.gtdetail_pay_method .wex_pay {
+  height: 1.5rem;
+  line-height: 1.5rem;
+  padding: 0 10px;
+}
+.gtdetail_pay_method .wex_pay img {
+  width: 1.2rem;
+  height: 1.2rem;
+  float: left;
+  margin: 0.4rem 0 0 0.3rem;
+}
+.gtdetail_pay_method .wex_pay span {
+  float: left;
+  height: 1.5rem;
+  line-height: 2rem;
+  overflow: hidden;
+  font-size: 16px;
+  font-family: "Microsoft Yahei";
+  padding-left: 20px;
+}
+.video_list {
+  overflow: hidden;
+  margin-top: 10px;
+}
+.video_list .item {
+  float: left;
+  width: 5rem;
+  height: 5rem;
+  background: #fff;
+  margin-bottom: 10px;
+}
+.video_list .item a {
+  width: 4.5rem;
+  height: 3rem;
+  display: block;
+  margin: 10px auto 0;
+  background-size: 50px;
+  position: relative;
+}
+.video_list .item a:before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  background: url("../images/video_img.png") no-repeat center rgba(0, 0, 0, 0.3);
+  z-index: 99;
+  background-size: 1rem;
+}
+#gt_subPrice_btn .ui-btn-lg.ui-btn-primary{background:url("../images/must_yuding.jpg") repeat-x left top; background-size: contain}
+#gt_subPrice_btn .qz-ft-l.qz-fl,#gt_subPrice_btn .qz-ft-l dl{width: 100%}
+#gt_subPrice_btn #az{width: 50%}
+#gt_subPrice_btn .sub_price{width: 100%; height: 44px; line-height: 44px; color: #3b84ed; text-align: center; font-size: 18px}
+.video_list .item img {
+  width: 100%;
+  height: 100%;
+}
+.video_list .item .tt {
+  height: 1rem;
+  line-height: 1rem;
+  padding: 0 10px;
+  font-size: 16px;
+  font-family: "Microsoft Yahei";
+}
+.video_list .item p {
+  height: 0.5rem;
+  line-height: 0.5rem;
+  padding: 0 10px;
+  font-size: 12px;
+  font-family: "宋体";
+  color: #999999;
+}
+.talk_product {
+  overflow: hidden;
+  background: #fff;
+  height: 3rem;
+}
+.talk_product .inner_img {
+  float: left;
+  margin: 0.3rem 0 0 0.3rem;
+  width: 3rem;
+  height: 2.3rem;
+}
+.talk_product .inner_img img {
+  width: 100%;
+  height: 100%;
+}
+.talk_product .text {
+  margin: 0.3rem 0 0 0;
+  width: 6.3rem;
+  height: 2.3rem;
+  float: right;
+}
+.talk_product .text .tt {
+  font-size: 16px;
+  font-family: "Microsoft Yahei";
+  height: 0.5rem;
+  line-height: 0.5rem;
+  overflow: hidden;
+}
+.talk_product .price {
+  height: 0.9rem;
+  line-height: 1.3rem;
+  overflow: hidden;
+}
+.talk_product .price .now_price {
+  font-size: 20px;
+  font-family: Arial, "Microsoft Yahei";
+  color: #f74828;
+}
+.talk_product .price .now_price i {
+  font-size: 12px;
+}
+.talk_product .price .old_price {
+  font-size: 16px;
+  font-family: Arial, "Microsoft Yahei";
+  color: #999;
+  text-decoration: line-through;
+  padding-left: 10px;
+}
+.talk_product .link {
+  float: right;
+  width: 2.5rem;
+  height: 0.7rem;
+  line-height: 0.8rem;
+  color: #3b84ed;
+  border: 1px #3b84ed solid;
+  text-align: center;
+  border-radius: 3px;
+  margin-right: 10px;
+  font-family: "Microsoft Yahei";
+  font-size: 15px;
+}
+.talk_body {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 6rem;
+}
+.talk_send_box {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1rem;
+  line-height: 1rem;
+  background: #f9f9f9;
+}
+/**/
+.talk_send_box {
+  width: 100%;
+  min-height: 50px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: #ffffff;
+}
+.talk_send_mthod {
+  background: #fff;
+  height: 50px;
+  overflow: hidden;
+  background: #f9f9f9;
+  padding-top: 4px;
+}
+.talk_send_box .talk_history {
+  background: url("../images/talk_history.png") no-repeat 0 0;
+  width: 40px;
+  height: 33px;
+  background-size: 29px;
+  margin: 10px 0 0 4%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.talk_send_box .talk_history.on {
+  background-position: 0 -39px;
+}
+.talk_send_box .talk_face.on {
+  background-position: 0 -37px;
+}
+.talk_send_box .text_ipt {
+  width: 100%;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  float: left;
+  border: none;
+  font-size: 14px;
+  text-indent: 5px;
+}
+.talk_send_box .talk_text {
+  width: 5.5rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  border: 1px #cccccc solid;
+  border-radius: 3px;
+  margin: 0.1rem 0 0 0.2rem;
+}
+.talk_send_text {
+  width: 1.8rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  text-align: center;
+  background: none;
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  color: #333;
+  border: 1px #cccccc solid;
+  border-radius: 4px;
+  float: left;
+  margin: 0.1rem 0 0 0.2rem;
+}
+.talk_face {
+  float: left;
+  line-height: 0.8rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  line-height: 1;
+  background: url("../images/talk_icon1.jpg") no-repeat center;
+  background-size: 0.8rem;
+  margin: 0.1rem 0 0 0.2rem;
+}
+/**/
+.face_pakge {
+  padding: 10px 5px;
+}
+.face_pakge li {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin: 5px 10px;
+}
+.face_pakge li img {
+  width: 100%;
+}
+.talk_faces span {
+  margin: 6px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin: 2px 5px;
+}
+.talk_faces span img {
+  width: 100%;
+}
+.send_msg_text {
+  overflow: hidden;
+  padding: 0 15px 10px;
+}
+.send_msg_text .send_times {
+  text-align: center;
+  font-size: 12px;
+  font-family: Arial, "宋体";
+  color: #999;
+  height: 0.9rem;
+  line-height: 0.9rem;
+}
+.send_msg_text .imgBox {
+  float: left;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 40px;
+}
+.send_msg_text .imgBox img {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+#face_msgshow {
+  overflow: hidden;
+  overflow-y: auto;
+}
+.send_msg_picking {
+  overflow: hidden;
+  padding: 0 15px 10px;
+}
+.send_msg_picking .send_times {
+  text-align: center;
+  font-size: 12px;
+  font-family: Arial, "宋体";
+  color: #999;
+  height: 0.9rem;
+  line-height: 0.9rem;
+}
+.send_msg_picking .imgBox {
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  overflow: hidden;
+}
+.send_msg_picking .imgBox img {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  overflow: hidden;
+}
+.talk_choose_date {
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #fff;
+  padding: 0 20px;
+  display: none;
+}
+.talk_choose_date .date_cell {
+  margin: 0 10px;
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+}
+.talk_choose_date .date_cell.on {
+  color: #10b0e6;
+}
+/**/
+.talk_send_mthod .send_img {
+  float: left;
+  width: 0.8rem;
+  height: 0.8rem;
+  margin: 0.1rem 0 0 0.2rem;
+  background: url("../images/camera.png") no-repeat center;
+  background-size: 0.8rem;
+  border: none;
+  overflow: hidden;
+}
+.send_msg_text .send_main_msg {
+  line-height: 25px;
+  font-size: 14px;
+  font-family: "Microsoft Yahei";
+  color: #666;
+  background: #fff;
+  border-radius: 2px;
+  min-height: 25px;
+  min-width: 20px;
+  padding: 5px;
+  position: relative;
+  table-layout: fixed;
+  word-break: break-all;
+  clear: both;
+}
+.send_msg_text .send_main_msg:before,
+.send_msg_text .send_main_msg:after {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: -16px;
+  width: 0px;
+  height: 0px;
+  border: 8px solid transparent;
+  border-right-color: #ffffff;
+}
+.send_msg_text .send_main_msg:before {
+  top: 8px;
+  left: -18px;
+  border: 9px solid transparent;
+  border-right-color: #fff;
+}
+.send_msg_text .send_main_msg img {
+  max-width: 35px;
+}
+.send_msg_picking .send_main_msg {
+  float: right;
+  line-height: 25px;
+  font-family: "Microsoft Yahei";
+  color: #666;
+  font-size: 14px;
+  background: #fff;
+  border-radius: 2px;
+  min-height: 25px;
+  min-width: 20px;
+  margin: 1px 4% 0 0;
+  padding: 5px;
+  position: relative;
+  table-layout: fixed;
+  word-break: break-all;
+}
+.send_msg_picking .send_main_msg:before,
+.send_msg_picking .send_main_msg:after {
+  content: "";
+  position: absolute;
+  top: 9px;
+  right: -16px;
+  width: 0px;
+  height: 0px;
+  border: 8px solid transparent;
+  border-left-color: #fff;
+}
+.send_msg_picking .send_main_msg:before {
+  top: 8px;
+  right: -18px;
+  border: 9px solid transparent;
+  border-left-color: #fff;
+}
+.send_msg_picking .send_main_msg img {
+  max-width: 35px;
+}
+.send_main_msg_wrap {
+  float: left;
+  color: #4f5f6f;
+  min-width: 20px;
+  max-width: 60%;
+  margin: -3px 0 0 4%;
+  padding: 5px;
+  position: relative;
+  table-layout: fixed;
+  word-break: break-all;
+}
+.send_msg_picking .send_main_msg_wrap {
+  float: right;
+  color: #4f5f6f;
+  min-width: 20px;
+  max-width: 60%;
+  margin: -3px 4% 0 0;
+  padding: 5px;
+  position: relative;
+  table-layout: fixed;
+  word-break: break-all;
+}
+.send_msg_picking .send_main_msg_wrap .usr_name {
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 14px;
+  color: #999;
+  font-family: "Microsoft Yahei";
+  margin-top: -0.3rem;
+  float: right;
+}
+.send_main_msg_wrap .usr_name {
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 14px;
+  color: #999;
+  font-family: "Microsoft Yahei";
+  margin-top: -0.3rem;
+}
+.send_img input {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.no_order{  width: 100%;  height: 30px;  text-align: center;  vertical-align: middle;  padding-top: 10px;  font-size: 18px; font-family:Arial,"Microsoft Yahei"; }

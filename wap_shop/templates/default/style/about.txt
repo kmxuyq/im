@@ -1,0 +1,3 @@
+login.html          登陆页面
+bind.html           绑定页面
+ecode.html          二维码

@@ -1,0 +1,382 @@
+body, fieldset, th, td, select, input, textarea { font-size: 16px; font-family: "Microsoft YaHei"; color: #666666; background: #fff; }
+select, input { vertical-align: middle; outline: medium;}
+/* CSS Document */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { padding: 0; margin: 0; }
+i,em,strong { font-style: normal; }
+ul, li { list-style-type: none; }
+a:active, a:hover { text-decoration: none; }
+/* 閲嶇疆閾炬帴a鏍囩鐨勯紶鏍囨粦鍔ㄦ晥鏋� */
+input[type=button], input[type=reset], input[type=submit], input[type=radio], input[type=checkbox] { cursor: pointer; }
+/*苹果按钮*/
+input[type=text],input[type=button],input[type=password]{-webkit-appearance: none;}
+input[type=text],input[type=button],input[type=submit]{-webkit-appearance: none;}
+
+.clear:after { display: block; visibility: hidden; clear: both; height: 0; overflow: hidden; content: '.'; }
+.fl{float: left}
+.fr{float: right}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+/**/
+.qz-header-background {background: #fff;}
+.ui-header h1 {text-align: center;font-size: 16px; font-family: "Microsoft YaHei"; }
+.qz-color { color: #666666;}
+.recharge_em a {font-size: 16px;display: block;height: 44px;position: relative; top: 2px}
+.recharge_em {position: absolute;right: 0;top: 0;font-size: 16px;line-height: 44px;padding: 0 10px;font-family: "Microsoft YaHei";}
+a.color_blue {color: #3b84ed;}
+.recharge_addbtn{width: 30px;height: 44px; background:url("../images/add_person.png") no-repeat center; background-size: 18px; }
+.qz-header-bb { border-bottom: 1px solid #d9d9d9;}
+header.noProsition{position: static}
+.tabBox-tt{height: 46px; border-bottom: 1px #d0d0d0 solid;background: #fff}
+.tabBox-tt li{height: 45px;line-height: 45px; color: #777; float: left; text-align: center; width: 50%; font-size: 16px; font-family: "Microsoft YaHei"}
+.tabBox-tt li.on {color: #3b84ed;border-bottom: 2px #3b84ed solid; height: 45px;}
+.tabContact-tt2{height: 46px; border-bottom: 1px #d0d0d0 solid;background: #fff}
+.tabContact-tt2 li{height: 45px;line-height: 45px; color: #777; float: left; text-align: center; width:50%; font-size: 16px; font-family: "Microsoft YaHei"}
+.tabContact-tt2 li.on {color: #00a5e0;border-bottom: 2px #00a5e0 solid; height: 45px;}
+.counseling{padding: 10px 10px;overflow: hidden; border-bottom: 1px #cdcdcd solid;background: #fff;}
+.counseling.adBod{border-top: 1px #d0d0d0 solid;position: relative; top: -1px;}
+.tabBox-main .tempWrap{clear: both}
+.msg_page_number{ text-align: center; line-height: 50px;  }
+.counseling_tt{line-height: 18px;color: #00a5e0; font-size: 16px; font-family: "Microsoft YaHei";padding: 2px 0}
+.counseling_text{line-height: 22px;color: #999;font-family: "Microsoft YaHei";font-size: 16px;padding: 2px 0 }
+.counseling_text .t1{color: #333;padding-right: 3px}
+.counseling_dec{height: 25px; line-height: 25px;}
+.counseling_dec .counseling_name{float: left; font-size: 16px; color: #00a5e0; font-family: "Microsoft YaHei"}
+.counseling_dec .counseling_respond{float: left; font-size: 16px; color: #999; font-family: "Microsoft YaHei"}
+.counseling_dec .window_tip{float: left; font-size: 16px; color: #333; font-family: "Microsoft YaHei"}
+.counseling_dec .counseline_times{float: right; font-size: 16px; color: #4f5f6f; font-family: "Microsoft YaHei"; color: #727f8c; float: right}
+.counseling_dec .counseline_times2{float: right; font-size: 12px; color: #4f5f6f; font-family: "Microsoft YaHei"; color: #727f8c; float: right}
+.counseling_message{line-height: 18px;color: #4f5f6f;font-family: "Microsoft YaHei";font-size: 16px;padding:5px 10px; clear: both; background: #fff;line-height: 22px;}
+.counseling:first-child{margin-top: 0}
+
+.counseling .respond_list span{ display:inline-block;}
+.counseling .respond_list .ico_right{ display:inline-block; float:right;width:50px}
+
+/**/
+.operate_btn{height: 30px; border-top: 1px #dcdcdc solid;padding-top: 10px; margin: 5px 5px 0 ; clear: both}
+.operate_btn.noBd{border: none;padding: 5px 0 0 0; margin: 0;}
+.operate_btn .btn{float: left; height: 30px; line-height: 29px; border: 1px #3b84ed solid; border-radius:4px; width: 70px; font-size: 16px; text-align: center; color: #3b84ed;  font-family: "Microsoft YaHei";}
+.operate_btn .btn_0{float: left; height: 30px; line-height: 29px; border: 1px #3b84ed solid; border-radius:4px; width: 70px; font-size: 16px; text-align: center; color: #3b84ed;  font-family: "Microsoft YaHei";}
+
+.operate_btn .remove_btn{ width: 40px; height: 30px; background: url("../images/remove_btn.png") no-repeat center; border: none; background-size:46%; float: right}
+/*娴佺▼杩涘害3涓�*/
+.schedule{ height: 90px; overflow: hidden;padding: 10px 0}
+.schedule .list{ height: 8px; background: #e1e4e9; width: 80%; border-radius:20px; margin: 58px auto 0; }
+.schedule .list li{float: left; width: 33.33%; float: left;position: relative; top: -46px}
+.schedule .list li span{display: block; text-align: center; line-height: 18px;height: 37px; color: #7b8590;font-size: 16px; font-family: "Microsoft YaHei"}
+.schedule .list li.active span{color:#3b84ed; }
+.schedule .list li .cell{line-height: 35px;}
+.schedule .list li:nth-of-type(1){ left: -14%;}
+.schedule .list li:nth-of-type(3){ right: -14%; }
+.schedule .list .active .radius_dot{width: 20px; height: 20px; background:url("../images/radius_dot.png") no-repeat center; background-size: cover; display: block; margin: 3px auto 0}
+.schedule .list .radius_dot{width: 20px; height: 20px; background:#e1e4e9; background-size: cover; display: block;  margin: 3px auto 0; border-radius: 20px; overflow: hidden;}
+/*娴佺▼杩涘害4涓�*/
+.schedule2{ height: 90px; overflow: hidden;padding: 10px 0}
+.schedule2 .list{ height: 8px; background: #e1e4e9; width: 80%; border-radius:20px; margin: 58px auto 0; }
+.schedule2 .list li{float: left; width: 25%; float: left;position: relative; top: -46px}
+.schedule2 .list li span{display: block; text-align: center; line-height: 18px;height: 37px; color: #7b8590;font-size: 16px; font-family: "Microsoft YaHei"}
+.schedule2 .list li.active span{color:#3b84ed; }
+.schedule2 .list li .cell{line-height: 35px;}
+.schedule2 .list li:nth-of-type(1){ left: -14%;}
+.schedule2 .list li:nth-of-type(2){ left: -4%;}
+.schedule2 .list li:nth-of-type(3){ left: 4%;}
+.schedule2 .list li:last-child{ right: -14%; }
+.schedule2 .list .active .radius_dot{width: 20px; height: 20px; background:url("../images/radius_dot.png") no-repeat center; background-size: cover; display: block; margin: 3px auto 0}
+.schedule2 .list .radius_dot{width: 20px; height: 20px; background:#e1e4e9; background-size: cover; display: block;  margin: 3px auto 0; border-radius: 20px; overflow: hidden;}
+/*娴佺▼杩涘害5涓�*/
+.complaint_schedule{ height: 90px; overflow: hidden;padding: 10px 0}
+.complaint_schedule .list{ height: 8px; background: #e1e4e9; width: 80%; border-radius:20px; margin: 58px auto 0; }
+.complaint_schedule .list li{float: left; width: 20%; float: left;position: relative; top: -46px}
+.complaint_schedule .list li span{display: block; text-align: center; line-height: 18px;height: 37px; color: #7b8590;font-size: 16px; font-family: "Microsoft YaHei"}
+.complaint_schedule .list li.active span{color:#3b84ed; }
+.complaint_schedule .list li .cell{line-height: 35px;}
+.complaint_schedule .list li:nth-of-type(1){ left: -11%;}
+.complaint_schedule .list li:nth-of-type(2){ left: -5%;}
+.complaint_schedule .list li:nth-of-type(4){ left: 5%;}
+.complaint_schedule .list li:last-child{ right: -11%; }
+.complaint_schedule .list .active .radius_dot{width: 20px; height: 20px; background:url("../images/radius_dot.png") no-repeat center; background-size: cover; display: block; margin: 3px auto 0}
+.complaint_schedule .list .radius_dot{width: 20px; height: 20px; background:#e1e4e9; background-size: cover; display: block;  margin: 3px auto 0; border-radius: 20px; overflow: hidden;}
+.service_wrap{ padding: 10px 10px; background: #fff; min-height: 100px;}
+.service_type_select{overflow: hidden;margin-bottom: 5px}
+.service_type_select .text{height: 35px; line-height: 35px; font-size: 16px; font-family: "Microsoft YaHei"; color: #4f5f6f; text-indent: 3px;}
+.service_type_select .drawback_tt{clear: both;overflow: hidden}
+.service_type_select .drawback_tt .ipt_text{width: 61%; height: 35px;line-height: 35px;border: 1px #d9d9d9 solid;border-radius: 2px;float: left}
+.service_type_select .drawback_tt span{float: left;box-sizing: border-box;padding-left: 5px; font-size: 16px; font-family: "Microsoft Yahei"; color: #4f5f6f; line-height: 30px;height: 30px;overflow: hidden}
+.service_type_select .drawback_tip{clear: both;font-size: 16px; font-family: "Microsoft Yahei"; color: #4f5f6f; line-height: 30px;height: 30px;overflow: hidden;clear: both;color: #4f5f6f;}
+.drawback_tip_row{clear: both;font-size: 12px;; color: #4f5f6f; font-family: "Microsoft Yahei"; line-height: 20px;clear: both;color: #7e8892;text-align: justify;padding: 8px 0}
+.drawback_uploadpic{overflow: hidden;margin-bottom: 5px}
+.drawback_uploadpic .tt{height: 35px; line-height: 35px; font-size: 16px; font-family: "Microsoft YaHei"; color: #4f5f6f; text-indent: 3px;}
+.number_code{ height: 25px; line-height: 25px; font-size: 16px;margin-left: 10px; font-family:Arial,"Microsoft YaHei"; color: #4f5f6f; text-indent: 17px;background: url("../images/blue_dot.jpg") no-repeat left center;background-size: 4%}
+.service_select{width: 80%; min-width: 80px; width: 99%; height: 35px; line-height: 35px; border: 1px #d9d9d9 solid;order-radius: 4px;border-radius: 2px; font-family: "microsoft yahei"; font-size: 16px}
+.service_msg{ overflow: hidden; padding-top: 3px;}
+.service_msg .text{ height: 35px; line-height: 35px; font-size: 16px; font-family: "Microsoft YaHei"; color: #4f5f6f; text-indent: 3px;}
+.service_msg textarea{ border: 1px #d9d9d9 solid; height: 80px; width: 99%; line-height: 25px;border-radius: 2px}
+.service_subBtn{ clear: both; padding: 10px 0; text-align: center; overflow: hidden }
+.public_btn1{line-height: 2.5; background: #3b84ed; color: #fff; text-align: center; width: 45%;border: none; margin: 0 2% 0 1%; font-family: "Microsoft YaHei"; font-size: 16px; border-radius: 4px}
+.public_btn2{line-height:2.5; background: #e5e5e5; color: #4f5f6f; text-align: center; width: 45%;border: none;margin: 0 2% 0 1%; font-family: "Microsoft YaHei"; font-size: 16px; border-radius: 4px}
+.service_subBtn2{ clear: both; padding: 10px 0; text-align: center; overflow: hidden }
+.service_subBtn2 .public_btn1{height: 35px; background: #3b84ed; color: #fff; text-align: center; width: 30%;border: none; margin: 0 1% 0 1%; font-family: "Microsoft YaHei"; font-size: 16px; border-radius: 4px}
+.service_subBtn2 .public_btn2{height: 35px; background: #e5e5e5; color: #4f5f6f; text-align: center; width: 30%;border: none;margin: 0 1% 0 1%; font-family: "Microsoft YaHei"; font-size: 16px; border-radius: 4px}
+/**/
+.platform_msg{padding: 10px; background: #fff}
+.platform_msg .msg_text{line-height: 22px; overflow:hidden; clear: both;font-size: 16px;  font-family: "Microsoft YaHei"; color: #4f5f6f; padding: 0px 0}
+.platform_msg .msg_text .text_title{float: left; width: 70px; font-size: 16px;  font-family: "Microsoft YaHei"; color: #4f5f6f}
+.platform_msg .msg_text .text{float: left;width: 75%;text-align: justify;}
+.platform_msg .text_last{margin:8px 0 15px 0;}
+.ui-header .user_setInfo{position: absolute;top: 0; height: 30px; width: 35px;background: url("../images/setInfo.png") no-repeat center; background-size: contain; right: 0; top:8px;position:  absolute}
+.tabBox-tt2{height: 46px; border-bottom: 1px #d0d0d0 solid;background: #fff}
+.tabBox-tt2 li{height: 45px;line-height: 45px; color: #777; float: left; text-align: center; width:25%; font-size: 16px; font-family: "Microsoft YaHei"}
+.tabBox-tt2 li.on {color: #00a5e0;border-bottom: 2px #00a5e0 solid; height: 45px;}
+.user_setInfo_cell{position: absolute; top: 44px; right: 0; width: 100px; line-height: 35px; font-size: 16px; font-family: "Microsoft YaHei";text-align: center; color: #727f8c; background: #fff; border: 1px #ebebeb solid;z-index: 99; display: none}
+.block_mark{position: fixed; background: rgba(0,0,0,0.2); top: 0; left: 0; width: 100%; height: 100%; display: none}
+/**/
+.infoBox_wrap{background: #fff;overflow: hidden;margin-bottom: 10px;}
+.infoBox_border_wrap{border: 1px #ebebeb solid; margin: 10px 10px 15px}
+.my_info_text{padding: 5px 10px;overflow: hidden;background: #fff;; margin-top: 5px;}
+.padWrap14{padding: 0 16px;}
+.infoBox_wrap .public_btn1{width: 30%;margin: 0}
+.info_setting{  overflow: hidden;}
+.info_setting_wrap{border-bottom: 1px #d0d0d0 solid; background: #fff; padding: 10px;; margin-bottom: 10px; }
+.info_setting_wrap .setting_tt{font-size: 16px; font-family: "Microsoft YaHei";margin-left: 10px;}
+.info_setting_wrap .setting_cell{height: 30px;line-height: 30px; overflow: hidden;margin: 5px 0;margin-left: 10px; padding-left: 25px; background: url("../images/checkbox_icon1.png") no-repeat left center; background-size: 20px; position: relative}
+.info_setting_wrap .setting_cell.on{background-image: url("../images/checkbox_icon2.png")}
+.info_setting_wrap .setting_cell input[type="checkbox"]{opacity: 0 ; width: 40px; height: 30px; position: absolute; top: 0; left: 0; z-index: 99}
+/*閫�鎹㈣揣*/
+.refund{;margin-top:10px;background: #fff; overflow: hidden; border-bottom: 1px #d9d9d9 solid;}
+.refund_tp{height: 40px; line-height: 40px; background: #eeeeee; border: 1px #d9d9d9 solid; color: #4f5f6f; font-size: 16px; font-family: "Microsoft YaHei"; text-indent: 10px;}
+.refund_tp .refund_icon{float: right;width: 35px; height: 35px;background: url("../images/refund_return.png") no-repeat center; background-size: 80%;  margin: 2px 7px 0 0px;}
+.refund_main{ margin:10px 12px}
+.refund_text{overflow: hidden}
+.refund_main .tip_tt{ font-size:15px; color: #7e8892; font-family: "Microsoft YaHei";height: 26px; line-height: 26px; overflow: hidden}
+.refund_main .refund_numb{ font-size:15px; color: #4f5f6f; font-family:Arial, "Microsoft YaHei";height: 30px; line-height: 30px; overflow: hidden}
+.refund_main .refund_numb span{float: left; width: 77%;height: 25px; line-height: 27px;word-break: keep-all;white-space: nowrap;overflow: hidden;text-overflow: ellipsis; float: left; color: #7e8892}
+.refund_main .refund_numb input{float: right; border: 1px #3b84ed solid; font-size: 16px; font-family: "Microsoft YaHei"; width: 60px; height: 28px; line-height: 28px; float: right; color: #3b84ed; border-radius: 4px;}
+.refund_main .refund_text{border-bottom: 1px #cacfd4 solid;overflow: hidden;padding:5px 0 10px 0;}
+.wrap_padding{padding: 10px 10px}
+.refund_text_row{line-height: 26px; font-size: 16px; color: #4f5f6f; font-family:"Microsoft YaHei","瀹嬩綋";}
+.refund_text .imgBox{width: 80px;height: 80px; overflow: hidden; float:left;}
+.refund_text .imgBox img{width: 80px; height: 80px; display: block}
+.refund_text .text{float: left; width: 70%; box-sizing: border-box;padding-left: 10px;}
+.refund_text .text h3{height: 26px;line-height: 26px; font-size: 16px; color: #4f5f6f; font-family:"Microsoft YaHei";word-break: keep-all;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.refund_text .text p{height: 26px;line-height: 26px; font-size: 16px; color: #4f5f6f; font-family:"Microsoft YaHei","瀹嬩綋";word-break: keep-all;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.refund_text .text .red_money{height: 26px;line-height: 26px; font-size: 16px; color: #da3228; font-family:"Microsoft YaHei","瀹嬩綋";word-break: keep-all;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.refund_text .mth{padding-top: 10px; line-height: 20px;clear: both}
+.refund_text .mth li{width: 33.33%; margin: 0 auto; float: left; font-size: 16px; font-family: "Microsoft YaHei";   }
+.refund_text .mth a{color: #3b84ed}
+.refund_text .mth li:nth-of-type(2){text-align: center; }
+.refund_text .mth li:last-child{text-align: right}
+.refund_wrap{margin-top: 10px}
+.refund_main .refund_state{height: 25px;line-height: 25px;padding-top: 7px;}
+.refund_main .refund_state li{height: 26px;line-height: 26px; font-size: 16px; color: #4f5f6f; font-family:"Microsoft YaHei";float: left; width: 50%;word-break: keep-all;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;text-indent: 5px;padding-top: 7  px}
+.refund_state .text_dec{float: left; width: 70%;overflow: hidden;height: 25px;line-height: 25px; color: #4f5f6f; font-size: 15px; font-family: "Microsoft Yahei"}
+.refund_state .mth_ipt{float: right;height: 25px;line-height: 25px;width: 50px; color: #3b84ed;border: none; font-size: 15px; font-family: "Microsoft Yahei"}
+/**/
+.refund_tip{background: #fef4e8;padding: 5px 0; overflow: hidden; border-bottom: 1px #d9d9d9 solid}
+.refund_tip .text{font-size: 14px; line-height: 20px; font-family:Arial,"Microsoft YaHei"; color: #4f5f6f;padding:0 10px}
+.refund_tip .text_bod{height: 30px;line-height: 32px;border-top:1px #d0d0d0 solid;margin-top: 8px;padding: 0 10px; font-family:"Microsoft YaHei"; color: #4f5f6f; font-size: 16px;}
+.tip_red{color: #da3228;}
+/**/
+.refund_dec{background: #fff;padding: 10px; overflow:hidden; border-bottom: 1px #d0d0d0 solid}
+.refund_dec .refund_dec_tt{font-size: 15px; font-family: Arial,"Microsoft YaHei"; color: #4f5f6f}
+.refund_dec .refund_dec_num{font-size: 15px; font-family: Arial,"Microsoft YaHei"; color: #9CA4AB;position: relative}
+.refund_dec_main{padding-top: 15px; font-size: 15px; font-family: Arial,"Microsoft YaHei"; color: #4f5f6f; clear: both;}
+.refund_dec .refund_dec_num p{float: left; width: 75%; overflow: hidden;height: 25px;line-height: 25px;}
+.refund_dec .refund_dec_num .arrow{width: 20px; height: 30px; background: url("../images/refund_arrow_btn.png") no-repeat center; position: absolute; right: 15px; top: -3px; background-size: contain;-webkit-transition: 0.3s all;-moz-transition: 0.3s all;--ms-transition: 0.3s all;transition: 0.3s all;transition: 0.3s all;}
+.refund_dec_main p{line-height:25px}
+.white-warp{background: #fff}
+.business{overflow: hidden;padding-top: 20px; }
+.business_wrap{background: #fff;padding: 10px; overflow: hidden;border-bottom: 1px #d9d9d9 solid; margin-bottom: 10px;border-top: 1px #d9d9d9 solid;margin-top: -1px }
+.business_user_mode{height: 70px; border-bottom: 1px #d9d9d9 solid; clear: both;background: #fff; border-bottom: 1px #d9d9d9 solid; }
+.business_user_mode .mode_right{float: right; color: #4f5f6f;line-height: 30px; font-size: 15px; font-family: "Microsoft Yahei";box-sizing: border-box;padding-right: 10px }
+.business_user_mode .mode_right p{overflow: hidden; height: 30px; line-height: 30px;overflow: hidden}
+.business_user_mode .subbtn{width: 80px; height: 40px; line-height: 40px; text-align: center; border: 1px #3b84ed solid; color: #3b84ed; margin-top: 10px; border-radius:4px;margin-left: 15px}
+
+.drawback_uploadpic_lst{overflow: hidden;padding-bottom: 10px}
+.drawback_uploadpic_lst li{float: left;width: 33.33%; }
+.drawback_uploadpic_lst .uploadpic{width:95px; height: 95px;border: 1px #d9d9d9 solid; border-radius: 4px;margin: 0 auto}
+.drawback_uploadpic_lst .uploadpic img{width: 89px; height:89px; display: block; margin: 3px auto;border: none}
+.upload_btn{border: 1px #3b84ed solid; color: #3b84ed; font-size: 16px; font-family: "Microsoft Yahei"; width: 95px; height: 35px; line-height: 34px; text-align: center; margin:8px auto 0; display: block;border-radius: 4px;}
+.upload_btn1{border: 1px #3b84ed solid; color: #3b84ed; font-size: 16px; font-family: "Microsoft Yahei"; width: 95px; height: 35px; line-height: 34px; text-align: center; margin:0px auto 0; display: block;border-radius: 4px;}
+
+.drawback_top_tip{border-top: 1px #d9d9d9 solid; color: #4f5f6f;padding: 10px 0; line-height: 22px; font-size: 16px; font-family: "Microsoft Yahei"; background: #eeeeee;padding:5px 10px}
+
+.complaint_content{background: #fff;padding: 10px;}
+.complaint_content .complaint_tt{height: 30px;line-height: 30px;font-size: 16px; font-family: "Microsoft Yahei"; color: #4f5f6f}
+.complaint_choose li{min-height: 30px;padding-left: 10px;position: relative;}
+.complaint_choose li.on div{background-image: url("../images/complaint_dot1.png")}
+.complaint_choose li div{height: 30px; line-height: 30px;font-size: 16px; font-family: "Microsoft Yahei"; color: #4f5f6f;background:url("../images/complaint_dot2.png") no-repeat left center; background-size: 4%;padding-left: 20px}
+.complaint_choose li p{ line-height: 25px;font-size: 16px; font-family: "Microsoft Yahei"; color: #727f8c}
+.complaint_choose li .adchek{position: absolute; top: 0;left: 0;width: 50px; height: 30px;opacity: 0;}
+/**/
+.chat_log{padding: 10px;background: #fff; font-size: 16px; font-family: "Microsoft Yahei"; color: #4f5f6f}
+.chat_log_tt{height: 30px;line-height: 30px;font-size: 16px;font-family: "Microsoft YaHei";color: #4f5f6f;text-indent: 3px;}
+.chat_log_content{border: 1px #d9d9d9 solid; min-height: 100px}
+.chat_log_content .text1{ margin: 15px 10px}
+.chat_log_content .times{ font-size: 16px; font-family: "Microsoft Yahei"}
+.chat_log_content .dec{font-size: 16px; font-family: "Microsoft Yahei"; text-indent:12px}
+.chat_log_content .text2{ margin: 15px 10px; color: #727f8c;}
+.chat_log_content .text3{ margin: 15px 10px; color: #da3228;}
+.tab_text1{clear: both;}
+.tab_text1 .refund:first-child{margin-top: -1px;}
+.attention{background: #fff;padding: 10px 5px}
+.attention_item{border: 1px #d9d9d9 solid; float: left; width: 47%;margin:4px 1%;height: 90px}
+.attention_item .item_left{float: left;width: 45%;}
+.attention_item .item_left .imgBox{width: 60px; height: 60px;  border-radius: 40px;margin:3px auto 0; overflow: hidden}
+.attention_item .item_left .imgBox img{display: block; width: 60px; height: 60px;}
+.attention_item .item_left div{text-align: center; font-size: 16px;  font-family: "Microsoft Yahei"; color: #4f5f6f;line-height: 30px}
+.attention_item .item_right{float: right;width: 55%; height: 90px; text-align: center}
+.attention_item .item_right .attention_type{text-align: left; font-size: 12px;  color: #4f5f6f;line-height: 30px; background: url("../images/attention_type.png") no-repeat left center; background-size: 25%;display: inline-block; padding: 10px 0 10px 21px;font-family: "Microsoft Yahei";font-size: 16px; }
+.attention_item .attention_btn{border: 1px #d9d9d9 solid;font-family: "Microsoft Yahei";font-size: 16px; border-radius: 4px; width: 70px; height: 25px; color: #727f8c;margin-top: -3px}
+.attention_item .attention_btn2{border: 1px #3b84ed solid;font-family: "Microsoft Yahei";font-size: 16px; border-radius: 4px; width: 70px; height: 25px; color: #3b84ed;margin-top: -3px;background: url("../images/plus_icon.png") no-repeat 3px center;text-align: left; text-indent: 20px}
+.attention_search{background: #f5f5f5; height: 50px; line-height: 50px;border-bottom: 1px #d4d7da solid;margin-top: -10px}
+.attention_search .ipt_sch{float: left; height: 30px; line-height: 30px;margin: 8px 0 0 5%; width: 60%;border: 1px #d0d0d0 solid}
+.attention_search .ipt_schbtn{float: left; height: 32px; line-height: 0px;margin: 8px 0 0 -1px; width: 28%; background: #3b84ed;border: none; font-size: 16px; font-family: "Microsoft Yahei"; color: #fff;border: 1px #d0d0d0 solid}
+/**/
+.store_box{ overflow: hidden; background: #fff;margin-top: 10px; border-top: 1px #d9d9d9 solid;border-bottom: 1px #d9d9d9 solid;padding: 0px 10px 13px;}
+.store_box .store_tt{height: 32px; line-height: 30px; font-size: 16px; font-family: "Microsoft Yahei"; color: #7e8892;}
+.store_box .store_header{height: 22px; line-height: 25px; font-size: 16px; font-family: "Microsoft Yahei"; color: #4f5f6f;padding-top: 10px}
+.store_box .text_money{height: 30px; line-height: 30px;font-size: 16px; font-family:Arial,"Microsoft Yahei";}
+.store_box .imgBox{width: 120px; height: 80px; float: left; overflow: hidden}
+.store_box .imgBox img{width: 113px; height: 80px; display: block}
+.store_text{display: block}
+.store_box .store_text .text{float: right; width: 60%; float: right;position:relative; height: 80px;}
+.store_box .store_text .text .btn1{width: 50px; height: 30px; position: absolute;right: 0;bottom: 0; background: url("../images/remove_btn.png") no-repeat center; background-size: 36%; border: none}
+.store_box .store_text .text .text_dec  {line-height: 20px;font-family: "Microsoft Yahei"; font-size: 16px;max-height: 40px;overflow:hidden; display: block}
+/**/
+.timeline{ overflow: hidden; min-height: 80px; background: url("../images/ylw_dota.png") repeat-y 20px 0;margin-top: 20px}
+.timeline .timeline_cell{padding-left: 40px;position: relative;margin-top: 0;padding-bottom: 40px}
+.timeline .timeline_cell:after{width: 13px; height:13px; background: #3b84ed;content: "."; position: absolute; top: 5px; display: block; border-radius: 20px;left: 14px;}
+.timeline .text_money{height: 30px; line-height: 30px;font-size: 16px; font-family:Arial,"Microsoft Yahei";}
+.timeline_tt{ font-size: 16px; font-family: "Microsoft Yahei"; }
+.timeline .text_dec{line-height: 20px;font-family: "Microsoft Yahei"; font-size: 16px;max-height: 40px;overflow:hidden; display: block;word-break: keep-all;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.timeline .timeline_main{overflow: hidden;padding-top: 10px;}
+.timeline .timeline_main .imgBox{float: left; width: 120px; height: 80px; background: #000}
+.timeline .timeline_main .imgBox img{width: 120px; height: 80px;}
+.timeline .timeline_main .text{float: left;box-sizing:border-box;padding-left: 5px; width: 60%;}
+/**/
+.member_data_wrap{background: #fff; overflow:hidden;margin: 0 0 10px;}
+.member_data_wrap .member_data{height: 100px; line-height: 100px; border-bottom: 1px #eeeeee solid;padding: 0 20px; background: url("../images/member_data_arrow19.png") no-repeat 94% center; background-size: 1.2%}
+.member_data_wrap .member_data span{float: left; font-size: 16px; color: #727f8c; font-family: "Microsoft Yahei";}
+.member_data_wrap .imgBox{float: right; margin-right: 50px;width: 80px; height: 80px; border-radius: 50px; margin: 10px  40px 0 0;}
+.member_data_wrap .imgBox img{ width: 80px; height: 80px; overflow: hidden;border: none;border-radius: 50px;}
+/**/
+.member_data_text{clear: both; border-bottom: 1px #eeeeee solid; height: 50px;line-height: 50px; padding: 0 10px; color: #727f8c;}
+.member_data_text .text_tt{width: 20%; color:#727f8c; font-size: 16px; font-family:Arial,"Microsoft YaHei" }
+.member_data_text .text{ color:#727f8c; font-size: 16px; font-family: "Microsoft YaHei" }
+.member_data_text .text_block{ color:#727f8c; font-size: 16px; font-family: "Microsoft YaHei"; width:70%; height: 50px; line-height: 40px; }
+.member_data_text .link_text{color: #3b84ed; font-size: 16px; font-family: "Microsoft YaHei";}
+.member_data_text .data_ipt{ text-indent: 5px; float: left; width: 60%; height: 30px; line-height: 30px; border: 1px #d9d9d9 solid;margin: 9px 0 0 7px;}
+.member_data_text .data_ipt2{ text-indent: 5px; float: left; width: 60%; height: 30px; line-height: 30px; border: 1px #d9d9d9 solid;margin: 9px 0 0 7px;}
+.member_data_text .sex_choose,.follow_choose{float: left;  margin-left: 16px; background: url("../images/complaint_dot2.png") no-repeat left center; background-size: 11px; }
+.member_data_text .sex_choose.on,.follow_choose.on{ background: url("../images/complaint_dot1.png") no-repeat left center;background-size: 11px;}
+.member_data_text .sex_choose input[type="radio"],.follow_choose input[type="radio"]{opacity: 0 ;}
+.member_data_text .sex_choose span{font-size: 16px; font-family: "Microsoft YaHei";padding-left: 0px;}
+input.birthday_year{text-indent: 5px; float: left; width:80px; height: 30px; line-height: 30px; border: 1px #d9d9d9 solid;margin: 9px 5px 0 7px; text-indent: 5px;}
+input.birthday_months{text-indent: 5px; float: left; width:40px; height: 30px; line-height: 30px; border: 1px #d9d9d9 solid;margin: 9px 5px 0 7px; text-indent: 5px;}
+input.birthday_days{text-indent: 5px; float: left; width:40px; height: 30px; line-height: 30px; border: 1px #d9d9d9 solid;margin: 9px 5px 0 7px; text-indent: 5px;}
+/**/
+.contact_person{height: 70px;line-height: 70px; border-bottom: 1px #bec2c6 dotted;padding: 0 10px;   }
+.contact_person .imgBox{float: left; width: 60px; height:60px; border-radius: 40px;margin: 5px 0 0 10px; }
+.contact_person .imgBox img{ width: 60px; height:60px; display: block}
+.contact_person .person_name{float: left; width: 60%; height: 70px; line-height: 70px; overflow: hidden; text-indent: 15px; font-size: 16px; font-family: "Microsoft YaHei"; text-align: left }
+.contact_person .arrow_right{float: right; width: 30px; height: 70px; background: url("../images/conctact_arrow.png") no-repeat center }
+.contact_person.on{background: #fff}
+.contact_person.on .arrow_right{float: right; width: 30px; height: 70px; background: url("../images/conctact_arrow2.png") no-repeat center }
+/**/
+.talk_send_box{width: 100%; min-height: 50px; position: fixed; left: 0; bottom: 0; background: #fff}
+.talk_send_mthod{background: #fff;height: 50px;overflow: hidden}
+.talk_send_box .talk_history{background: url("../images/talk_history.png") no-repeat 0 0; width: 40px; height: 33px;  background-size: 29px; margin: 10px 0 0 4%; position: absolute; top: 0; left: 0; }
+.talk_send_box .talk_history.on{background-position: 0 -39px}
+.talk_send_box .talk_face{float: right; margin: 9px 0 0 5px;width: 30px; height: 30px; background: url("../images/talk_face.png") no-repeat 0 0; background-size:27px }
+.talk_send_box .talk_face.on{background-position: 0 -37px}
+.talk_send_box .text_ipt{width: 152px;height: 26px;line-height: 26px;margin-top: 8px;float: left;border: none; text-indent: 5px; font-size: 16px; width: 81%;}
+.talk_send_box .talk_text{ width: 60%;height: 40px; border-bottom: 1px #3b84ed solid;margin:0 auto;position: relative; left: -3%}
+.talk_send_text{width: 60px; height: 35px; line-height: 35px; text-align: center; background: #3b84ed; font-size: 16px; font-family: "Microsoft YaHei"; border: none; border-radius: 5px; position: absolute; top: 6px; right:3%; color: #fff}
+/**/
+.face_pakge{padding:10px 5px; }
+.face_pakge li{float: left; width: 30px; height: 30px;margin: 5px 10px;}
+.face_pakge li img{width: 100%}
+.talk_faces span{margin: 6px; display: block; width: 40px; height: 40px;float:left;margin:2px 5px;}
+.talk_faces span img{width: 100%}
+.send_msg_text{overflow: hidden; padding:0 15px 10px;}
+.send_msg_text .send_times{text-align: center; font-size: 16px; font-family: "Microsoft YaHei"; color: #727f8c;line-height: 25px;}
+.send_msg_text .imgBox{float: left;width: 40px; height: 40px; overflow: hidden;}
+.send_msg_text .imgBox img{width: 40px; height: 40px; border-radius: 40px;}
+.send_msg_text .send_main_msg{float: left; border: 1px #727f8c solid; line-height: 25px; font-size: 16px; font-family: "Microsoft YaHei"; color: #4f5f6f; background: #fff; border-radius: 4px; min-height: 25px; min-width: 20px; max-width: 60%;margin: 5px 0 0 4%;padding: 5px;position: relative;table-layout:fixed; word-break: break-all;}
+.send_msg_text .send_main_msg:before,
+.send_msg_text .send_main_msg:after{content: "";position: absolute;top: 9px;left: -16px;width: 0px;height: 0px;border: 8px solid transparent;border-right-color: rgb(255,255,255);  }
+.send_msg_text .send_main_msg:before{top: 8px;left: -18px;border: 9px solid transparent;border-right-color: #727f8c;}
+.send_msg_text .send_main_msg img{max-width: 35px;}
+#face_msgshow{overflow: hidden;overflow-y: auto}
+.send_msg_picking{overflow: hidden; padding:0 15px 10px;}
+.send_msg_picking .send_times{text-align: center; font-size: 16px; font-family: "Microsoft YaHei"; color: #727f8c;line-height: 25px;}
+.send_msg_picking .imgBox{float: right;width: 40px; height: 40px; overflow: hidden;}
+.send_msg_picking .imgBox img{width: 40px; height: 40px; border-radius: 40px;}
+.send_msg_picking .send_main_msg{float: right; border: 1px #727f8c solid; background: #fff; line-height: 25px; font-size: 16px; font-family: "Microsoft YaHei"; color: #4f5f6f; border-radius: 4px; min-height: 25px; min-width: 20px; max-width: 60%;margin: 5px 4% 0 0;padding: 5px;position: relative;table-layout:fixed; word-break: break-all;}
+.send_msg_picking .send_main_msg:before,
+.send_msg_picking .send_main_msg:after{content: "";position: absolute;top: 9px;right: -16px;width: 0px;height: 0px;border: 8px solid transparent;border-left-color: rgb(255,255,255);  }
+.send_msg_picking .send_main_msg:before{top: 8px;right: -18px;border: 9px solid transparent;border-left-color: #727f8c;}
+.send_msg_picking .send_main_msg img{max-width: 35px;}
+.talk_choose_date{height: 40px; line-height: 40px; width: 100%;position: absolute;top: -40px; left: 0; background: #fff;padding: 0 20px;display: none}
+.talk_choose_date .date_cell{margin: 0 10px; font-size: 16px;font-family: "Microsoft YaHei";}
+.talk_choose_date .date_cell.on{color: #3b84ed}
+/**/
+.meun_test{background:url("../test/menu_bg.jpg") no-repeat center 0; position:fixed; top:0;left: 0; width: 100%;height: 100%; background-size: cover    }
+.nav_touch{width:75px; height: 75px; background: url("../images/nav_touch.png") no-repeat center; position: fixed; top: 0; left: 0;background-size: contain;box-shadow:0px 0px 16px 1px rgba(0,0,0,0.5);border-radius: 50px; overflow: hidden;z-index: 9999}
+.index_menu{ z-index:999; position: fixed; left: -90px;top: 0; width: 80px; height: 100%; background: rgba(0,0,0,0.3);box-sizing: border-box; padding-top: 50px; display: none}
+.index_menu .number_cell{background:#3b84ed;width: 25px;height: 25px; line-height: 25px; border-radius:20px; overflow: hidden; text-align: center; color: #fff; font-family: Arial,"Microsoft YaHei"; display: block; font-size: 16px;margin: 6px 11px 0 0px; float: right}
+.index_menu a{margin: 28% auto;}
+.nav_icon1{width: 65px; height: 65px; background: url("../images/nav_icon1.png") no-repeat center; background-size: cover; display: block; }
+.nav_icon2{width: 65px; height: 65px; background: url("../images/nav_icon2.png") no-repeat center; background-size: cover; display: block; }
+.nav_icon3{width: 65px; height: 65px; background: url("../images/nav_icon3.png") no-repeat center; background-size: cover; display: block; }
+.nav_icon4{width: 65px; height: 65px; background: url("../images/nav_icon4.png") no-repeat center; background-size: cover; display: block; }
+.nav_icon5{width: 65px; height: 65px; background: url("../images/nav_icon5.png") no-repeat center; background-size: cover; display: block;}
+
+@media screen and (min-height:420px) and (max-height:480px){
+    .index_menu a{margin: 20% auto;}
+}
+    @media screen and (min-height:570px) and (max-height:736px){
+        .index_menu a{margin: 60% auto;}
+}
+/**/
+.order_number_wrap{background: #fff;overflow: hidden; padding: 10px 10px;}
+.order_number{height: 25px; line-height: 25px; font-size: 16px; font-family:Arial,"Microsoft YaHei"; color: #4f5f6f; word-break: keep-all;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.order_number_tt{ height: 30px; line-height: 35px; font-size: 16px; color: #666; font-family: "Microsoft YaHei";word-break: keep-all;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.order_number_choose{overflow: hidden}
+.order_number_choose li{line-height: 40px; background: url("../images/complaint_dot2.png") no-repeat 3px center;}
+.order_number_choose li.on{background: url("../images/complaint_dot1.png") no-repeat 3px center;}
+.order_number_choose li .choose_radio{width: 25px; height: 25px; opacity: 0}
+.order_number_choose li span{ color: #4f5f6f; font-size: 16px; font-family: "Microsoft YaHei"}
+.order_number_tt2{ color: #3b84ed; font-size: 16px; font-family: "Microsoft YaHei";padding-bottom: 10px;}
+.order_number_tip{ line-height: 25px; font-size: 16px; font-family:Arial,"Microsoft YaHei"; color: #7e8892;padding-top: 5px;text-align: justify}
+.no_center{
+  overflow: hidden;
+  background: #fff;
+  margin-top: 10px;
+  border-top: 1px #d9d9d9 solid;
+  border-bottom: 1px #d9d9d9 solid;
+  padding: 0px 10px 13px;
+  position: fixed;width: 100%;height: 100%;left: 0;top: 52px;text-align: center;line-height: 50px;
+}
+/**/
+.article_page{
+	  padding: 20px 10px;
+}
+.article_tt{
+	  text-align: center;
+  line-height:2;
+  font-size: 18px;
+  font-family: "Microsoft YaHei";
+  color: #5c6b7a;
+}
+.article_times{
+  font-family: "Microsoft YaHei";
+  text-align: center;
+  color: #ccc;
+  padding-bottom: 15px;
+  border-bottom: 1px #ebebeb solid;
+  color: #9ba4ad;
+}
+.article_content{
+  line-height: 1.5;
+  padding-top: 10px;
+  color: #566675;
+}

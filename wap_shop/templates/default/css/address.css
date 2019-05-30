@@ -1,0 +1,17 @@
+/* CSS Document */
+dd h1{font-size:14px}
+select{height:auto !important; padding:5px 5px}
+.ui-form-item {
+    position: relative;
+    font-size: 16px;
+    height: auto !important;
+    line-height: 1.5;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.qz-border-yellow {
+    padding: 8px 0 8px 0;
+}
+.ui-header~.ui-container {
+   border-top: 0px solid transparent;
+}

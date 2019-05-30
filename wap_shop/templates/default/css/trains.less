@@ -1,0 +1,101 @@
+@import "public";
+
+@red:#3b84ed;    //黄色
+.cleaboth{ clear: both; overflow: hidden}
+.train_destination{background: #fff; border: 1px #e2e2e2 solid; width: 9rem; height:3.6rem; margin: 0.53rem auto 0 ;
+  .start,.end{.wh(4.5rem,2.4rem); .fl;
+    .tt{.hh(1rem,1rem); text-indent: 10px; color: #999}
+    .content{.hh(1rem,1.2rem); text-indent: 10px; color: #333; font-size: 18px;  background: url("../images/trans_arrow.jpg") no-repeat 95% center; background-size: 13px}
+  }
+  .start{border-right:1px #e2e2e2 solid; box-sizing: border-box}
+  .choose_time{.hh(1.2rem,1.2rem);  text-align: center; clear: both; box-sizing: border-box; border-top:1px #e2e2e2 solid; font-size: 20px;; color: #666;font-family: Arial;background: url("../images/trans_arrow.jpg") no-repeat 95% center; background-size: 13px}
+}
+.train_sreach_btn{.whh(8rem,0.9rem,0.8rem); display: block; margin: 0.3rem auto 0.7rem; background:url("../images/linear-buttonbg.jpg") repeat-x top left; border: none; background-size: contain; border-radius:11px; font-size: 16px; color: #fff; font-family: "Microsoft Yahei"; box-shadow: 0px 2px 4px rgba(54, 149, 255,0.7)  }
+.train_tt_tips{background: #fff; margin-bottom: 10px; position: relative; .hh(1rem,1rem); text-indent: 0.6rem; font-size: 15px;
+  &::after{  content: " ";
+    background: url("../images/index_bule_dot.jpg") no-repeat left center;
+    background-size: cover;
+    width: 10px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    margin-left: 3px;
+    margin-right:3px;}
+}
+.train_list{ overflow: hidden;; clear: both;box-sizing: content-box;padding-bottom: 50px;
+  &.top{margin-top: 30px}
+  .rows{.h(1.6rem); background: #fff; margin-bottom: 8px; overflow: hidden; .dfx;
+    .lt{.elfx();.dfx;
+      .start_block{.elfx(); box-sizing: border-box; padding-left: 8px;
+        .tt{.hh(0.9rem,0.9rem); overflow: hidden; border-bottom: 1px #e2e2e2 solid}
+        .icon{background:#da3229; color: #fff; border-radius: 3px; .whh(20px,20px,20px); display: inline-block; text-align: center;}
+        .text{font-size: 15px}
+        .price{.hh(0.7rem,0.7rem); overflow: hidden}
+      }
+      .terminus{.elfx();; box-sizing: border-box;
+        .tt{.hh(0.9rem,0.9rem); overflow: hidden; border-bottom: 1px #e2e2e2 solid}
+        .icon{background:#306fd8; color: #fff; border-radius: 3px; .whh(20px,20px,20px); display: inline-block; text-align: center;}
+        .text{font-size: 15px}
+        .price{.hh(0.7rem,0.7rem); overflow: hidden}
+      }
+    }
+    .rt{.whh(80px,1.6rem,1.6rem);.fr;border-left: 1px #e2e2e2 solid; box-sizing: border-box; text-align: center;
+      button{background: @red; color: #fff; border: none; .whh(60px,25px,25px); border-radius: 40px; background:url("../images/linear-buttonbg.jpg") repeat-x top left; box-shadow: 0px 2px 4px rgba(54, 149, 255,0.7); background-size: contain}
+    }
+    .start_time{width: 3.3rem; text-indent: 3px; color: #999;
+      .time{.hh(0.9rem,0.7rem); overflow: hidden;margin-right: 10px; text-align: center; border-bottom: 1px #e2e2e2 solid; background: url("../images/trains_arrow2.jpg") no-repeat right 0.5rem ; text-indent: 0.5rem}
+      .text{.hh(0.7rem,0.7rem); overflow: hidden; text-align: center}
+    }
+  }
+}
+
+.train_position_top{.hh(1rem,1rem); background: @red; position: relative; text-align: center;
+  .text{ color: #fff; font-size: 16px;}
+  .arrow{.wh(1rem,1rem); background: url("../images/trains_arrow.jpg") no-repeat center 3px; background-size: 0.8rem; position: absolute; left: 0; top: 0;}
+  .help{.wh(1rem,1rem);position: absolute;.tr(0,0.2rem); z-index: 99;  color: #fff; font-size: 14px;}
+}
+.online_socket{.whh(8rem,0.9rem,0.8rem);text-decoration: none; text-align: center; color: #333; display: block; margin: 0.3rem auto 0.7rem; text-indent: 0.9rem;  background:url("../images/detail_msg.jpg") no-repeat 2.8rem center  #fff; border: none; background-size: 0.7rem; border-radius:11px; font-size: 16px; font-family: "Microsoft Yahei";   box-shadow: 0px 1px 8px rgba(103, 120, 129, 0.23);  }
+
+.showPop{background: #fff;.wh(9rem,10rem);.tl(50%,0.5rem); margin-top:-5rem; position: fixed; z-index: 999; display: none; border-radius: 8px; box-sizing: border-box; font-size: 0.35rem; padding: 10px; overflow: hidden; overflow-y:auto;line-height: 0.6rem;
+  h1{font-size: 0.4rem; font-weight: normal;.hh(1rem,1rem)}
+}
+.shade{background: rgba(0,0,0,0.3);.wh(100%,100%);.tl(0,0); position: fixed; z-index: 666; display: none}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

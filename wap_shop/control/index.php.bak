@@ -1,0 +1,237 @@
+<?php defined('InShopNC') or exit('Access Invalid!');?>
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=yes">
+<title>商家店铺-圈子</title>
+<link rel="stylesheet" type="text/css" href="<?php echo SHOP_TEMPLATES_URL;?>/css/ui.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo SHOP_TEMPLATES_URL;?>/css/style.css" />
+<script type="text/javascript" src="<?php echo SHOP_TEMPLATES_URL;?>/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="<?php echo SHOP_TEMPLATES_URL;?>/js/jquery.SuperSlide.2.1.1.js"></script>
+</head>
+<style>
+.show_page li{
+	float:left;
+	margin:auto 8px;
+}
+</style>
+<body ontouchstart>
+<header class="ui-header ui-header-positive qz-header-background qz-header-bb">
+    <i class="ui-icon-return" onclick="history.back()" style="color:#10b0e6;"></i>
+    <h1 class="qz-color">商家店铺</h1>
+    <i class="qz-head-rt qz-ico qz-ico-menu2 qz-fr" tabindex="1">
+        <div class="qz-lev-sub qz-background-white qz-absolute qz-border">
+            <ul>
+                <li><a class="qz-color5" href="#">分享到圈子</a></li>
+                <li style="border:none;"><a class="qz-color5" href="#">店铺二维码</a></li>
+            </ul>
+        </div>
+    </i>
+</header>
+<?php if(!$output['store_decoration_only']) {?>
+<section class="ui-container">
+    <div class="banner-box">
+	<div class="bd">
+        <ul>
+        <?php if(!empty($output['store_slide']) && is_array($output['store_slide'])){?>		
+		   <?php for($i=0;$i<5;$i++){?>
+           <?php if($output['store_slide'][$i] != ''){?>
+            <li>
+                <div >
+                <a <?php if($output['store_slide_url'][$i] != '' && $output['store_slide_url'][$i] != 'http://'){?>href="<?php echo $output['store_slide_url'][$i];?>"<?php }?>>
+				   <img src="<?php echo UPLOAD_SITE_URL.'/'.ATTACH_SLIDE.DS.$output['store_slide'][$i];?>" style="width:100%;"/>
+				</a>
+                </div>
+            </li>
+			<?php } ?>
+		    <?php } ?>
+        <? }else{ ?>
+		    <li>
+                <div >
+                <a href="javascript:void(0);"><img src="<?php echo UPLOAD_SITE_URL.'/'.ATTACH_SLIDE.DS;?>f01.jpg" style="width:100%;"/></a>
+                </div>
+            </li>
+			<li>
+                <div >
+                <a href="javascript:void(0);"><img src="<?php echo UPLOAD_SITE_URL.'/'.ATTACH_SLIDE.DS;?>f02.jpg" style="width:100%;"/></a>
+                </div>
+            </li>
+			<li>
+                <div >
+                <a href="javascript:void(0);"><img src="<?php echo UPLOAD_SITE_URL.'/'.ATTACH_SLIDE.DS;?>f03.jpg" style="width:100%;"/></a>
+                </div>
+            </li>
+			<li>
+                <div >
+                <a href="javascript:void(0);"><img src="<?php echo UPLOAD_SITE_URL.'/'.ATTACH_SLIDE.DS;?>f04.jpg" style="width:100%;"/></a>
+                </div>
+            </li>
+
+		<? } ?>
+        </ul>
+    </div>
+    </div>
+	<div class="qz-bk10"></div>
+	
+    <form id="" name="searchShop" method="get" action="index.php" >
+    <input type="hidden" name="act" value="show_store" />
+    <input type="hidden" name="op" value="index" />
+    <input type="hidden" name="store_id" value="<?php echo $output['store_info']['store_id'];?>" />
+    <div class="qz-padding">
+        <div class="qz-search2 clearfix">
+            <i class="qz-ico2 qz-ico-search2 qz-fl" onclick="javascript:document.searchShop.submit();"></i>
+            <input class="qz-fl qz-txt" name="inkeyword" style="width:86%; margin-left:10px;" type="text" value="<?php echo $_GET['inkeyword'];?>" placeholder="在店铺内搜索">
+        </div>
+    </div>
+    </form>
+	
+	
+    <div class="qz-bk10"></div>
+    <div class="qz-background-white qz-padding clearfix qz-light qz-bottom-b">
+        <i class="qz-ico qz-ico-dianp qz-fl"></i>
+        <span class="qz-fl">&nbsp;&nbsp;怡美假日跟团游&nbsp;</span>
+        <i class="qz-ico qz-ico-dianp2 qz-fl"></i>
+        
+        
+        <i class="qz-ico qz-ico-dpbtn qz-ico-dpbtn2 qz-fr"></i>
+        <sapn class="qz-fr">评分：5分&nbsp;</sapn>
+    </div>
+    <div class="qz-padding qz-background-white qz-light3 qz-dpcn-display">
+        <div class="qz-bk10"></div>
+        <p class="ui-flex ui-flex-pack-center">描述相符&nbsp;4.3分&nbsp;&nbsp;服务态度&nbsp;4.3分&nbsp;&nbsp;发货速度&nbsp;4.3分</p>
+        
+        <p>公司名称：昆明怡美假日<br>
+公司地址：云南省昆明市寺瓦路8888号</p>
+        
+        <div class="qz-bk20"></div>
+        <div class="qz-zxlist clearfix">
+            <dl>
+                <span class="qz-ico qz-ico-message"></span>
+                <div class="ti">即时通讯</div>
+            </dl>
+        
+            <dl>
+                <span class="qz-ico qz-ico-qq"></span>
+                <div class="ti">企鹅QQ</div>
+            </dl>
+        
+            <dl>
+                <span class="qz-ico qz-ico-tel"></span>
+                <div class="ti">联系电话</div>
+            </dl>
+        
+            <dl>
+                <span class="qz-ico qz-ico-wangw"></span>
+                <div class="ti">阿里旺旺</div>
+            </dl>
+        </div>
+
+    </div>
+    
+   
+    <div class="qz-bk10"></div>
+    <div class="ui-tab">
+        <ul class="ui-tab-nav ui-border-b">
+            <li onclick="location.href = 'index.php?act=show_store&op=index&store_id=1&key=1&order=2'" class="<?php echo empty($_GET['key']) || $_GET['key'] == '1'?'qz-background-blue':'';?>">默认</li>
+		    <li onclick="location.href = 'index.php?act=show_store&op=index&store_id=1&key=3&order=2'" class="<?php echo $_GET['key'] == '3'?'qz-background-blue':'';?>">销量&nbsp;<span class="qz-sort"></span></li>
+            <li onclick="location.href = 'index.php?act=show_store&op=index&store_id=1&key=5&order=2'" class="<?php echo $_GET['key'] == '5'?'qz-background-blue':'';?>">人气</li>
+            <li onclick="location.href = 'index.php?act=show_store&op=index&store_id=1&key=2&order=2'" class="<?php echo $_GET['key'] == '2'?'qz-background-blue':'';?>">价格</li>
+        </ul>
+    </div>
+    <div class="qz-padding qz-padding-t">
+	<?php if(!empty($output['recommended_goods_list']) && is_array($output['recommended_goods_list'])){?>
+        <ul class="ui-list" style="border-bottom:none;">
+		
+		    <?php foreach($output['recommended_goods_list'] as $value){?>
+            <li class="ui-border-b">
+                <div class="ui-list-thumb qz-list-thumb" style="width:90px;">
+				    <a href="index.php?act=goods&op=index&goods_id=<?php echo $value['goods_id'];?>" >
+                    <img src="<?php echo thumb($value, 240);?>" alt="<?php echo $value['goods_name'];?>" class="qz-img-block">
+					</a>				
+					<?php if (C('groupbuy_allow') && $value['goods_promotion_type'] == 1) {?>
+                    <i class="qz-label2">抢购商品</i>
+                   <?php } elseif (C('promotion_allow') && $value['goods_promotion_type'] == 2)  {?>
+                   <i class="qz-label2">限时折扣</i>
+                 <?php }?>
+					
+                </div>
+                <div class="ui-list-info qz-light3">
+                    <h4 class="ui-nowrap">
+					<a href="index.php?act=goods&op=index&goods_id=<?php echo $value['goods_id'];?>" >
+					<?php echo $value['goods_name']?>
+					</a>
+					</h4>
+                    <div class="qz-bk5"></div>
+                    <ul class="qz-star-list2">
+                        <li class="clearfix">
+                            <span class="ico ico-hov"></span>
+                            <span class="ico ico-hov"></span>
+                            <span class="ico ico-hov"></span>
+                            <span class="ico ico-hov"></span>
+                            <span class="ico"></span>
+                        </li>
+                    </ul>
+                        
+                    <div class="qz-bk20"></div>
+                    <div class="clearfix">
+                        <span class="qz-fl qz-color2"><font class="qz-f22">￥</font><?php echo $value['goods_promotion_price']?></span>
+                        <span class="qz-fr qz-ico qz-ico-shopping"></span>
+                    </div>
+                </div>
+            </li>
+            <?php } ?>
+        </ul>
+		<ul class="show_page">
+		<?php echo $output['show_page']; ?>
+		</ul>
+	<?php }else{ ?>
+	    <ul class="ui-list" style="border-bottom:none;">
+		<?php echo $lang['show_store_index_no_record'];?>
+		</ul>
+	<?php } ?>
+    </div>    
+</section>
+<?php } ?>
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".banner-box").slide({
+		titCell:".hd ul",
+		mainCell:".bd ul",
+		effect:"fold",
+		interTime:2000,
+		delayTime:500,
+		autoPlay:true,
+		autoPage:true, 
+		trigger:"click" 
+	});
+
+});
+</script>
+
+<script type="text/javascript">
+
+$(".qz-ico-menu2").click(function(){
+	if ($(".qz-lev-sub").css("display") == "none") {
+		$(".qz-lev-sub").slideDown();
+	} else {
+		$(".qz-lev-sub").slideUp();
+	}
+});
+
+$(".qz-ico-menu2").blur(function(){
+	$(".qz-lev-sub").slideUp();
+});
+
+$(".qz-ico-dpbtn").click(function(){
+	if ($(".qz-dpcn-display").css("display") == "none") {
+		$(".qz-dpcn-display").slideDown();
+        $(this).addClass("qz-ico-dpbtn2");
+	} else {
+		$(".qz-dpcn-display").slideUp();
+        $(this).removeClass("qz-ico-dpbtn2");
+	}
+});
+</script>
+</body>
+</html>

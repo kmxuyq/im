@@ -1,0 +1,95 @@
+@CHARSET "UTF-8";
+body{background: #F2F2F0 none repeat scroll 0% 0%;}
+.az-header, .az-footer {position: absolute;width: 100%;z-index: 100;left: 0;text-align: center;}
+
+.az-header {top: 0;height: 45px;line-height: 45px;width: 100%;max-width: 100%;}
+ .az-header-positive {padding: 0 10px;box-sizing: border-box}
+.az-header h1{font-size:18px !important;text-align: center;}
+header .az-icon-return{color:#fff; font-size:28px}
+header .az-color{color:#666666;}
+.az-header .az-icon-return {position: absolute;left: 0px;}
+.az-header-bb{border-bottom: 1px solid #D9D9D9;}
+.az-header-background {background: #FFF none repeat scroll 0% 0%;}
+.az{float: left;}
+.az_top{background-color: #F2F2F0;line-height: 10px;}
+.ui-icon, [class^="ui-icon-"] {font-family: iconfont !important; font-size: 32px; line-height: 44px; font-style: normal; display: block;color: rgba(0, 0, 0, 0.5);}
+/* input[type=button], input[type=reset], input[type=submit], input[type=radio], input[type=checkbox] { cursor: pointer; color: #fff;} */
+.az-btn-primary {background-color: #3b84ed;border-color: #3b84ed;background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0.5,#3b84ed),to(#3b84ed));color: #fff;background-clip: padding-box;}
+.az-btn {height: 30px;line-height: 30px;padding: 0px 11px;min-width: 55px;display: inline-block;font-size: 15px;
+}
+.qz-background-zs{background: #3b84ed none repeat scroll 0% 0%;border: 1px solid #3b84ed;}
+.qz-margin-l10 {margin-left: 10px;}
+.order_top {padding:45px;}
+.active_top{padding-top:47px;}
+.az_content{filter:alpha(opacity=50); /*IE滤镜，透明度50%*/
+-moz-opacity:0.5; /*Firefox私有，透明度50%*/
+opacity:0.5;/*其他，透明度50%*/}
+.az_addr{display: block;border: 1px solid #E3E3E3;height: 42px;line-height: 42px;width: 100%;padding: 0px 20px 0px 6px;font-size: 16px;color: #666;}
+.az_addr select{height: 42px;line-height: 42px;width: 33%;overflow: hidden;border-width:0px;
+border-top-style: none;
+border-right-style: none;
+border-left-style: none;
+border-bottom-style: none;}
+
+
+.az_input_sub{ height:42px; line-height:42px; text-align:center; font-size:18px; color:#fff; background:#3b84ed; display:block; letter-spacing:6px;width: 100%;}
+.az_input_radio{float: left;position: relative;width: 14px;height: 14px;background: #E3E3E3 none repeat scroll 0% 0%;border-radius: 50%;margin-right: 3px;margin-top: 13px;}
+.az_active_state{font-size: 13px;color: #F92121;line-height: 20px;}
+.az_active_add{position:relative;height: 42px;line-height: 42px;display: block;color: #FFF;text-align: center;font-size: 18px;background: #3b84ed none repeat scroll 0% 0%;width: 100%;left: 0px;bottom: 0px;}
+.az_active_top{margin-bottom: 12px;background-color: #F2F2F0;}
+.az_active_img{}
+ .az_active_img img{width: 100%;vertical-align:bottom;position:absolute;}
+
+
+
+.az_null{width: 100%;height: 80px;line-height: 80px;margin-right: 10px;float: left;border: 1px solid #E0E0E0;background-color: #fff;text-align: center;color: #E02F2F;}
+/*********** 精彩活详情轮播********/
+.az-picScroll {position: relative;overflow: hidden;}
+.az-picScroll .bd {position: relative;z-index: 0;}
+.az-picScroll .bd ul {width: 100%;float: left;}
+.az-picScroll .bd ul li {/*float: left;*/position: relative;}
+.az-picScroll .bd ul li img { background: transparent url("../images/loading.gif") no-repeat scroll center center;vertical-align: top;border: medium none;margin: 10px auto;}
+.az-img-block { width: 100%;}
+
+/***免费申领***/
+.az_appaly_img{display: inline-block;width: 3rem;text-align: center;}
+
+/*****填写个人信息******/
+.az_font{color: #666}
+.az_sex_text{clear: both;border-bottom: 1px solid #EEE;height: 50px;line-height: 50px;padding: 0px 40px;color: #727F8C;margin: 0px;}
+.az_active_botton{padding: 12px;background: #FFF none repeat scroll 0% 0%;}
+.az_active_botton_img{background: #FFF none repeat scroll 0% 0%;}
+.az_active_msg_save{margin-top: 20px;}
+.az_address_choose{background: #fff;color: #666;MARGIN-LEFT: 20PX;float: left;}
+.az_address_left{padding: 0 40px;}
+
+.az_address_text{clear: both;height: 50px;line-height: 50px; padding: 0 10px; color: #727f8c;}
+.az_address_text .text_tt{width: 20%; color:#666; font-size: 16px; font-family:Arial,"Microsoft YaHei" }
+.az_address_text .text{ color:#666; font-size: 16px; font-family: "Microsoft YaHei" }
+.az_address_text .text_block{ color:#727f8c; font-size: 16px; font-family: "Microsoft YaHei"; width:70%; height: 50px; line-height: 40px; }
+.az_address_text .link_text{color: #3b84ed; font-size: 16px; font-family: "Microsoft YaHei";}
+.az_address_text .data_ipt{ text-indent: 5px; float: left; width: 60%; height: 30px; line-height: 30px; border: 1px #d9d9d9 solid;margin: 9px 0 0 7px;}
+.az_address_text .data_ipt2{ text-indent: 5px; float: left; width: 60%; height: 30px; line-height: 30px; border: 1px #d9d9d9 solid;margin: 9px 0 0 7px;}
+.az_address_text .sex_choose,.follow_choose{float: left;  margin-left: 16px; background: url("../images/complaint_dot2.png") no-repeat left center; background-size: 11px; }
+.az_address_text .sex_choose.on,.follow_choose.on{ background: url("../images/complaint_dot1.png") no-repeat left center;background-size: 11px;}
+.az_address_text .sex_choose input[type="radio"],.follow_choose input[type="radio"]{opacity: 0 ;}
+.az_address_text .sex_choose span{font-size: 16px; font-family: "Microsoft YaHei";padding-left: 0px;}
+input.birthday_year{text-indent: 5px; float: left; width:80px; height: 30px; line-height: 30px; border: 1px #d9d9d9 solid;margin: 9px 5px 0 7px; text-indent: 5px;}
+input.birthday_months{text-indent: 5px; float: left; width:40px; height: 30px; line-height: 30px; border: 1px #d9d9d9 solid;margin: 9px 5px 0 7px; text-indent: 5px;}
+input.birthday_days{text-indent: 5px; float: left; width:40px; height: 30px; line-height: 30px; border: 1px #d9d9d9 solid;margin: 9px 5px 0 7px; text-indent: 5px;}
+
+
+
+.az-light {line-height: 30px;}
+.az-loc-num {background: rgba(0, 0, 0, 0.4) none repeat scroll 0% 0%;position: absolute;top: 0px;right: 10px;padding: 0px 15px;color: #FFF;letter-spacing: 5px;z-index: 5;}
+
+
+.az_20{padding:20px;}
+.az_20 span{color:#666;font-size:12px}
+.az_20 em,.az_6 em,.az_20 span em{color:#D93600;margin: 3px}
+.az_6{padding:6px 20px;}
+.az_img{width: 100%}
+.az_point{border: 1px solid #dedede;border-radius: 3px;cursor: pointer;font-weight: 400;height: 28px;line-height: 28px;margin: 0 6px;padding: 0 15px;text-decoration: none;background-color: #5D4B76;border-color: #4898d5;color: #fff;}
+
+
+

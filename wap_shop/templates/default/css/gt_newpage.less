@@ -1,0 +1,257 @@
+@import "public";
+
+@green:#39c370;  //绿色
+@red:#f74828;   //红色
+@blu:#3b84ed;
+@org:#f39809;
+
+.train_position_top {
+  height: 1rem;
+  line-height: 1rem;
+  background: @blu;
+  position: relative;
+  text-align: center;
+  .text {
+    color: #fff;
+    font-size: 16px;
+  }
+  .arrow {
+    width: 1rem;
+    height: 1rem;
+    background: url("../images/trains_arrow.jpg") no-repeat center 3px;
+    background-size: 0.7rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+}
+.gt_newpage_body{background:#f4f4f4; }
+.gt_list_order_title{background: #fff; height: 0.9rem;
+  li{float:left; width: 25%; box-sizing: border-box; text-align: center; .hh(0.9rem,0.9rem);font-size: 14px; font-family: "Microsoft Yahei";background: url("../images/gt_listorder_down.jpg") no-repeat 75% 0.42rem; background-size: 0.2rem;
+    &.on{background-image: url("../images/gt_listorder_up.jpg") }
+  }
+}
+
+.gt_list_order{overflow: hidden; margin-top: 10px;
+  .item{height: 2.6rem; background: #fff; overflow: hidden; margin-bottom: 10px;
+    .img_wrap{float: left; width:2.5rem; height: 2rem; margin:0.3rem 0 0 0.4rem;
+      img{.wh(100%,100%)}
+    }
+    .text{float: left;.wh(7rem,2.5rem);margin:0.3rem 0 0 0; box-sizing: border-box; padding-left: 10px;
+      .tt{.hh(0.6rem,0.6rem); font-size: 15px;font-family: "Microsoft Yahei"; font-weight: 300}
+      .price{.hh(0.8rem,0.8rem);
+        span{color: #f74828; font-family: Arial,"Microsoft Yahei"; font-size: 20px;}
+        i{font-size: 12px;}
+        em{color: #f74828; font-family: Arial,"Microsoft Yahei"; font-size: 16px; color: #999; text-decoration: line-through; font-weight: 300; margin-left: 20px}
+      }
+      .desc{.h(0.7rem);
+        .sales{overflow: hidden;.hh(0.7ren,0.7rem); color: #999; .w(2rem); display: block; .fl}
+        .mark{overflow: hidden;.h(0.7ren);float: right;box-sizing: border-box; padding-top: 0.1rem; padding-right: 5px;
+          span{background: #fff;  color: #f74828;  font-size: 12px;  display: inline-block;  float: left;  padding: 1px 10px;  height: 16px;  line-height: 14px;  margin-left: 11px;  font-weight: 300;  border-radius: 16px;  border: 1px #fdc8be solid;
+          }
+        }
+      }
+    }
+  }
+
+
+  .item2{height: 4.8rem; background: #fff; overflow: hidden; margin-bottom: 10px;
+    .img_wrap{float: left; width:2.5rem; height: 2rem; margin:0.3rem 0 0 0.4rem;
+      img{.wh(100%,100%)}
+    }
+    .text{float: left;.wh(7rem,2.5rem);margin:0.3rem 0 0 0; box-sizing: border-box; padding-left: 10px;
+      .tt{.hh(0.6rem,0.6rem); font-size: 15px;font-family: "Microsoft Yahei"; font-weight: 300}
+      .time{.hh(0.5rem,0.5rem); color: #999; padding-top: 0.45rem}
+      .number{.hh(0.5rem,0.5rem); color: #999;}
+    }
+    .order_detail{clear: both; border-top:1px #ebebeb solid}
+    .order_number{.hh(0.8rem,0.8rem); box-sizing:border-box; padding: 0 10px;
+      .num{float: left; color: #999; font-family: "宋体";.hh(0.8rem,1rem);}
+      .order_pice{float: right; color: #f74828; font-size: 18px; font-family: Arial,"Microsoft Yahei";
+        i{font-size: 12px;}
+      }
+    }
+    .order_status{padding: 0 10px; box-sizing: border-box; overflow: hidden; clear: both;
+      .lt{.fl; .hh(1rem,1rem)}
+      .pay_btn{.fr;
+        .btn1{.whh(1.5rem,0.8rem,0.8rem); border: 1px #ccc solid; color: #999; border-radius: 3px; background: none; .fl;margin-right: 10px}
+        .btn2{.whh(1.5rem,0.8rem,0.8rem); border: 1px @blu solid; color: @blu; border-radius: 3px; background: none; .fl;}
+      }
+    }
+  }
+}
+.train_sreach_btn,.gt_subbtns{.whh(8rem,0.9rem,0.8rem); display: block; margin: 0.3rem auto 0.7rem; background:url("../images/linear-buttonbg.jpg") repeat-x top left; border: none; background-size: contain; border-radius:11px; font-size: 16px; color: #fff; font-family: "Microsoft Yahei"; box-shadow: 0px 2px 4px rgba(54, 149, 255,0.7)  }
+
+.home_choose_msg{ height: 4rem; background: #fff; overflow: hidden;
+  img{.wh(2rem,2rem); margin: .5rem auto 0; display: block}
+  p{ text-align: center; .hh(1.5rem,1.5rem); font-family: "Microsoft Yahei"; font-size: 18px; color: #333; font-weight: 300}
+}
+.hotal_user_data{background: #fff;
+
+}
+
+.hotal_detail{background: #fff; margin-top: 15px; padding: 0 10px 10px;
+  .tt{.hh(.6rem,.6rem); font-size: 16px;font-family: "Microsoft Yahei";padding-top: 0.3rem}
+  .room{.hh(.6rem,.6rem); font-size: 16px;font-family: "Microsoft Yahei"; font-size: 14px; color: #999}
+  .check_in_time{.hh(0.5rem,0.5rem);
+    .startEndTime(){float: left; color: #333; font-size: 14px;font-family: "Microsoft Yahei"}
+    .start{.startEndTime();
+      span{margin-right: 5px}
+      .t1{color:#999; }
+    }
+    .end{.startEndTime();
+      span{margin-right: 5px}
+      .t1{color:#999; }
+    }
+    .count{.startEndTime()}
+    .edit_time{.fr; color: @blu; font-size: 14px; font-family: "Microsoft Yahei"}
+  }
+  .hotal_price{padding-top: 0.5rem; .hh(1rem,1rem); font-size: 14px; .yh; color: #999;
+    em{ color: @blu; padding-left: 10px; font-family: Arial,@Yh; font-size: 20px; font-weight: 300}
+  }
+}
+
+.hotal_user_data{ overflow: hidden; margin-top: 15px; padding: 0 10px; .h(9rem);
+  .item{ overflow: hidden;box-sizing: border-box; padding-top: 0.3rem; border-bottom: 1px #ebebeb solid;
+    &:last-of-type{border: none}
+    .row{.h(1rem); overflow: hidden; font-size: 14px; .yh; color:#333;
+      .t1{.whh(1.5rem,1rem,0.9rem); display: block; .fl}
+      input{.w(6rem); display: block; .fl; position: relative; top: 0.1rem; border: none; text-indent: 5px}
+      textarea{.whh(7rem,1rem,.5rem); display: block; .fl; position: relative; top: 0.2rem; border: none; text-indent: 5px}
+      .require_fields{.fr;.yh; font-size: 14px; color: @blu; .hh(1rem,0.9rem) }
+    }
+    .tips{font-family: "宋体"; color: #999;clear: both;line-height: 0.5rem; padding-bottom: 0.1rem}
+  }
+
+}
+
+.home_choose_msg.long{
+  .msg{text-align: center;
+    h1{ font-size: 18px;.hh(.8rem,.8rem); margin-top: -0.1rem}
+    .price_count{font-size: 14px; color: #999;.hh(.6rem,.6rem);.yh;
+      span{color: #f74828; font-size: 20px; font-family: Arial; padding-left: 10px}
+      i{font-size: 12px}
+    }
+  }
+}
+
+.hotal_detail_link{ overflow: hidden; .hh(1rem,1rem); background:url("../images/holtal_link_icon.jpg") no-repeat
+  97% center #fff; background-size: 10px; margin: 12px auto 0; padding: 0 10px; font-size: 14px; .yh;
+  a{display:block;}
+}
+.gtdetail_pay_method{ overflow: hidden; background: #fff;  margin-top: 10px;
+  h1{.hh(1rem,1rem); font-size: 14px; color: #999; .yh; font-weight: 300; border-bottom: 1px #ebebeb solid;padding:0 10px;}
+  .wex_pay{.hh(1.5rem,1.5rem); padding: 0 10px;float: left;width: 100%;display: block;
+    img{.wh(1.2rem,1.2rem);.fl; margin: 0.15rem 0 0 0.2rem}
+    span{.fl;.hh(1.5rem,2rem);overflow: hidden; font-size: 14px; .yh; padding-left:0.3rem}
+  }
+}
+.pd_input_password{    text-align: right; clear: both;  line-height: 30px;  padding: 10px;
+  .input_pwd{  border: 1px solid #d9d9d9;  color: #4f5f6f;  float: right;  line-height: 30px;
+
+  }
+}
+.qz-padding{padding: 10px;
+  .qz-fr{float: right}
+  .pd_submit{background: #3b84ed;  border: solid 1px #3b84ed;    padding: 0 30px;  margin-right:10px;     height: 30px;  line-height: 30px;  min-width: 55px;  display: inline-block;  font-size: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+  }
+}
+.ui-form-item{  position: relative;  font-size: 16px;  height: auto !important;  line-height: 1.5;  padding-right: 15px;  padding-left: 15px;
+  input, textarea, select{color: #4f5f6f;    vertical-align: middle;    background: #fff;}
+}
+.video_list{ overflow: hidden; margin-top: 10px;
+  .item{float: left; .wh(5rem,5rem); background: #fff; margin-bottom: 10px;
+    a{display: block;.wh(4.5rem,3rem); position: relative; display: block; margin: 10px auto 0; background: url("../images/video_img.png") no-repeat center rgba(0,0,0,0.3); background-size: 50px}
+    img{.wh(100%,100%);}
+    .tt{.hh(1rem,1rem); padding: 0 10px; font-size: 16px; font-family: "Microsoft Yahei"}
+    p{.hh(.5rem,.5rem); padding: 0 10px; font-size: 12px; font-family: "宋体"; color: #999}
+  }
+}
+.talk_product{overflow: hidden; background: #fff; .h(3rem);
+  .inner_img{.fl; margin:0.3rem 0 0 0.3rem; .wh(3rem,2.3rem);
+    img{.wh(100%,100%)}
+  }
+  .text{ margin:0.3rem 0 0 0; .wh(6.3rem,2.3rem);.fr;
+    .tt{font-size: 16px; font-family: "Microsoft Yahei"; .hh(0.5rem,0.5rem); overflow: hidden}
+  }
+  .price{.hh(0.9rem,1.3rem); overflow: hidden;
+    .now_price{font-size: 20px; font-family: Arial,"Microsoft Yahei";color:@red ;
+      i{font-size: 12px;}
+    }
+    .old_price{font-size: 16px;font-family: Arial,"Microsoft Yahei"; color: #999; text-decoration: line-through; padding-left: 10px}
+  }
+  .link{.fr; .whh(2.5rem,0.7rem,0.8rem); color: @blu; border: 1px @blu solid; text-align: center; border-radius: 3px; margin-right: 10px; font-family: "Microsoft Yahei"; font-size: 15px}
+}
+.talk_body{ position: fixed; left: 0; bottom: 0;.wh(100%,6rem)}
+.talk_send_box { position: fixed; left: 0; bottom:0; .whh(100%,1rem,1rem); background: #f9f9f9}
+
+/**/
+.talk_send_box{width: 100%; min-height: 50px; position: fixed; left: 0; bottom: 0; background: #fff}
+.talk_send_mthod{background: #fff;height: 50px;overflow: hidden; background: #f9f9f9; padding-top: 4px}
+.talk_send_box .talk_history{background: url("../images/talk_history.png") no-repeat 0 0; width: 40px; height: 33px;  background-size: 29px; margin: 10px 0 0 4%; position: absolute; top: 0; left: 0; }
+.talk_send_box .talk_history.on{background-position: 0 -39px}
+/*.talk_send_box .talk_face.on{background-position: 0 -37px}*/
+.talk_send_box .text_ipt{width: 100%;.hh(0.8rem,0.8rem);float: left;border: none; text-indent: 5px; font-size: 14px;  text-indent: 5px;}
+.talk_send_box .talk_text{ .whh(5.5rem,0.8rem,0.8rem); overflow: hidden; position: relative;.fl; border: 1px #cccccc solid; border-radius: 3px; margin: 0.1rem 0 0 0.2rem;}
+.talk_send_text{.whh(1.8rem,0.8rem,0.8rem);text-align: center; background:none; font-size: 16px; font-family: "Microsoft YaHei";color: #333; border: 1px #cccccc solid; border-radius: 4px; .fl;margin: 0.1rem 0 0 0.2rem;}
+.talk_face{.fl; .whh(0.8rem,0.8rem); background: url("../images/talk_icon1.jpg") no-repeat center; background-size: 0.8rem; margin: 0.1rem 0 0 0.2rem;}
+/**/
+.face_pakge{padding:10px 5px; }
+.face_pakge li{float: left; width: 30px; height: 30px;margin: 5px 10px;}
+.face_pakge li img{width: 100%}
+.talk_faces span{margin: 6px; display: block; width: 40px; height: 40px;float:left;margin:2px 5px;}
+.talk_faces span img{width: 100%}
+.send_msg_text{overflow: hidden; padding:0 15px 10px;}
+.send_msg_text .send_times{text-align: center; font-size: 12px; font-family:Arial,"宋体"; color: #999;.hh(0.9rem,0.9rem)}
+.send_msg_text .imgBox{float: left;width: 40px; height: 40px; overflow: hidden; border-radius: 40px}
+.send_msg_text .imgBox img{width: 40px; height: 40px; border-radius: 40px;}
+#face_msgshow{overflow: hidden;overflow-y: auto}
+.send_msg_picking{overflow: hidden; padding:0 15px 10px;}
+.send_msg_picking .send_times{text-align: center; font-size: 12px; font-family:Arial,"宋体"; color: #999;.hh(0.9rem,0.9rem)}
+.send_msg_picking .imgBox{float: right;width: 40px; height: 40px; overflow: hidden; border-radius: 40px; overflow: hidden}
+.send_msg_picking .imgBox img{width: 40px; height: 40px; border-radius: 40px; overflow: hidden}
+
+.talk_choose_date{height: 40px; line-height: 40px; width: 100%;position: absolute;top: -40px; left: 0; background: #fff;padding: 0 20px;display: none}
+.talk_choose_date .date_cell{margin: 0 10px; font-size: 16px;font-family: "Microsoft YaHei";}
+.talk_choose_date .date_cell.on{color: #10b0e6}
+/**/
+.talk_send_mthod .send_img{float: left;.wh(0.8rem,0.8rem);margin: 0.1rem 0 0 0.2rem; background: url("../images/camera.png") no-repeat center; background-size: 0.8rem; border: none;overflow: hidden}
+
+
+.send_msg_text .send_main_msg{line-height: 25px; font-size: 14px; font-family: "Microsoft Yahei"; color: #666; background: #fff; border-radius: 2px; min-height: 25px; min-width: 20px;padding: 5px;position: relative;table-layout:fixed; word-break: break-all; clear: both}
+.send_msg_text .send_main_msg:before,
+.send_msg_text .send_main_msg:after{content: "";position: absolute;top: 9px;left: -16px;width: 0px;height: 0px;border: 8px solid transparent;border-right-color: rgb(255,255,255);  }
+.send_msg_text .send_main_msg:before{top: 8px;left: -18px;border: 9px solid transparent;border-right-color: #fff;}
+.send_msg_text .send_main_msg img{max-width: 35px;}
+
+.send_msg_picking .send_main_msg{float: right;line-height: 25px; font-family: "Microsoft Yahei"; color: #666; font-size: 14px;  background: #fff; border-radius: 2px; min-height: 25px; min-width: 20px; margin: 1px 4% 0 0;padding: 5px;position: relative;table-layout:fixed; word-break: break-all;}
+.send_msg_picking .send_main_msg:before,
+.send_msg_picking .send_main_msg:after{content: "";position: absolute;top: 9px;right: -16px;width: 0px;height: 0px;border: 8px solid transparent;border-left-color: #fff;  }
+.send_msg_picking .send_main_msg:before{top: 8px;right: -18px;border: 9px solid transparent;border-left-color: #fff;}
+.send_msg_picking .send_main_msg img{max-width: 35px;}
+
+.send_main_msg_wrap{float: left;color: #4f5f6f; min-width: 20px; max-width: 60%;margin: -3px 0 0 4%;padding: 5px;position: relative;table-layout:fixed; word-break: break-all;}
+.send_msg_picking .send_main_msg_wrap{float: right;color: #4f5f6f; min-width: 20px; max-width: 60%;margin: -3px 4%0 0 ;padding: 5px;position: relative;table-layout:fixed; word-break: break-all;}
+.send_msg_picking .send_main_msg_wrap .usr_name{.hh(0.8rem,0.8rem); font-size: 14px; color: #999; font-family: "Microsoft Yahei";margin-top: -0.3rem;.fr}
+
+.send_main_msg_wrap .usr_name{.hh(0.8rem,0.8rem); font-size: 14px; color: #999; font-family: "Microsoft Yahei";margin-top: -0.3rem}
+.send_img input{.wh(100%,100%); opacity: 0}
+.gtdetail_pay_method{
+  #pd_pay{.fl; margin: 1rem 0 0 0}
+}
+.video_list .item a:before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  background: url("../images/video_img.png") no-repeat center rgba(0, 0, 0, 0.3);
+  z-index: 99;
+  background-size: 1rem;
+}

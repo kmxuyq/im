@@ -1,0 +1,63 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,header,hgroup,nav,section,article,aside,footer,figcaption,menu,button {margin: 0;padding: 0; }
+body {font-family:"Arial", "Helvetica", "sans-serif", "Microsoft YaHei";font-size: 16px;outline: 0;}
+h1, h2, h3, h4, h5, h6 {font-size: 100%;font-weight: normal;}
+img{border: 0;}
+li {list-style: none; float:left;}
+a {text-decoration: none;}
+:focus {outline: 0;}
+em, i{font-style: normal;}
+.contCenter{margin: 0 auto;}
+.clearfix:before{content: "";display: block;width: 0;height: 0;clear: both;overflow: hidden;}
+.clearfix:after{content: "";display: block;width: 0;height: 0;clear: both;overflow: hidden;}
+body{background: url(../images/active/womens_voucher_pc/bg.jpg) no-repeat center top;height: auto;margin: 0 auto;}
+.header{background: url(../images/active/womens_voucher_pc/headerBg.jpg) no-repeat center top;height: 546px;margin: 0 auto;}
+.bannerBox{width: 1194px;height: 250px;border: solid 10px #f9eae3;background: #fff;position: relative;z-index: 999;box-shadow: 0 1px 3px rgba(0,0,0,.2);}
+.bannerBox .no1{padding: 35px 0 0 100px;box-sizing: border-box; cursor:pointer;}
+.bannerBox .bannerP p{color: #898989;width: 876px;padding: 5px 0 0 180px;line-height: 30px;text-align: justify;font-size: 18px;}
+.shadow{width: 1214px;position: relative;z-index: 5;}
+.shadowPadding{padding: 0 46px;width: 100%;height: 20px;box-sizing: border-box;}
+.paddingShadow{width: 100%;padding-bottom:1px;box-shadow: 0 5px 8px rgba(114,0,0,1);margin: -3px 0 0 0;}
+.shadow:before{content: "";display: block;width: 44px;height: 28px;background: url(../images/active/womens_voucher_pc/shadow_01.png) no-repeat;position: absolute;left: -3px;top: 0;}
+.shadow:after{content: "";display: block;width: 44px;height: 28px;background: url(../images/active/womens_voucher_pc/shadow_02.png) no-repeat;position: absolute;right: -3px;top: 0;}
+.mainBox{width: 1128px;border: solid 2px #c9a571;box-shadow: 0 5px 10px rgba(114,0,0,.4);margin-top: -22px;position: relative;z-index: 1;background: #fff;margin-bottom: 50px;}
+.mainBox .no2{padding:80px 0 40px 90px;box-sizing: border-box;}
+.mainBox .no3{padding:40px 0 40px 90px;box-sizing: border-box;}
+.mainBox .no4{padding:40px 0 40px 90px;box-sizing: border-box;}
+.mainBox .no4-1{padding:40px 0 40px 150px;box-sizing: border-box;}
+.mainBox .no5{padding:40px 0 40px 80px;box-sizing: border-box;}
+.mainBox .no6{padding:40px 0 40px 170px;box-sizing: border-box;}
+
+/*.title1{margin: 50px auto;}
+.title1 .white{width: 450px;height: 50px;position: relative;left: 120px;}
+.title1 .white span{width: 450px;height: 50px;background: #fff;position: absolute;left: 0;z-index: 888;display: block;}
+.title1 .white:before{content: "";width: 1128px;height: 3px;display: block;background: url(../images/active/womens_voucher_pc/title1.png) no-repeat 25px 0;width: 517px;height: 82px; position: absolute;bottom: 15%;z-index: 999;}
+.title1 .white:after{content: "";width: 1128px;height: 3px;display: block;background: #70637f;position: absolute;top: 50%;left: -120px;z-index: 777;}ul li{width: 33.3333%;float: left;box-sizing: border-box;text-align: center;margin: 50px 0 0 0;}
+*/
+.title1{margin: 50px 0 80px 0;height: 10px;}
+.title1 .white{position: relative;left: 0;}
+.title1 .white span{width: 1128px;height: 3px;display: block;background: #70637f;position: absolute;top: 50%;left: 0;z-index: 777;}
+.title1 .white span:before{content: "";display: block;background: url(../images/active/womens_voucher_pc/title1.gif) no-repeat;width: 517px;height: 82px;position: absolute;z-index: 999;left: 80px;bottom: -13px;}
+ul li .picDiv{width: 100%;height: 298px;position: relative;}
+ul li .picDiv img{position: absolute;bottom: 0;left: 50%;margin-left: -148px;}
+ul li h2{font-size: 24px;padding: 20px 0;}
+ul li .iDiv .pp i{font-size: 20px;font-family: "Didot Italic","Times New Roman";letter-spacing: 3px;}
+ul li .iDiv .pp .i1{font-size: 22px;}
+ul li .iDiv .pp .i1 span{font-style: italic;}
+ul li .iDiv .pp .i2{font-style: italic;font-weight: normal;font-size: 16px;}
+ul li button{text-align: center;width: 132px;height: 38px;border: solid 1px #6b5d7e;font-size: 16px;font-family: "Microsoft YaHei";color: #342449;margin: 20px 0 20px 130px;background: #fff;}
+ul li button:hover{opacity: .8;cursor: pointer;}
+/*.title2{margin: 50px auto;}
+.title2 .white{width: 420px;height: 50px;background: #fff;position: relative;left: 120px;}
+.title2 .white span{width: 420px;height: 50px;background: #fff;position: absolute;left: 0;display: block;z-index: 888;}
+.title2 .white:before{content: "";display: block;background: url(../images/active/womens_voucher_pc/title2.png) no-repeat 25px 0;width: 605px;height: 90px; position: absolute;bottom: 15%;z-index: 999;}
+.title2 .white:after{content: "";width: 1128px;height: 3px;display: block;background: #70637f;position: absolute;top: 50%;left: -120px;z-index: 777;}
+*/
+.title2{margin: 100px auto 50px auto;height: 10px;}
+.title2 .white{position: relative;left: 0;}
+.title2 .white span{width: 1128px;height: 3px;display: block;background: #70637f;position: absolute;top: 50%;left: 0;z-index: 777;}
+.title2 .white span:before{content: "";display: block;background: url(../images/active/womens_voucher_pc/title2.gif) no-repeat;width: 617px;height: 90px;position: absolute;z-index: 999;left: 80px;bottom: -13px;}
+
+.clearfix li{width:33%}
+.clearfix li h2{ text-align:center}
+.clearfix li div{ text-align:center;line-height:1.8;}
+.ul2 li{margin:30px 0 30px 0}

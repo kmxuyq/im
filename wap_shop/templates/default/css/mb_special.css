@@ -1,0 +1,8 @@
+.index_block.home1 img{width: 10rem; height: auto !important;}
+.index_block.home2 .home2_1, .index_block.home2 .home2_2{width: 5rem; height: auto !important; float: left;}
+.index_block.home2 img{width: 100%; height: auto !important;}
+.index_block.home2 .content{height: auto !important;}
+.index_block.home2 .content .home2_2 img{width: 100%; height: auto !important;display: block;}
+
+.index_block.home3 .item{width: 5rem; height: auto !important;}
+.index_block.home3 .item img{width: 5rem; height: auto !important;box-sizing: border-box;  border-right: 1px #fff solid; }

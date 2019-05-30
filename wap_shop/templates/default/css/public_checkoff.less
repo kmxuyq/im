@@ -1,0 +1,68 @@
+.w(@w:auto){
+  width: @w;
+}
+.h(@h:auto){
+  height: @h;
+}
+.lh(@lh:20px){
+  line-height: @lh;
+}
+.hh(@h:20px){
+  .h(@h);
+  .lh(@h);
+}
+.hh(@h,@lh){
+  .h(@h);
+  .lh(@lh);
+}
+.wh(@w:auto,@h:auto){
+  .w(@w);
+  .h(@h);
+}
+.whh(@w:auto,@h:auto){
+  .w(@w);
+  .h(@h);
+  .lh(@h);
+}
+.whh(@w:auto,@h:auto,@lh:1){
+  .w(@w);
+  .h(@h);
+  .lh(@lh);
+}
+
+.fl(){
+  float: left;
+}
+.fr() {
+  float: right;
+}
+.dfx(){
+  display: -webkit-flex;
+  display:flex;
+}
+.elfx(@numb:1){
+  flex:@numb;
+  -webkit-flex: @numb;
+}
+.fsz(@fz:20px){
+  font-size:@fz;
+}
+.pst(@mth){
+  position: @mth;
+}
+.ffy(@f:"宋体"){
+  font-family: @f;
+}
+.ftw(){
+  font-weight: bold;
+}
+/**/
+@yl:#efca00;    //黄色
+@wt:#fff;       //白色
+@blu:#4fa8dc;   //蓝色
+@red:#ff0000 ;
+@org:#f67b29;   //橘黄色
+@Yh:"Microsoft Yahei";  //字体
+@abs:absolute;
+@fix:fixed;
+@ref:relative;

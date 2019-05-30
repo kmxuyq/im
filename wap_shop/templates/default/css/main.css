@@ -1,0 +1,84 @@
+.fl{ float:left; display:inline;}
+.fr{ float:right; display:inline;}
+.remainingSumBox{ padding:0px 10px;}
+/*remainingSum1.html start*/
+.remainingSum1Text{margin-bottom:10px; padding:3px 8px;}
+.remainingSum1Text a{ color:#10b0e6;}
+.remainingSum1Select h1{ font-size:20px; color:#4f5f6f; margin-bottom:8px;}
+.remainingSum1SelectList{ overflow:hidden; margin-bottom:60px;}
+.remainingSum1SelectList dd{ clear:both; margin-bottom:25px;}
+.remainingSum1SelectList dd select{ width:100%; height:44px; line-height:44px; border:1px solid #d0d0d0;}
+.remainingSum1Sumbit a{ display:block; width:100%; height:35px; background:#3b84ed; line-height:35px; text-align:center; color:#FFF; margin-bottom:50px; border-radius:5px;}
+/*remainingSum1.html end*/
+.cashApply{ overflow:hidden;}
+.cashApply dd{ margin-bottom:15px;}
+.cashApplyTitle{font-size:14px; color:#4f5f6f; margin-bottom:8px; padding-top:8px;}
+.cashApplyText{ color:#4f5f6f; font-size:12px}
+.cashApplyInput{ overflow:hidden; margin-bottom:8px;}
+.cashApplyInput input{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	width:92%;
+	border:1px solid #d0d0d0;
+
+}
+.cashApplyInput2 input{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	width:100%;
+	padding:5px 5px;
+	border:1px solid #d0d0d0;
+
+}
+.cashApplyInput span{
+	width:8%;
+	text-align:center;
+	color:#4f5f6f;
+	padding:5px 5px;
+}
+.cashApplyBtn{ overflow:hidden; margin-bottom:50px;}
+.cashApplyBtn span{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	width:50%;
+}
+.cashApplyBtn span:nth-child(1){ padding-right:10px;}
+.cashApplyBtn span:nth-child(1) a{ display:block; height:35px; background:#10b0e6; border-radius:5px; color:#feffff; text-align:center; line-height:35px; font-size:16px;}
+.cashApplyBtn span:nth-child(2){ padding-left:10px;}
+.cashApplyBtn span:nth-child(2) a{ display:block; height:35px; background:#e5e5e5; border-radius:5px; color:#4f5f6f; text-align:center; line-height:35px; font-size:16px;}
+/*cashApply end*/
+/*accountSafe start*2015-9-9*/
+.accountUser{ padding:15px 10px 15px 0; position:relative; padding-left:105px;  overflow: hidden; height: 103px;}
+.accountUser p{ position:absolute; left:10px; top:15px; width:80px; height:80px; border-radius:50%; overflow:hidden;}
+.accountUser p img{ width:80px; height:80px;}
+.accountUserDetail{ overflow:hidden}
+.accountUserDetail dd{ overflow:hidden; font-size:13px;line-height: 20px;}
+.accountUserDetail dd em{ color:#4f5f6f;}
+.accountText1{ overflow:hidden; padding:0 10px; font-size:13px; background:#f5f5f5; padding:10px;}
+.accountText1 span{ float:left; width:90px; color:#4f5f6f; height:24px;}
+.accountText1 span i{ font-size:16px; color:#f6921e;}
+.accountText1 em{ color:#7b8590; line-height:20px;  overflow:hidden; display:block; }
+.accountList{ overflow:hidden; padding:0 10px; margin-bottom:50px;}
+.accountList dd{ overflow:hidden; position:relative; padding:10px 0; padding-left:70px; border-bottom:1px dotted #c5c9cd; min-height:74px;}
+.accountList p{ position:absolute; left:0px; top:50%; width:60px; text-align:center; margin-top:-32px;}
+.accountList p span{ display:block; height:50px; margin-bottom:5px; width:48px; margin:0 auto; position:relative;}
+.accountList p span i.i1{ display:block; width:20px; height:20px; position:absolute; right:0px; bottom:0px; background:url(../images/f_icn1.png) no-repeat center center; background-size:cover;}
+.accountList p span i.i2{ display:block; width:20px; height:20px; position:absolute; right:0px; bottom:0px; background:url(../images/f_icn2.png) no-repeat center center; background-size:cover;}
+.accountList p span img{ max-width:100%; height:50px; width:48px;}
+.accountList p em{ color:#4f5f6f; font-size:13px; height:14px; line-height:14px; overflow:hidden;}
+.accountList div{line-height: 20px}
+.accountList div span{ display:block; color:#727f8c; font-size:13px; margin-bottom:5px;}
+.accountList div em{ display:block; overflow:hidden;}
+.accountList div em a.a1{ float:right; width:120px; height:25px; border:1px solid #10b0e6; border-radius:4px; text-align:center; line-height:25px; color:#10b0e6;}
+.accountList div em a.a2{ float:right; width:120px; height:25px; border:1px solid #f6921e; border-radius:4px; text-align:center; line-height:25px; color:#f6921e;}
+/*accountSafe end*2015-9-9/
+/*management start*2015-9-9*/
+.management{ overflow:hidden; padding-top:10px;}
+.management dd{ overflow:hidden; height:50px; line-height:50px; padding:0 15px; border-bottom:1px solid #eeeeee;}
+.management dd a{ display:block; overflow:hidden;}
+.management dd span{ float:left; color:#727f8c;}
+.management dd i{ float:right; width:12px; height:23px; background:url(../images/f_icn7.jpg) no-repeat center center; background-size:cover; margin-top:12px;}
+/*management end*2015-9-9*/
