@@ -69,6 +69,8 @@ class loginControl extends BaseHomeControl {
             if (!$member_info['member_state']) {
 
                showDialog($lang['login_index_account_stop'], '' . 'error', $script);
+            }else{
+               redirect('/wap_shop/index.php?act=goods&op=index&goods_id=104642');
             }
          } else {
             process::addprocess('login');
