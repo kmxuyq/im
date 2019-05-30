@@ -957,9 +957,9 @@ function update_recent() {
     for (var u_id in recent_list) {
         if (obj_recent.parent().find("dd[u_id='" + u_id + "']").size() == 0) {
             if (user_list[u_id]['online'] > 0) {
-                obj_recent.before('<dd u_id="' + u_id + '" title="最后对话:' + recent_list[u_id]['time'] + '" onclick="chat(' + u_id + ');"><span class="user-avatar"><img alt="' + user_list[u_id]['u_name'] + '" src="' + user_list[u_id]['avatar'] + '" onError="this.src=\'http://wx.yimayholiday.com' + user_list[u_id]['avatar'] + '\'"><i class="online"></i></span><h5>' + user_list[u_id]['u_name'] + '</h5><a href="javascript:void(0)"></a></dd>');
+                obj_recent.before('<dd u_id="' + u_id + '" title="最后对话:' + recent_list[u_id]['time'] + '" onclick="chat(' + u_id + ');"><span class="user-avatar"><img alt="' + user_list[u_id]['u_name'] + '" src="' + user_list[u_id]['avatar'] + '" onError="this.src=\'http://im.xarkx.com' + user_list[u_id]['avatar'] + '\'"><i class="online"></i></span><h5>' + user_list[u_id]['u_name'] + '</h5><a href="javascript:void(0)"></a></dd>');
             } else {
-                obj_recent.after('<dd u_id="' + u_id + '" title="最后对话:' + recent_list[u_id]['time'] + '" onclick="chat(' + u_id + ');"><span class="user-avatar"><img alt="' + user_list[u_id]['u_name'] + '" src="' + user_list[u_id]['avatar'] + '" onError="this.src=\'http://wx.yimayholiday.com' + user_list[u_id]['avatar'] + '\'"><i class="offline"></i></span><h5>' + user_list[u_id]['u_name'] + '</h5><a href="javascript:void(0)"></a></dd>');
+                obj_recent.after('<dd u_id="' + u_id + '" title="最后对话:' + recent_list[u_id]['time'] + '" onclick="chat(' + u_id + ');"><span class="user-avatar"><img alt="' + user_list[u_id]['u_name'] + '" src="' + user_list[u_id]['avatar'] + '" onError="this.src=\'http://im.xarkx.com' + user_list[u_id]['avatar'] + '\'"><i class="offline"></i></span><h5>' + user_list[u_id]['u_name'] + '</h5><a href="javascript:void(0)"></a></dd>');
             }
         }
     }
