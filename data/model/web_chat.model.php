@@ -372,7 +372,7 @@ class web_chatModel extends Model
                 $member['store_name']   = $store_info['store_name'];
                 $member['store_avatar'] = $store_info['store_avatar'];
                 if (empty($store_info['store_avatar'])) {
-                    $member['store_avatar'] = 'http://im.xarkx.com/data/upload/shop/common/default_user_portrait.gif';
+                    $member['store_avatar'] = 'http://im.xarkx.com/data/upload/shop/common/store_avatar.jpg';
                 } else {
                     $member['store_avatar'] = $store_info['store_avatar'];
                 }
